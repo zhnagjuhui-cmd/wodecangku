@@ -1,0 +1,5 @@
+interface:
+  display_name: "医学循证PPT"
+  short_description: "从近五年证据链到可编辑中文医学PPT的分阶段制作流程"
+  brand_color: "#8C0D27"
+  default_prompt: "使用 $medical-evidence-ppt 为我的医学主题制作一套循证、可编辑的中文PPT。"
