@@ -1,0 +1,38 @@
+{
+  "source": {
+    "path": "/Users/zhangjuhui/.codex/skills/ppt-image-reconstruction/examples/input/sample-page.png",
+    "kind": "image",
+    "width": 1600,
+    "height": 900,
+    "aspect_ratio": 1.778,
+    "mode": "RGB",
+    "format": "PNG",
+    "risks": []
+  },
+  "checklist": {
+    "common": [
+      "Identify the source type and the dominant page structure.",
+      "Mark title, body, panels, tables, conclusions, references, and footers.",
+      "Choose one slide per source page unless readability collapses.",
+      "Prefer native text and native shapes before cropped images.",
+      "Keep conclusions and references in separate layers.",
+      "Reserve a safe bottom band for footers or citations.",
+      "Treat any overflow text as a reflow problem first."
+    ],
+    "specific": [
+      "Inspect whether the image is a clean digital slide, GPT image, screenshot, or scan.",
+      "Crop each panel independently if multiple panels are present.",
+      "Rebuild tables natively when the grid is legible.",
+      "Rebuild captions and callouts near the related panel.",
+      "Run a text-bounds check after reconstruction."
+    ],
+    "risk_notes": [
+      "No obvious size-based risk flags from the source file."
+    ],
+    "sample_first": [
+      "Rebuild the first representative page first.",
+      "Review fidelity and editability before continuing.",
+      "Only scale to the rest of the deck after the sample is accepted."
+    ]
+  }
+}

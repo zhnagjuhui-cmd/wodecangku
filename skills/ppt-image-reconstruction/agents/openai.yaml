@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Image Reconstruction"
+  short_description: "Rebuild images into editable PPT slides."
+  default_prompt: "Use $ppt-image-reconstruction to rebuild this image into an editable PowerPoint slide one page at a time, with native text, native shapes, cropped panels, and separate conclusion/reference layers."
