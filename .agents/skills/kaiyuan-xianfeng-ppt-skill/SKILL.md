@@ -78,3 +78,8 @@ Treat this as a guardrail, not proof of perfect OCR quality. When a slide is esp
 - Read `docs/slide-generation-and-subagents.md` before full-deck generation.
 - Read `docs/project-assembly-and-reporting.md` before notes and assembly.
 - Use `prompts/slide-worker.md` for worker handoff.
+
+
+## Repository and cloud execution
+
+In this repository, the wrapper first discovers the sibling `../gpt-image-2` skill. `KAIYUAN_GPT_IMAGE_2_SKILL_DIR` overrides discovery; the original user-local path remains a fallback. Run `scripts/image_gen.py check` before image generation. API credentials, requests/Pillow dependencies and provider network access must be supplied by the execution environment; never change image backends silently.

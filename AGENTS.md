@@ -30,3 +30,13 @@
 - 自动化脚本保存到 scripts/。
 - 输出完成后检查文件是否存在、可打开及引用是否可追溯。
 - 不得未经明确授权发布项目或上传患者隐私资料。
+
+
+## Repository skills for Codex
+
+- Canonical skills live only in `.agents/skills/`. Read the selected SKILL.md before using its workflow.
+- Use `python3 scripts/check_skills.py` to validate discovery and required files.
+- Read README.md for routing, cloud dependencies and limitations. Select the skill that matches the requested output; do not load every skill.
+- Keep upstream attribution, integrity checks and licenses. Do not merge distinct workflows because they both produce presentations.
+- Cloud tasks cannot access the author's local files or assume presentations tools, API credentials, browser installations or network access. Check required capabilities and report missing prerequisites honestly.
+- Secrets belong in the cloud environment configuration, never in tracked files or logs.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "GPT Image 2"
+  short_description: "Generate and download images with GPT Image 2."
+  default_prompt: "Use $gpt-image-2 to generate an image and save the result locally."

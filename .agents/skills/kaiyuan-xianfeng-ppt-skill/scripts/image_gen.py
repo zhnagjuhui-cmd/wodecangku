@@ -23,7 +23,12 @@ DEFAULT_MIN_EDGE_STDDEV = 18.0
 DEFAULT_MIN_CONTRAST_STDDEV = 28.0
 DEFAULT_OUTPUT_PATH = "output/imagegen/output.png"
 DEFAULT_OUTPUT_FORMAT = "png"
-DEFAULT_GPT_IMAGE_2_SKILL_DIR = Path.home() / ".codex" / "skills" / "gpt-image-2"
+REPOSITORY_GPT_IMAGE_2_SKILL_DIR = Path(__file__).resolve().parents[2] / "gpt-image-2"
+DEFAULT_GPT_IMAGE_2_SKILL_DIR = (
+    REPOSITORY_GPT_IMAGE_2_SKILL_DIR
+    if (REPOSITORY_GPT_IMAGE_2_SKILL_DIR / "scripts" / "gpt_image_2.py").is_file()
+    else Path.home() / ".codex" / "skills" / "gpt-image-2"
+)
 
 
 def _die(message: str, code: int = 1) -> None:
