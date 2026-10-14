@@ -1,0 +1,47 @@
+{
+  "trial": "TRAIL1",
+  "query": "pirfenidone[Title] AND rheumatoid[Title] AND randomised[Title]",
+  "pmid": "36075242",
+  "doi": "10.1016/S2213-2600(22)00260-0",
+  "title": "Safety, tolerability, and efficacy of pirfenidone in patients with rheumatoid arthritis-associated interstitial lung disease: a randomised, double-blind, placebo-controlled, phase 2 study.",
+  "year": "2023",
+  "journal": "The Lancet. Respiratory medicine",
+  "volume": "11",
+  "issue": "1",
+  "pages": "87-96",
+  "publication_types": [
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase II",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+  ],
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36075242/",
+  "doi_url": "https://doi.org/10.1016/S2213-2600(22)00260-0",
+  "search_trace": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pirfenidone%5BTitle%5D+AND+rheumatoid%5BTitle%5D+AND+randomised%5BTitle%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:36:07.072921+00:00",
+    "status": 200,
+    "sha256": "3e5cbc68d8264526a0b1cfdd0fa974ebe90ab4fae237f1db80d72d400016795c",
+    "bytes": 242,
+    "path": "raw/TRAIL1_search.response",
+    "transport": "verified local replay"
+  },
+  "pubmed_trace": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=36075242&retmode=xml",
+    "utc": "2026-10-14T07:36:07.634825+00:00",
+    "status": 200,
+    "sha256": "bd8d3de4d974fdda7201e47bf9dcc2e6b7476cecf865a1aeb15d1d4dc98937de",
+    "bytes": 30226,
+    "path": "raw/TRAIL1_pubmed.response",
+    "transport": "verified local replay"
+  },
+  "source_xpath": "PubmedArticle[MedlineCitation/PMID='36075242']/MedlineCitation/Article",
+  "full_text_status": "not requested / not verified",
+  "archive_provenance": {
+    "catalogue_path": "outputs/skills_validation_20261014/metadata_catalogue.json",
+    "verification_path": "outputs/skills_validation_20261014/verification_final.json",
+    "source_snapshot_base": "outputs/skills_validation_20261014/literature_final",
+    "source_snapshot_note": "Local response snapshots; not included in the validation commit. Resolve trace.path relative to source_snapshot_base.",
+    "verification_scope": "Publication metadata, source integrity and abstract consistency; full text and clinical interpretation not verified."
+  }
+}

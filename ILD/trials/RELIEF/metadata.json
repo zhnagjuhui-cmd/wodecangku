@@ -1,0 +1,47 @@
+{
+  "trial": "RELIEF",
+  "query": "RELIEF[Title] AND pirfenidone[Title]",
+  "pmid": "33798455",
+  "doi": "10.1016/S2213-2600(20)30554-3",
+  "title": "Pirfenidone in patients with progressive fibrotic interstitial lung diseases other than idiopathic pulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-controlled, phase 2b trial.",
+  "year": "2021",
+  "journal": "The Lancet. Respiratory medicine",
+  "volume": "9",
+  "issue": "5",
+  "pages": "476-486",
+  "publication_types": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Research Support, Non-U.S. Gov't"
+  ],
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33798455/",
+  "doi_url": "https://doi.org/10.1016/S2213-2600(20)30554-3",
+  "search_trace": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=RELIEF%5BTitle%5D+AND+pirfenidone%5BTitle%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:36:09.113016+00:00",
+    "status": 200,
+    "sha256": "4a31f70a4f2290abb000bbf248c04aebff9c1b1d556095dbb7b9e15836cbf760",
+    "bytes": 223,
+    "path": "raw/RELIEF_search.response",
+    "transport": "verified local replay"
+  },
+  "pubmed_trace": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33798455%2C28877715&retmode=xml",
+    "utc": "2026-10-14T07:36:09.684096+00:00",
+    "status": 200,
+    "sha256": "3935568f51401b230ee1b0f67cb091c531d28424d06fefffea4bce43b2f76bbe",
+    "bytes": 53609,
+    "path": "raw/RELIEF_pubmed.response",
+    "transport": "verified local replay"
+  },
+  "source_xpath": "PubmedArticle[MedlineCitation/PMID='33798455']/MedlineCitation/Article",
+  "full_text_status": "not requested / not verified",
+  "archive_provenance": {
+    "catalogue_path": "outputs/skills_validation_20261014/metadata_catalogue.json",
+    "verification_path": "outputs/skills_validation_20261014/verification_final.json",
+    "source_snapshot_base": "outputs/skills_validation_20261014/literature_final",
+    "source_snapshot_note": "Local response snapshots; not included in the validation commit. Resolve trace.path relative to source_snapshot_base.",
+    "verification_scope": "Publication metadata, source integrity and abstract consistency; full text and clinical interpretation not verified."
+  }
+}

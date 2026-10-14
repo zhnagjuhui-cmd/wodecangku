@@ -1,0 +1,48 @@
+{
+  "trial": "U-ILD",
+  "query": "pirfenidone[Title] AND unclassifiable[Title] AND placebo-controlled[Title] NOT design[Title]",
+  "pmid": "31578169",
+  "doi": "10.1016/S2213-2600(19)30341-8",
+  "title": "Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease: a double-blind, randomised, placebo-controlled, phase 2 trial.",
+  "year": "2020",
+  "journal": "The Lancet. Respiratory medicine",
+  "volume": "8",
+  "issue": "2",
+  "pages": "147-157",
+  "publication_types": [
+    "Clinical Trial, Phase II",
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Research Support, Non-U.S. Gov't"
+  ],
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31578169/",
+  "doi_url": "https://doi.org/10.1016/S2213-2600(19)30341-8",
+  "search_trace": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pirfenidone%5BTitle%5D+AND+unclassifiable%5BTitle%5D+AND+placebo-controlled%5BTitle%5D+NOT+design%5BTitle%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:36:11.165906+00:00",
+    "status": 200,
+    "sha256": "313732a09b54d4c2cbcf9ef709938f170e39d9ccec2d5535f6603651b6816b7e",
+    "bytes": 278,
+    "path": "raw/U-ILD_search.response",
+    "transport": "verified local replay"
+  },
+  "pubmed_trace": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31578169&retmode=xml",
+    "utc": "2026-10-14T07:36:11.727271+00:00",
+    "status": 200,
+    "sha256": "4a0da7deb0b9431bcf5820d9568bff19fbf815c62669b548d15e238292037d2a",
+    "bytes": 16005,
+    "path": "raw/U-ILD_pubmed.response",
+    "transport": "verified local replay"
+  },
+  "source_xpath": "PubmedArticle[MedlineCitation/PMID='31578169']/MedlineCitation/Article",
+  "full_text_status": "not requested / not verified",
+  "archive_provenance": {
+    "catalogue_path": "outputs/skills_validation_20261014/metadata_catalogue.json",
+    "verification_path": "outputs/skills_validation_20261014/verification_final.json",
+    "source_snapshot_base": "outputs/skills_validation_20261014/literature_final",
+    "source_snapshot_note": "Local response snapshots; not included in the validation commit. Resolve trace.path relative to source_snapshot_base.",
+    "verification_scope": "Publication metadata, source integrity and abstract consistency; full text and clinical interpretation not verified."
+  }
+}
