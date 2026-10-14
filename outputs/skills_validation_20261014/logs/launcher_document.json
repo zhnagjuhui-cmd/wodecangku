@@ -1,0 +1,20 @@
+{
+  "name": "launcher_document",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "scripts/run_ild_skill.py",
+    "ild-medical-document",
+    "--",
+    "--records",
+    "outputs/skills_validation_20261014/invocation_run/records.json",
+    "--verification",
+    "outputs/skills_validation_20261014/invocation_verification.json",
+    "--out",
+    "outputs/skills_validation_20261014/documents_invoked"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:55:15.039288+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"format\": \"editable DOCX + Markdown\",\n  \"studies\": 5,\n  \"records_sha256\": \"aaf7c9dc5c0e228dc656014eb9c4b43d618343b02a81b90eaacc7d5f6802f4b4\",\n  \"docx_sha256\": \"2b51b2052b64407d7ce88fc829276be59a0db750358a201986c40b80bdbfa74b\",\n  \"citation_reopen_check\": true\n}\n",
+  "stderr": "Loaded repository skill: /workspace/wodecangku/.agents/skills/ild-medical-document/SKILL.md\n"
+}

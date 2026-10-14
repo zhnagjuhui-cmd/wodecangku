@@ -1,0 +1,14 @@
+{
+  "name": "kaiyuan_assembly_fixture",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/kaiyuan-xianfeng-ppt-skill/scripts/assemble_ppt.py",
+    "outputs/skills_validation_20261014/fixtures",
+    "kaiyuan_fixture.pptx"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:38:16.108034+00:00",
+  "returncode": 0,
+  "stdout": "正在扫描 PPT 项目目录: outputs/skills_validation_20261014/fixtures/kaiyuan_fixture\n从 origin_image 目录读取图片: outputs/skills_validation_20261014/fixtures/kaiyuan_fixture/origin_image\n找到 1 张幻灯片图片\n\n找到 1 页备注: outputs/skills_validation_20261014/fixtures/kaiyuan_fixture/speech.md\n\n正在创建 PPT (宽高比: 16:9)...\n--------------------------------------------------\n✓ 已添加第 1 页: slide_01.png\n\n✓ PPT 文件已保存: outputs/skills_validation_20261014/fixtures/kaiyuan_fixture/kaiyuan_fixture.pptx\n  总页数: 1\n  已写入备注: 1/1 页\n",
+  "stderr": ""
+}

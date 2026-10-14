@@ -1,0 +1,13 @@
+{
+  "name": "dashi_goal_validate",
+  "argv": [
+    "node",
+    ".agents/skills/dashi-ppt/project/scripts/validate-goal-spec.mjs",
+    "outputs/skills_validation_20261014/dashi/goal.json"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:40:53.564997+00:00",
+  "returncode": 0,
+  "stdout": "Goal spec validation passed.\n",
+  "stderr": ""
+}

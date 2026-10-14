@@ -1,0 +1,14 @@
+{
+  "name": "evidence_negative_repaired_final",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "scripts/skills_validation/check_rejection.py",
+    "--out",
+    "outputs/skills_validation_20261014/negative_checks_final.json"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:56:17.514690+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"cases\": [\n    \"wrong DOI rejected\",\n    \"modified source rejected\",\n    \"changed records block document creation\"\n  ]\n}\n",
+  "stderr": ""
+}

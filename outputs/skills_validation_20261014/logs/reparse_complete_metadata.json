@@ -1,0 +1,16 @@
+{
+  "name": "reparse_complete_metadata",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ild-literature-search/scripts/search_trials.py",
+    "--replay",
+    "outputs/skills_validation_20261014/literature_run2",
+    "--out",
+    "outputs/skills_validation_20261014/literature_final"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:40:10.436976+00:00",
+  "returncode": 0,
+  "stdout": "SENSCIS retrieved 31112379 \nINBUILD retrieved 31566307 \nTRAIL1 retrieved 36075242 \nRELIEF retrieved 33798455 \nU-ILD retrieved 31578169 \n",
+  "stderr": ""
+}

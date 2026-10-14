@@ -1,0 +1,21 @@
+{
+  "name": "clone_urllib3",
+  "argv": [
+    "timeout",
+    "20s",
+    "git",
+    "clone",
+    "--quiet",
+    "--depth",
+    "1",
+    "--branch",
+    "1.26.20",
+    "https://github.com/urllib3/urllib3.git",
+    "/tmp/ild-urllib3-1.26.20"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:08:22.992447+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "warning: refs/tags/1.26.20 eb0a49a14276ab4d3ff5b0b335621898ef8ac185 is not a commit!\nNote: switching to '6f2ad7ca0cdde53751bab29cbc10bcc965bb4387'.\n\nYou are in 'detached HEAD' state. You can look around, make experimental\nchanges and commit them, and you can discard any commits you make in this\nstate without impacting any branches by switching back to a branch.\n\nIf you want to create a new branch to retain commits you create, you may\ndo so (now or later) by using -c with the switch command. Example:\n\n  git switch -c <new-branch-name>\n\nOr undo this operation with:\n\n  git switch -\n\nTurn off this advice by setting config variable advice.detachedHead to false\n\n"
+}

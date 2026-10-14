@@ -1,0 +1,14 @@
+{
+  "name": "dashi_render_dependencies",
+  "argv": [
+    "node",
+    "--input-type=module",
+    "-e",
+    "for (const m of [\"react\",\"react-dom/server\",\"tsx\",\"playwright-core\"]) { try { console.log(m, import.meta.resolve(m)); } catch (e) { console.error(m, e.code); process.exitCode=1; } }"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:33:22.207816+00:00",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "react ERR_MODULE_NOT_FOUND\nreact-dom/server ERR_MODULE_NOT_FOUND\ntsx ERR_MODULE_NOT_FOUND\nplaywright-core ERR_MODULE_NOT_FOUND\n"
+}

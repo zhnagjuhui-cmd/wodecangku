@@ -1,0 +1,12 @@
+{
+  "name": "ppt_master_guard",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-master/scripts/attribution_guard.py"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:07:17.282316+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

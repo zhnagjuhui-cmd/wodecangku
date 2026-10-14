@@ -1,0 +1,18 @@
+{
+  "name": "render_reconstruction",
+  "argv": [
+    "soffice",
+    "-env:UserInstallation=file:///tmp/ild-validation-lo-20261014",
+    "--headless",
+    "--convert-to",
+    "pdf",
+    "--outdir",
+    "outputs/skills_validation_20261014/fixtures",
+    "outputs/skills_validation_20261014/fixtures/reconstructed.pptx"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:39:08.277311+00:00",
+  "returncode": 0,
+  "stdout": "convert /workspace/wodecangku/outputs/skills_validation_20261014/fixtures/reconstructed.pptx as a Impress document -> /workspace/wodecangku/outputs/skills_validation_20261014/fixtures/reconstructed.pdf using filter : impress_pdf_Export\n",
+  "stderr": "Fontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\n"
+}

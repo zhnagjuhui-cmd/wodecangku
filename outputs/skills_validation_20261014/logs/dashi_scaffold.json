@@ -1,0 +1,30 @@
+{
+  "name": "dashi_scaffold",
+  "argv": [
+    "node",
+    ".agents/skills/dashi-ppt/project/scripts/goal-scaffold.mjs",
+    "--title",
+    "文献入库验证",
+    "--goal",
+    "仅元数据组件测试",
+    "--theme",
+    "theme07",
+    "--pages",
+    "1",
+    "--content-briefs",
+    "outputs/skills_validation_20261014/fixtures/dashi_brief.json",
+    "--layout-variants",
+    "3",
+    "--seed",
+    "ild-validation-20261014",
+    "--workflow-run-id",
+    "ild-validation-20261014",
+    "--out",
+    "outputs/skills_validation_20261014/dashi/goal.json"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:39:06.131576+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"out\": \"/workspace/wodecangku/outputs/skills_validation_20261014/dashi/goal.json\",\n  \"fillPlanOut\": \"/workspace/wodecangku/outputs/skills_validation_20261014/dashi/goal.fill-plan.json\",\n  \"themePack\": \"theme07\",\n  \"pageCount\": 1,\n  \"layoutVariants\": 3,\n  \"workflowRunId\": \"ild-validation-20261014\",\n  \"slideCount\": 1,\n  \"chunkSize\": null,\n  \"allocation\": {\n    \"candidateCounts\": [\n      {\n        \"slide\": 1,\n        \"role\": \"cover\",\n        \"compatible\": 3,\n        \"eligible\": 3\n      }\n    ],\n    \"uniqueLayoutCount\": 3,\n    \"maximumReuse\": 1,\n    \"familyDiversity\": {\n      \"uniqueCount\": 2,\n      \"families\": [\n        \"chart\",\n        \"hero\"\n      ],\n      \"perSlide\": [\n        {\n          \"slide\": 1,\n          \"uniqueCount\": 2\n        }\n      ]\n    },\n    \"compositionDiversity\": {\n      \"uniqueCount\": 2,\n      \"perSlide\": [\n        {\n          \"slide\": 1,\n          \"uniqueCount\": 2\n        }\n      ]\n    }\n  }\n}\n",
+  "stderr": ""
+}

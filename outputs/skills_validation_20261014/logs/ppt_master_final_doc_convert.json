@@ -1,0 +1,15 @@
+{
+  "name": "ppt_master_final_doc_convert",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-master/scripts/source_to_md.py",
+    "outputs/skills_validation_20261014/documents_final/ILD_METADATA_EVIDENCE.pdf",
+    "-o",
+    "outputs/skills_validation_20261014/documents_final/ROUNDTRIP.md"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:41:55.862871+00:00",
+  "returncode": 0,
+  "stdout": "OUTPUT: /workspace/wodecangku/outputs/skills_validation_20261014/documents_final/ROUNDTRIP.md\n",
+  "stderr": "[>>] pdf_to_md.py outputs/skills_validation_20261014/documents_final/ILD_METADATA_EVIDENCE.pdf -o outputs/skills_validation_20261014/documents_final/ROUNDTRIP.md\n[INFO] Analyzing document structure...\n   Font size mapping: body=10.0, H1=26.0, H2=14.0, H3=N/A\n[INFO] Detecting repeated headers/footers...\nConsider using the pymupdf_layout package for a greatly improved page layout analysis.\n  [OK] Found table: P1 (lines)\n[OK] Saved Markdown to: outputs/skills_validation_20261014/documents_final/ROUNDTRIP.md\n   Wrote conversion profile -> outputs/skills_validation_20261014/documents_final/ROUNDTRIP.conversion_profile.json\n"
+}

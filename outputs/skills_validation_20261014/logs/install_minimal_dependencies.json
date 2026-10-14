@@ -1,0 +1,22 @@
+{
+  "name": "install_minimal_dependencies",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--no-cache-dir",
+    "--retries",
+    "0",
+    "--timeout",
+    "10",
+    "-r",
+    "scripts/skills_validation/requirements.txt"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:06:19.906760+00:00",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "ERROR: Could not find a version that satisfies the requirement requests==2.32.5 (from versions: none)\nERROR: No matching distribution found for requests==2.32.5\n"
+}

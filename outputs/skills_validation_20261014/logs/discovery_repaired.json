@@ -1,0 +1,12 @@
+{
+  "name": "discovery_repaired",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "scripts/check_skills.py"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:36:22.681605+00:00",
+  "returncode": 0,
+  "stdout": "OK dashi-ppt\nOK gpt-image-2\nOK guizang-ppt-skill\nOK ild-evidence-check\nOK ild-literature-search\nOK ild-medical-document\nOK kaiyuan-xianfeng-ppt-skill\nOK medical-evidence-ppt\nOK ppt-image-reconstruction\nOK ppt-master\nPASS: 10 unique skills, seven original skills preserved and required runtime files\n",
+  "stderr": ""
+}

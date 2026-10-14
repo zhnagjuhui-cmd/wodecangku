@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 2,
+  "variantOutputMode": "comparison",
+  "title": "文献入库验证",
+  "goal": "仅元数据组件测试",
+  "themePack": "theme07",
+  "pageCount": 1,
+  "randomSeed": "ild-validation-20261014",
+  "workflowRunId": "ild-validation-20261014",
+  "slides": [
+    {
+      "content": {
+        "presentation": {
+          "title": "文献入库验证",
+          "titleShort": "文献验证",
+          "summary": "仅元数据测试，无临床推荐",
+          "summaryShort": "元数据测试",
+          "takeaway": "保留原始来源",
+          "items": [],
+          "coverLabels": [
+            "验证"
+          ],
+          "chartData": []
+        },
+        "media": [],
+        "meta": {
+          "brand": "ILD",
+          "pageLabel": "2026",
+          "unit": "",
+          "panelTitle": "验证",
+          "date": "",
+          "empty": ""
+        }
+      },
+      "selectedVariant": "v1",
+      "variants": [
+        {
+          "id": "v1",
+          "kind": "template",
+          "layout": "theme07_page002",
+          "props": {
+            "showTimeline": false,
+            "images": [],
+            "imageCount": 0
+          },
+          "contentMap": {
+            "kicker": "presentation.title",
+            "summary": "presentation.summary",
+            "timeline": {
+              "source": "presentation",
+              "derive": "template-items",
+              "includeTextFallback": true,
+              "supplementTextFallback": true,
+              "textFallbackOnly": true,
+              "limit": 1,
+              "select": "labelWithValueAndSupporting"
+            },
+            "phaseLeft": "presentation.coverLabels[0]",
+            "phaseRight": "presentation.coverLabels[0]",
+            "titleL1": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 5,
+              "truncate": true
+            },
+            "titleL2": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 6,
+              "truncate": true
+            },
+            "subPre": "presentation.coverLabels[0]",
+            "years": "presentation.coverLabels[0]",
+            "subPost": "presentation.coverLabels[0]",
+            "logo": "presentation.coverLabels[0]",
+            "photoLabel": "presentation.coverLabels[0]"
+          }
+        },
+        {
+          "id": "v2",
+          "kind": "template",
+          "layout": "theme07_page003",
+          "props": {
+            "showCrumbs": false
+          },
+          "contentMap": {
+            "slogan": "presentation.title",
+            "sub": "presentation.summary",
+            "crumbs": {
+              "source": "presentation",
+              "derive": "template-items",
+              "includeTextFallback": true,
+              "supplementTextFallback": true,
+              "textFallbackOnly": true,
+              "limit": 1,
+              "select": "labelWithValueAndSupporting"
+            },
+            "logo": "presentation.coverLabels[0]",
+            "phase": "presentation.coverLabels[0]",
+            "titleL1": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 5,
+              "truncate": true
+            },
+            "titleL2": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 6,
+              "truncate": true
+            }
+          }
+        },
+        {
+          "id": "v3",
+          "kind": "template",
+          "layout": "theme07_page001",
+          "props": {
+            "showTags": false
+          },
+          "contentMap": {
+            "kicker": "presentation.title",
+            "sub": "presentation.summary",
+            "tags": {
+              "source": "presentation",
+              "derive": "template-items",
+              "includeTextFallback": true,
+              "supplementTextFallback": true,
+              "textFallbackOnly": true,
+              "limit": 1,
+              "select": "labelWithValueAndSupporting"
+            },
+            "logo": "presentation.coverLabels[0]",
+            "phase": "presentation.coverLabels[0]",
+            "titleL1": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 5,
+              "truncate": true
+            },
+            "titleL2": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 6,
+              "truncate": true
+            },
+            "year": "presentation.coverLabels[0]"
+          }
+        },
+        {
+          "id": "v4",
+          "kind": "bespoke",
+          "adjustable": false,
+          "composition": {
+            "designIntent": {
+              "objective": "仅元数据组件测试",
+              "audience": "目标受众",
+              "narrativeRole": "cover",
+              "emphasis": "保留原始来源",
+              "rationale": "以单一主标题和非对称留白建立主张",
+              "compositionFamily": "hero"
+            },
+            "background": "dark",
+            "elements": [
+              {
+                "id": "page-kicker",
+                "type": "text",
+                "grid": {
+                  "column": 1,
+                  "row": 1,
+                  "width": 5,
+                  "height": 1
+                },
+                "role": "kicker",
+                "tone": "accent",
+                "align": "left",
+                "text": ""
+              },
+              {
+                "id": "page-label",
+                "type": "text",
+                "grid": {
+                  "column": 11,
+                  "row": 1,
+                  "width": 2,
+                  "height": 1
+                },
+                "role": "label",
+                "tone": "muted",
+                "align": "right",
+                "text": ""
+              },
+              {
+                "id": "page-title",
+                "type": "text",
+                "grid": {
+                  "column": 1,
+                  "row": 2,
+                  "width": 10,
+                  "height": 3
+                },
+                "role": "title",
+                "tone": "default",
+                "align": "left",
+                "text": ""
+              },
+              {
+                "id": "hero-summary",
+                "type": "text",
+                "grid": {
+                  "column": 1,
+                  "row": 6,
+                  "width": 7,
+                  "height": 2
+                },
+                "role": "subtitle",
+                "tone": "default",
+                "align": "left",
+                "text": ""
+              },
+              {
+                "id": "hero-takeaway",
+                "type": "text",
+                "grid": {
+                  "column": 9,
+                  "row": 6,
+                  "width": 4,
+                  "height": 2
+                },
+                "role": "body",
+                "tone": "accent",
+                "align": "left",
+                "text": ""
+              }
+            ]
+          },
+          "contentMap": {
+            "elements[0].text": "meta.panelTitle",
+            "elements[1].text": "meta.pageLabel",
+            "elements[2].text": "presentation.title",
+            "elements[3].text": "presentation.summary",
+            "elements[4].text": "presentation.takeaway"
+          }
+        }
+      ]
+    }
+  ]
+}

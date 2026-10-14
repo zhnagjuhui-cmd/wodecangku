@@ -1,0 +1,13 @@
+{
+  "name": "gpt_image_offline_client",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "-c",
+    "import importlib.util; p=\".agents/skills/gpt-image-2/scripts/gpt_image_2.py\"; s=importlib.util.spec_from_file_location(\"imageclient\",p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); c=m.GPTImage2Client(api_key=\"nonsecret-offline-test\",base_url=\"https://example.invalid\"); print(\"PASS: client constructed offline; no generation or provider request\"); c.session.close()"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:36:22.478097+00:00",
+  "returncode": 0,
+  "stdout": "PASS: client constructed offline; no generation or provider request\n",
+  "stderr": ""
+}

@@ -1,0 +1,30 @@
+{
+  "dashi-ppt": {
+    "sha256": "1c986d92228e0d3a8a480ca39e2cde3950c8fbdc150a13ed76079e0a87d5ef0d",
+    "unchanged": true
+  },
+  "gpt-image-2": {
+    "sha256": "012ba4bcb6e21c404f9c1f64165a9232e9d5bdab17b3c1d2bd214c50da9dd829",
+    "unchanged": true
+  },
+  "guizang-ppt-skill": {
+    "sha256": "57f046e2c8600bb9d5de9dafc6ff1860d13e28eb0d94c6790c58e8ca8ca5e839",
+    "unchanged": true
+  },
+  "kaiyuan-xianfeng-ppt-skill": {
+    "sha256": "d4546bd2ac9727c0912c97cbd9a5c157130925643a45a22a584dcf3a250e2f7e",
+    "unchanged": true
+  },
+  "medical-evidence-ppt": {
+    "sha256": "7d5b4743adb58e5d7b124efc1dbc2beceba62084fb8601c68e943dd8d92e2d73",
+    "unchanged": true
+  },
+  "ppt-image-reconstruction": {
+    "sha256": "f0bdfc533dd5d175c528cf58e115573e1a2661c6c284dc1327543f6c4ade3c49",
+    "unchanged": true
+  },
+  "ppt-master": {
+    "sha256": "6f4a0054be6cdfc45e0f8324125b1e74db83c22b8d97809012b0344a885b192b",
+    "unchanged": true
+  }
+}

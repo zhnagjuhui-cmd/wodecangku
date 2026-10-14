@@ -1,0 +1,14 @@
+{
+  "name": "fontcache_repair",
+  "argv": [
+    "env",
+    "XDG_CACHE_HOME=/workspace/wodecangku/.cache-skills-validation",
+    "fc-cache",
+    "-f"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:40:49.523731+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

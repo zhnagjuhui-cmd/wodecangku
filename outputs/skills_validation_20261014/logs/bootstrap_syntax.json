@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap_syntax",
+  "argv": [
+    "bash",
+    "-n",
+    "scripts/skills_validation/bootstrap_github_deps.sh"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:41:57.685535+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

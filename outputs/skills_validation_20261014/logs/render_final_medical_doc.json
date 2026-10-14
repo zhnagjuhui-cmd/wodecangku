@@ -1,0 +1,20 @@
+{
+  "name": "render_final_medical_doc",
+  "argv": [
+    "env",
+    "XDG_CACHE_HOME=/workspace/wodecangku/.cache-skills-validation",
+    "soffice",
+    "-env:UserInstallation=file:///tmp/ild-validation-final-doc-lo-20261014",
+    "--headless",
+    "--convert-to",
+    "pdf",
+    "--outdir",
+    "outputs/skills_validation_20261014/documents_final",
+    "outputs/skills_validation_20261014/documents_final/ILD_METADATA_EVIDENCE.docx"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:40:52.827360+00:00",
+  "returncode": 0,
+  "stdout": "convert /workspace/wodecangku/outputs/skills_validation_20261014/documents_final/ILD_METADATA_EVIDENCE.docx as a Writer document -> /workspace/wodecangku/outputs/skills_validation_20261014/documents_final/ILD_METADATA_EVIDENCE.pdf using filter : writer_pdf_Export\n",
+  "stderr": ""
+}

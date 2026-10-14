@@ -1,0 +1,418 @@
+{
+  "goal": "/workspace/wodecangku/outputs/skills_validation_20261014/dashi/goal.json",
+  "themePack": "theme07",
+  "slideCount": 1,
+  "slides": [
+    {
+      "slide": 1,
+      "contentTask": {
+        "status": "agent-required",
+        "source": "slide.content.presentation",
+        "canonicalKinds": [
+          "title",
+          "summary",
+          "takeaway",
+          "items",
+          "structure"
+        ],
+        "sharedBy": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "instruction": "先冻结本页 presentation 文案包；v1-v3 保留同一页面意图、required facts 和关键数字，只选择长短文案、排序与分组。v4 基于同一事实源按用户目标重新组织表达，不新增事实。"
+      },
+      "selectedVariant": "v1",
+      "variants": [
+        {
+          "id": "v1",
+          "kind": "template",
+          "layout": "theme07_page002",
+          "label": "封面 链通全国",
+          "roles": [
+            "cover",
+            "relationship",
+            "image"
+          ],
+          "fillPlan": {
+            "text": [
+              {
+                "key": "phaseLeft",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 20
+              },
+              {
+                "key": "phaseRight",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "kicker",
+                "role": "title",
+                "type": "string",
+                "maxChars": 20
+              },
+              {
+                "key": "titleL1",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "titleL2",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "subPre",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "years",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "subPost",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "summary",
+                "role": "body",
+                "type": "string",
+                "maxChars": 36
+              },
+              {
+                "key": "logo",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "photoLabel",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 22
+              }
+            ],
+            "arrays": [
+              {
+                "key": "timeline",
+                "role": "step",
+                "visibleCount": 3,
+                "maxCount": 3,
+                "countKey": null,
+                "itemShape": "string",
+                "item": {
+                  "role": "eyebrow",
+                  "maxChars": 18
+                }
+              }
+            ],
+            "media": [
+              {
+                "key": "images",
+                "write": "props.images",
+                "visibleCount": 1,
+                "maxCount": 1,
+                "countKey": "imageCount",
+                "accepts": [
+                  "image",
+                  "video"
+                ],
+                "acceptedKindsSource": "mediaArrayField",
+                "itemShape": "string | {src,kind,type}"
+              }
+            ]
+          },
+          "contentMap": {
+            "kicker": "presentation.title",
+            "summary": "presentation.summary",
+            "timeline": {
+              "source": "presentation",
+              "derive": "template-items",
+              "includeTextFallback": true,
+              "supplementTextFallback": true,
+              "textFallbackOnly": true,
+              "limit": 1,
+              "select": "labelWithValueAndSupporting"
+            },
+            "phaseLeft": "presentation.coverLabels[0]",
+            "phaseRight": "presentation.coverLabels[0]",
+            "titleL1": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 5,
+              "truncate": true
+            },
+            "titleL2": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 6,
+              "truncate": true
+            },
+            "subPre": "presentation.coverLabels[0]",
+            "years": "presentation.coverLabels[0]",
+            "subPost": "presentation.coverLabels[0]",
+            "logo": "presentation.coverLabels[0]",
+            "photoLabel": "presentation.coverLabels[0]"
+          },
+          "unmappedTargets": []
+        },
+        {
+          "id": "v2",
+          "kind": "template",
+          "layout": "theme07_page003",
+          "label": "封面 把握趋势",
+          "roles": [
+            "data",
+            "cover",
+            "trend",
+            "closing"
+          ],
+          "fillPlan": {
+            "text": [
+              {
+                "key": "logo",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "phase",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "titleL1",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "titleL2",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "sub",
+                "role": "body",
+                "type": "string",
+                "maxChars": 36
+              },
+              {
+                "key": "slogan",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 24
+              }
+            ],
+            "arrays": [
+              {
+                "key": "crumbs",
+                "role": "misc",
+                "visibleCount": 3,
+                "maxCount": 3,
+                "countKey": null,
+                "itemShape": "string",
+                "item": {
+                  "role": "eyebrow",
+                  "maxChars": 18
+                }
+              }
+            ],
+            "media": []
+          },
+          "contentMap": {
+            "slogan": "presentation.title",
+            "sub": "presentation.summary",
+            "crumbs": {
+              "source": "presentation",
+              "derive": "template-items",
+              "includeTextFallback": true,
+              "supplementTextFallback": true,
+              "textFallbackOnly": true,
+              "limit": 1,
+              "select": "labelWithValueAndSupporting"
+            },
+            "logo": "presentation.coverLabels[0]",
+            "phase": "presentation.coverLabels[0]",
+            "titleL1": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 5,
+              "truncate": true
+            },
+            "titleL2": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 6,
+              "truncate": true
+            }
+          },
+          "unmappedTargets": []
+        },
+        {
+          "id": "v3",
+          "kind": "template",
+          "layout": "theme07_page001",
+          "label": "封面 精益智造",
+          "roles": [
+            "cover"
+          ],
+          "fillPlan": {
+            "text": [
+              {
+                "key": "logo",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "phase",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 24
+              },
+              {
+                "key": "kicker",
+                "role": "title",
+                "type": "string",
+                "maxChars": 20
+              },
+              {
+                "key": "titleL1",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "titleL2",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "year",
+                "role": "eyebrow",
+                "type": "string",
+                "maxChars": 18
+              },
+              {
+                "key": "sub",
+                "role": "body",
+                "type": "string",
+                "maxChars": 36
+              }
+            ],
+            "arrays": [
+              {
+                "key": "tags",
+                "role": "misc",
+                "visibleCount": 4,
+                "maxCount": 4,
+                "countKey": null,
+                "itemShape": "string",
+                "item": {
+                  "role": "eyebrow",
+                  "maxChars": 18
+                }
+              }
+            ],
+            "media": []
+          },
+          "contentMap": {
+            "kicker": "presentation.title",
+            "sub": "presentation.summary",
+            "tags": {
+              "source": "presentation",
+              "derive": "template-items",
+              "includeTextFallback": true,
+              "supplementTextFallback": true,
+              "textFallbackOnly": true,
+              "limit": 1,
+              "select": "labelWithValueAndSupporting"
+            },
+            "logo": "presentation.coverLabels[0]",
+            "phase": "presentation.coverLabels[0]",
+            "titleL1": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 5,
+              "truncate": true
+            },
+            "titleL2": {
+              "source": "presentation",
+              "derive": "projection-text",
+              "preferred": [
+                "title",
+                "titleShort",
+                "takeaway",
+                "summaryShort"
+              ],
+              "maxChars": 18,
+              "index": 6,
+              "truncate": true
+            },
+            "year": "presentation.coverLabels[0]"
+          },
+          "unmappedTargets": []
+        },
+        {
+          "id": "v4",
+          "kind": "bespoke",
+          "adjustable": false,
+          "designTask": {
+            "status": "agent-required",
+            "instruction": "按 baoyu-design 的艺术指导方法分析本页目标、视觉焦点与整稿节奏，再把结果绘制为安全 composition；当前主题 runtime 是强约束设计系统，只使用其字体层级、页框、色带、线条、卡片和图表 recipe，不输出自由 HTML/CSS。"
+          }
+        }
+      ]
+    }
+  ]
+}

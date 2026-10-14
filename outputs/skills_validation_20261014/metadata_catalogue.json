@@ -1,0 +1,204 @@
+[
+  {
+    "trial": "SENSCIS",
+    "query": "SENSCIS[Title/Abstract] AND Distler[Author] AND 2019[Date - Publication]",
+    "pmid": "31112379",
+    "doi": "10.1056/NEJMoa1903076",
+    "title": "Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.",
+    "year": "2019",
+    "journal": "The New England journal of medicine",
+    "volume": "380",
+    "issue": "26",
+    "pages": "2518-2528",
+    "publication_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Randomized Controlled Trial",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31112379/",
+    "doi_url": "https://doi.org/10.1056/NEJMoa1903076",
+    "search_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=SENSCIS%5BTitle%2FAbstract%5D+AND+Distler%5BAuthor%5D+AND+2019%5BDate+-+Publication%5D&retmode=json&retmax=20",
+      "utc": "2026-10-14T07:36:02.284437+00:00",
+      "status": 200,
+      "sha256": "3f1a0684d5c2ea1e20cf01542014f91717b600f3e3f31a32d103e9dce1112d5c",
+      "bytes": 283,
+      "path": "raw/SENSCIS_search.response",
+      "transport": "verified local replay"
+    },
+    "pubmed_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35382502%2C31423560%2C31112379&retmode=xml",
+      "utc": "2026-10-14T07:36:02.871229+00:00",
+      "status": 200,
+      "sha256": "ce1f8f99356b422125723e9bfe4c72febbd05101541ba3c04104c971119bf02b",
+      "bytes": 100031,
+      "path": "raw/SENSCIS_pubmed.response",
+      "transport": "verified local replay"
+    },
+    "source_xpath": "PubmedArticle[MedlineCitation/PMID='31112379']/MedlineCitation/Article",
+    "full_text_status": "not requested / not verified"
+  },
+  {
+    "trial": "INBUILD",
+    "query": "nintedanib[Title] AND progressive[Title] AND fibrosing[Title] AND 2019[Date - Publication]",
+    "pmid": "31566307",
+    "doi": "10.1056/NEJMoa1908681",
+    "title": "Nintedanib in Progressive Fibrosing Interstitial Lung Diseases.",
+    "year": "2019",
+    "journal": "The New England journal of medicine",
+    "volume": "381",
+    "issue": "18",
+    "pages": "1718-1727",
+    "publication_types": [
+      "Clinical Trial, Phase III",
+      "Journal Article",
+      "Multicenter Study",
+      "Randomized Controlled Trial",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31566307/",
+    "doi_url": "https://doi.org/10.1056/NEJMoa1908681",
+    "search_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=nintedanib%5BTitle%5D+AND+progressive%5BTitle%5D+AND+fibrosing%5BTitle%5D+AND+2019%5BDate+-+Publication%5D&retmode=json&retmax=20",
+      "utc": "2026-10-14T07:36:05.366541+00:00",
+      "status": 200,
+      "sha256": "6bbb501bf1123779861be02d7c6dec24c44526111dc9a6ea9de027cbc445cb3d",
+      "bytes": 298,
+      "path": "raw/INBUILD_search.response",
+      "transport": "verified local replay"
+    },
+    "pubmed_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31566307%2C31285305&retmode=xml",
+      "utc": "2026-10-14T07:36:05.964237+00:00",
+      "status": 200,
+      "sha256": "be57dadc619da9f96db79cd51bccbc3c1c6e991de3538e9216f7e89b2c693588",
+      "bytes": 85952,
+      "path": "raw/INBUILD_pubmed.response",
+      "transport": "verified local replay"
+    },
+    "source_xpath": "PubmedArticle[MedlineCitation/PMID='31566307']/MedlineCitation/Article",
+    "full_text_status": "not requested / not verified"
+  },
+  {
+    "trial": "TRAIL1",
+    "query": "pirfenidone[Title] AND rheumatoid[Title] AND randomised[Title]",
+    "pmid": "36075242",
+    "doi": "10.1016/S2213-2600(22)00260-0",
+    "title": "Safety, tolerability, and efficacy of pirfenidone in patients with rheumatoid arthritis-associated interstitial lung disease: a randomised, double-blind, placebo-controlled, phase 2 study.",
+    "year": "2023",
+    "journal": "The Lancet. Respiratory medicine",
+    "volume": "11",
+    "issue": "1",
+    "pages": "87-96",
+    "publication_types": [
+      "Randomized Controlled Trial",
+      "Clinical Trial, Phase II",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36075242/",
+    "doi_url": "https://doi.org/10.1016/S2213-2600(22)00260-0",
+    "search_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pirfenidone%5BTitle%5D+AND+rheumatoid%5BTitle%5D+AND+randomised%5BTitle%5D&retmode=json&retmax=20",
+      "utc": "2026-10-14T07:36:07.072921+00:00",
+      "status": 200,
+      "sha256": "3e5cbc68d8264526a0b1cfdd0fa974ebe90ab4fae237f1db80d72d400016795c",
+      "bytes": 242,
+      "path": "raw/TRAIL1_search.response",
+      "transport": "verified local replay"
+    },
+    "pubmed_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=36075242&retmode=xml",
+      "utc": "2026-10-14T07:36:07.634825+00:00",
+      "status": 200,
+      "sha256": "bd8d3de4d974fdda7201e47bf9dcc2e6b7476cecf865a1aeb15d1d4dc98937de",
+      "bytes": 30226,
+      "path": "raw/TRAIL1_pubmed.response",
+      "transport": "verified local replay"
+    },
+    "source_xpath": "PubmedArticle[MedlineCitation/PMID='36075242']/MedlineCitation/Article",
+    "full_text_status": "not requested / not verified"
+  },
+  {
+    "trial": "RELIEF",
+    "query": "RELIEF[Title] AND pirfenidone[Title]",
+    "pmid": "33798455",
+    "doi": "10.1016/S2213-2600(20)30554-3",
+    "title": "Pirfenidone in patients with progressive fibrotic interstitial lung diseases other than idiopathic pulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-controlled, phase 2b trial.",
+    "year": "2021",
+    "journal": "The Lancet. Respiratory medicine",
+    "volume": "9",
+    "issue": "5",
+    "pages": "476-486",
+    "publication_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Randomized Controlled Trial",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33798455/",
+    "doi_url": "https://doi.org/10.1016/S2213-2600(20)30554-3",
+    "search_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=RELIEF%5BTitle%5D+AND+pirfenidone%5BTitle%5D&retmode=json&retmax=20",
+      "utc": "2026-10-14T07:36:09.113016+00:00",
+      "status": 200,
+      "sha256": "4a31f70a4f2290abb000bbf248c04aebff9c1b1d556095dbb7b9e15836cbf760",
+      "bytes": 223,
+      "path": "raw/RELIEF_search.response",
+      "transport": "verified local replay"
+    },
+    "pubmed_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33798455%2C28877715&retmode=xml",
+      "utc": "2026-10-14T07:36:09.684096+00:00",
+      "status": 200,
+      "sha256": "3935568f51401b230ee1b0f67cb091c531d28424d06fefffea4bce43b2f76bbe",
+      "bytes": 53609,
+      "path": "raw/RELIEF_pubmed.response",
+      "transport": "verified local replay"
+    },
+    "source_xpath": "PubmedArticle[MedlineCitation/PMID='33798455']/MedlineCitation/Article",
+    "full_text_status": "not requested / not verified"
+  },
+  {
+    "trial": "U-ILD",
+    "query": "pirfenidone[Title] AND unclassifiable[Title] AND placebo-controlled[Title] NOT design[Title]",
+    "pmid": "31578169",
+    "doi": "10.1016/S2213-2600(19)30341-8",
+    "title": "Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease: a double-blind, randomised, placebo-controlled, phase 2 trial.",
+    "year": "2020",
+    "journal": "The Lancet. Respiratory medicine",
+    "volume": "8",
+    "issue": "2",
+    "pages": "147-157",
+    "publication_types": [
+      "Clinical Trial, Phase II",
+      "Journal Article",
+      "Multicenter Study",
+      "Randomized Controlled Trial",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31578169/",
+    "doi_url": "https://doi.org/10.1016/S2213-2600(19)30341-8",
+    "search_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pirfenidone%5BTitle%5D+AND+unclassifiable%5BTitle%5D+AND+placebo-controlled%5BTitle%5D+NOT+design%5BTitle%5D&retmode=json&retmax=20",
+      "utc": "2026-10-14T07:36:11.165906+00:00",
+      "status": 200,
+      "sha256": "313732a09b54d4c2cbcf9ef709938f170e39d9ccec2d5535f6603651b6816b7e",
+      "bytes": 278,
+      "path": "raw/U-ILD_search.response",
+      "transport": "verified local replay"
+    },
+    "pubmed_trace": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31578169&retmode=xml",
+      "utc": "2026-10-14T07:36:11.727271+00:00",
+      "status": 200,
+      "sha256": "4a0da7deb0b9431bcf5820d9568bff19fbf815c62669b548d15e238292037d2a",
+      "bytes": 16005,
+      "path": "raw/U-ILD_pubmed.response",
+      "transport": "verified local replay"
+    },
+    "source_xpath": "PubmedArticle[MedlineCitation/PMID='31578169']/MedlineCitation/Article",
+    "full_text_status": "not requested / not verified"
+  }
+]

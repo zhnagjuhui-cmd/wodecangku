@@ -1,0 +1,20 @@
+{
+  "name": "install_requests_from_upstream",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--no-cache-dir",
+    "--no-build-isolation",
+    "--no-deps",
+    "/tmp/ild-urllib3-1.26.20",
+    "/tmp/ild-requests-2.32.5"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:09:31.477883+00:00",
+  "returncode": 0,
+  "stdout": "Processing /tmp/ild-urllib3-1.26.20\n  Preparing metadata (setup.py): started\n  Preparing metadata (setup.py): finished with status 'done'\nProcessing /tmp/ild-requests-2.32.5\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: urllib3, requests\n  Building wheel for urllib3 (setup.py): started\n  Building wheel for urllib3 (setup.py): finished with status 'done'\n  Created wheel for urllib3: filename=urllib3-1.26.20-py2.py3-none-any.whl size=144317 sha256=51d9d06aa132cce517d84ea521e13fb0e51c842e8fe199da598df3e14abcf8e3\n  Stored in directory: /tmp/pip-ephem-wheel-cache-oa0qnvz7/wheels/9d/7d/6a/d2b04a3be5e3480790e695fda5ac2e8ccd95998549163da4ef\n  Building wheel for requests (pyproject.toml): started\n  Building wheel for requests (pyproject.toml): finished with status 'done'\n  Created wheel for requests: filename=requests-2.32.5-py3-none-any.whl size=64737 sha256=ef512971eb335fa0056dd9b912206d1d6ee79168f2202e0f0626697b30cc99a4\n  Stored in directory: /tmp/pip-ephem-wheel-cache-oa0qnvz7/wheels/97/15/dc/ca0abd8d56e620f024f0c1f09b426f9031da850ee4a7cf424e\nSuccessfully built urllib3 requests\nInstalling collected packages: urllib3, requests\nSuccessfully installed requests-2.32.5 urllib3-1.26.20\n",
+  "stderr": ""
+}

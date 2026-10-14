@@ -1,0 +1,14 @@
+{
+  "name": "reconstruction_checklist",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-image-reconstruction/scripts/generate_reconstruction_checklist.py",
+    "outputs/cloud_audit_20261014/smoke_pptx_rendered.png",
+    "--json"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:07:17.470850+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"source\": {\n    \"path\": \"outputs/cloud_audit_20261014/smoke_pptx_rendered.png\",\n    \"kind\": \"image\",\n    \"width\": 720,\n    \"height\": 540,\n    \"aspect_ratio\": 1.333,\n    \"mode\": \"RGB\",\n    \"format\": \"PNG\",\n    \"risks\": [\n      \"low_resolution\"\n    ]\n  },\n  \"checklist\": {\n    \"common\": [\n      \"Identify the source type and the dominant page structure.\",\n      \"Mark title, body, panels, tables, conclusions, references, and footers.\",\n      \"Choose one slide per source page unless readability collapses.\",\n      \"Prefer native text and native shapes before cropped images.\",\n      \"Keep conclusions and references in separate layers.\",\n      \"Reserve a safe bottom band for footers or citations.\",\n      \"Treat any overflow text as a reflow problem first.\"\n    ],\n    \"specific\": [\n      \"Inspect whether the image is a clean digital slide, GPT image, screenshot, or scan.\",\n      \"Crop each panel independently if multiple panels are present.\",\n      \"Rebuild tables natively when the grid is legible.\",\n      \"Rebuild captions and callouts near the related panel.\",\n      \"Run a text-bounds check after reconstruction.\"\n    ],\n    \"risk_notes\": [\n      \"Source is low resolution; expect OCR and text reflow risk.\"\n    ],\n    \"sample_first\": [\n      \"Rebuild the first representative page first.\",\n      \"Review fidelity and editability before continuing.\",\n      \"Only scale to the rest of the deck after the sample is accepted.\"\n    ]\n  }\n}\n",
+  "stderr": ""
+}

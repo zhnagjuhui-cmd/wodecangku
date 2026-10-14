@@ -1,0 +1,10 @@
+# Minimal extra dependencies. Existing PDF/PPTX libraries are inherited only
+# in this validation venv; their observed versions are captured separately.
+requests==2.32.5
+urllib3==1.26.20
+httpx==0.28.1
+python-docx==1.2.0
+python-pptx==1.0.2
+PyMuPDF==1.26.6
+Pillow==12.3.0
+PyYAML==6.0.3

@@ -1,0 +1,13 @@
+{
+  "name": "reconstruction_text_bounds",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-image-reconstruction/scripts/svg_text_bounds_check.py",
+    "outputs/skills_validation_20261014/fixtures/bounds.svg"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:38:15.402612+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"path\": \"outputs/skills_validation_20261014/fixtures/bounds.svg\",\n  \"canvas\": {\n    \"width\": 1600.0,\n    \"height\": 900.0\n  },\n  \"text_count\": 2,\n  \"overflow_count\": 0,\n  \"repeated_font_sizes\": {},\n  \"overflow_items\": []\n}\n",
+  "stderr": ""
+}

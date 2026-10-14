@@ -1,0 +1,15 @@
+{
+  "name": "ppt_master_pdf_convert",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-master/scripts/source_to_md.py",
+    "outputs/cloud_audit_20261014/smoke.pdf",
+    "-o",
+    "outputs/skills_validation_20261014/ppt_master_smoke.md"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:33:21.805339+00:00",
+  "returncode": 0,
+  "stdout": "OUTPUT: /workspace/wodecangku/outputs/skills_validation_20261014/ppt_master_smoke.md\n",
+  "stderr": "[>>] pdf_to_md.py outputs/cloud_audit_20261014/smoke.pdf -o outputs/skills_validation_20261014/ppt_master_smoke.md\n[INFO] Analyzing document structure...\n   Font size mapping: body=11.0, H1=N/A, H2=N/A, H3=N/A\n[INFO] Detecting repeated headers/footers...\nConsider using the pymupdf_layout package for a greatly improved page layout analysis.\n[OK] Saved Markdown to: outputs/skills_validation_20261014/ppt_master_smoke.md\n   Wrote conversion profile -> outputs/skills_validation_20261014/ppt_master_smoke.conversion_profile.json\n"
+}

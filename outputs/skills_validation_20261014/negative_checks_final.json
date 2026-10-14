@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cases": [
+    "wrong DOI rejected",
+    "modified source rejected",
+    "changed records block document creation"
+  ]
+}

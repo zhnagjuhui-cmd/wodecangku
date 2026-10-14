@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "pdf_to_md.py",
+  "conversion_type": "pdf",
+  "source": {
+    "path": "ILD_METADATA_EVIDENCE.pdf",
+    "name": "ILD_METADATA_EVIDENCE.pdf",
+    "suffix": ".pdf",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 141645
+  },
+  "outputs": {
+    "markdown": "ROUNDTRIP.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 136,
+    "char_count": 5287,
+    "heading_count": 7,
+    "table_count": 1,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

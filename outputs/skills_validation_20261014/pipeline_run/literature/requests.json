@@ -1,0 +1,137 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=SENSCIS%5BTitle%2FAbstract%5D+AND+Distler%5BAuthor%5D+AND+2019%5BDate+-+Publication%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:56:40.748988+00:00",
+    "status": 200,
+    "sha256": "3f1a0684d5c2ea1e20cf01542014f91717b600f3e3f31a32d103e9dce1112d5c",
+    "bytes": 283,
+    "path": "raw/SENSCIS_search.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35382502%2C31423560%2C31112379&retmode=xml",
+    "utc": "2026-10-14T07:56:41.321279+00:00",
+    "status": 200,
+    "sha256": "ce1f8f99356b422125723e9bfe4c72febbd05101541ba3c04104c971119bf02b",
+    "bytes": 100031,
+    "path": "raw/SENSCIS_pubmed.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31112379+AND+SRC%3AMED&format=json&resultType=core",
+    "utc": "2026-10-14T07:56:43.008062+00:00",
+    "status": 200,
+    "sha256": "0167b7eaff4a1b8bafd4dfd3f42afa509697ad69208dce1b9af2c1d878b4ce96",
+    "bytes": 44940,
+    "path": "raw/SENSCIS_europepmc.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=nintedanib%5BTitle%5D+AND+progressive%5BTitle%5D+AND+fibrosing%5BTitle%5D+AND+2019%5BDate+-+Publication%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:56:43.611337+00:00",
+    "status": 200,
+    "sha256": "6bbb501bf1123779861be02d7c6dec24c44526111dc9a6ea9de027cbc445cb3d",
+    "bytes": 298,
+    "path": "raw/INBUILD_search.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31566307%2C31285305&retmode=xml",
+    "utc": "2026-10-14T07:56:44.216578+00:00",
+    "status": 200,
+    "sha256": "be57dadc619da9f96db79cd51bccbc3c1c6e991de3538e9216f7e89b2c693588",
+    "bytes": 85952,
+    "path": "raw/INBUILD_pubmed.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31566307+AND+SRC%3AMED&format=json&resultType=core",
+    "utc": "2026-10-14T07:56:45.120511+00:00",
+    "status": 200,
+    "sha256": "21a8f03367b42203c74f21de1c5845625aaf56bcbf7de2925c063f050174c108",
+    "bytes": 48976,
+    "path": "raw/INBUILD_europepmc.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pirfenidone%5BTitle%5D+AND+rheumatoid%5BTitle%5D+AND+randomised%5BTitle%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:56:45.685261+00:00",
+    "status": 200,
+    "sha256": "3e5cbc68d8264526a0b1cfdd0fa974ebe90ab4fae237f1db80d72d400016795c",
+    "bytes": 242,
+    "path": "raw/TRAIL1_search.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=36075242&retmode=xml",
+    "utc": "2026-10-14T07:56:46.249749+00:00",
+    "status": 200,
+    "sha256": "bd8d3de4d974fdda7201e47bf9dcc2e6b7476cecf865a1aeb15d1d4dc98937de",
+    "bytes": 30226,
+    "path": "raw/TRAIL1_pubmed.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36075242+AND+SRC%3AMED&format=json&resultType=core",
+    "utc": "2026-10-14T07:56:47.207520+00:00",
+    "status": 200,
+    "sha256": "f2f851bbc64f504c9a4a7cd1ba6d89c11b99606c63aa4d53396d5718726689e9",
+    "bytes": 23420,
+    "path": "raw/TRAIL1_europepmc.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=RELIEF%5BTitle%5D+AND+pirfenidone%5BTitle%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:56:47.779616+00:00",
+    "status": 200,
+    "sha256": "4a31f70a4f2290abb000bbf248c04aebff9c1b1d556095dbb7b9e15836cbf760",
+    "bytes": 223,
+    "path": "raw/RELIEF_search.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33798455%2C28877715&retmode=xml",
+    "utc": "2026-10-14T07:56:48.358391+00:00",
+    "status": 200,
+    "sha256": "3935568f51401b230ee1b0f67cb091c531d28424d06fefffea4bce43b2f76bbe",
+    "bytes": 53609,
+    "path": "raw/RELIEF_pubmed.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33798455+AND+SRC%3AMED&format=json&resultType=core",
+    "utc": "2026-10-14T07:56:49.423680+00:00",
+    "status": 200,
+    "sha256": "7c49917783f53d50ed84b9a3cdc1793e06bb6ee3187bc35a0c866aa8e8ac48d4",
+    "bytes": 24964,
+    "path": "raw/RELIEF_europepmc.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pirfenidone%5BTitle%5D+AND+unclassifiable%5BTitle%5D+AND+placebo-controlled%5BTitle%5D+NOT+design%5BTitle%5D&retmode=json&retmax=20",
+    "utc": "2026-10-14T07:56:49.965098+00:00",
+    "status": 200,
+    "sha256": "313732a09b54d4c2cbcf9ef709938f170e39d9ccec2d5535f6603651b6816b7e",
+    "bytes": 278,
+    "path": "raw/U-ILD_search.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31578169&retmode=xml",
+    "utc": "2026-10-14T07:56:50.543661+00:00",
+    "status": 200,
+    "sha256": "4a0da7deb0b9431bcf5820d9568bff19fbf815c62669b548d15e238292037d2a",
+    "bytes": 16005,
+    "path": "raw/U-ILD_pubmed.response",
+    "transport": "live HTTP"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31578169+AND+SRC%3AMED&format=json&resultType=core",
+    "utc": "2026-10-14T07:56:51.225199+00:00",
+    "status": 200,
+    "sha256": "3d9545545a132c0f043e28e8afc7db7f9549177c7fea78855e99abfc3e5ee546",
+    "bytes": 14357,
+    "path": "raw/U-ILD_europepmc.response",
+    "transport": "live HTTP"
+  }
+]

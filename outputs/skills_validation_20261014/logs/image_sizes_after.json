@@ -1,0 +1,13 @@
+{
+  "name": "image_sizes_after",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/gpt-image-2/scripts/gpt_image_2.py",
+    "--list-sizes"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:33:21.655425+00:00",
+  "returncode": 0,
+  "stdout": "Common GPT Image 2 sizes:\n  auto\n  1024x1024 - 1K square\n  1536x1024 - 1.5K landscape, 3:2\n  1024x1536 - 1.5K portrait, 2:3\n  2048x2048 - 2K square\n  2880x2880 - 3K square\n  2560x1440 - 2K landscape, 16:9\n  1440x2560 - 2K portrait, 9:16\n  2160x3840 - 4K portrait, 9:16\n  3840x2160 - 4K landscape, 16:9\n\nAliases:\n  1k -> 1024x1024\n  square -> 2048x2048\n  2k -> 2048x2048\n  3k -> 2880x2880\n  portrait -> 1440x2560\n  vertical -> 1440x2560\n  2k-portrait -> 1440x2560\n  2k-vertical -> 1440x2560\n  landscape -> 2560x1440\n  wide -> 2560x1440\n  2k-landscape -> 2560x1440\n  4k-portrait -> 2160x3840\n  4k-vertical -> 2160x3840\n  4k-landscape -> 3840x2160\n  4k-wide -> 3840x2160\n",
+  "stderr": ""
+}

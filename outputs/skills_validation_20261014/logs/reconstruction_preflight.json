@@ -1,0 +1,14 @@
+{
+  "name": "reconstruction_preflight",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-image-reconstruction/scripts/page_preflight.py",
+    "outputs/cloud_audit_20261014/smoke_pptx_rendered.png",
+    "--json"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:07:17.385822+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"width\": 720,\n  \"height\": 540,\n  \"aspect_ratio\": 1.333,\n  \"orientation\": \"landscape\",\n  \"risks\": [\n    \"low_resolution\"\n  ],\n  \"path\": \"outputs/cloud_audit_20261014/smoke_pptx_rendered.png\",\n  \"mode\": \"RGB\",\n  \"format\": \"PNG\"\n}\n",
+  "stderr": ""
+}

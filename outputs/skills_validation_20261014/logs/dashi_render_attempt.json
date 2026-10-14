@@ -1,0 +1,18 @@
+{
+  "name": "dashi_render_attempt",
+  "argv": [
+    "npm",
+    "--prefix",
+    ".agents/skills/dashi-ppt/project",
+    "run",
+    "render:goal",
+    "--",
+    "outputs/skills_validation_20261014/dashi/goal.json",
+    "outputs/skills_validation_20261014/dashi/index.html"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:39:07.787815+00:00",
+  "returncode": 127,
+  "stdout": "\n> dashi-ppt-runtime@0.4.11 render:goal\n> tsx scripts/render-goal-deck.jsx outputs/skills_validation_20261014/dashi/goal.json outputs/skills_validation_20261014/dashi/index.html\n\n",
+  "stderr": "sh: 1: tsx: not found\n"
+}

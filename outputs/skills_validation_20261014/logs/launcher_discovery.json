@@ -1,0 +1,13 @@
+{
+  "name": "launcher_discovery",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "scripts/run_ild_skill.py",
+    "--list"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:55:14.650008+00:00",
+  "returncode": 0,
+  "stdout": "dashi-ppt /workspace/wodecangku/.agents/skills/dashi-ppt/SKILL.md workflow/component tests; read SKILL.md\ngpt-image-2 /workspace/wodecangku/.agents/skills/gpt-image-2/SKILL.md workflow/component tests; read SKILL.md\nguizang-ppt-skill /workspace/wodecangku/.agents/skills/guizang-ppt-skill/SKILL.md workflow/component tests; read SKILL.md\nild-evidence-check /workspace/wodecangku/.agents/skills/ild-evidence-check/SKILL.md CLI\nild-literature-search /workspace/wodecangku/.agents/skills/ild-literature-search/SKILL.md CLI\nild-medical-document /workspace/wodecangku/.agents/skills/ild-medical-document/SKILL.md CLI\nkaiyuan-xianfeng-ppt-skill /workspace/wodecangku/.agents/skills/kaiyuan-xianfeng-ppt-skill/SKILL.md workflow/component tests; read SKILL.md\nmedical-evidence-ppt /workspace/wodecangku/.agents/skills/medical-evidence-ppt/SKILL.md workflow/component tests; read SKILL.md\nppt-image-reconstruction /workspace/wodecangku/.agents/skills/ppt-image-reconstruction/SKILL.md workflow/component tests; read SKILL.md\nppt-master /workspace/wodecangku/.agents/skills/ppt-master/SKILL.md workflow/component tests; read SKILL.md\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "medical_validate_smoke",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/medical-evidence-ppt/scripts/validate_pptx.py",
+    "outputs/cloud_audit_20261014/smoke.pptx",
+    "--expected-slides",
+    "1",
+    "--require-notes",
+    "--require-editable"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:07:17.551728+00:00",
+  "returncode": 1,
+  "stdout": "{\n  \"ok\": false,\n  \"file\": \"/workspace/wodecangku/outputs/cloud_audit_20261014/smoke.pptx\",\n  \"slide_count\": 1,\n  \"notes_part_count\": 1,\n  \"notes_missing_or_short\": [\n    1\n  ],\n  \"image_only_slides\": [],\n  \"errors\": [\n    \"Missing or short speaker notes on slides: [1]\"\n  ],\n  \"warnings\": [],\n  \"slide_details\": {\n    \"1\": {\n      \"text_chars\": 29,\n      \"shape_count\": 1,\n      \"native_text_shapes\": 1,\n      \"picture_count\": 0,\n      \"graphic_frame_count\": 0,\n      \"image_only\": false\n    }\n  }\n}\n",
+  "stderr": ""
+}

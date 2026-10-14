@@ -1,0 +1,15 @@
+{
+  "name": "reconstruction_panel_split",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-image-reconstruction/scripts/panel_split.py",
+    "outputs/skills_validation_20261014/fixtures/source.png",
+    "--out",
+    "outputs/skills_validation_20261014/fixtures/panels"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:38:15.475705+00:00",
+  "returncode": 0,
+  "stdout": "{'source': 'outputs/skills_validation_20261014/fixtures/source.png', 'crops': [{'path': 'outputs/skills_validation_20261014/fixtures/panels/panel-01.png', 'box': [50, 195, 1550, 578]}]}\n",
+  "stderr": ""
+}

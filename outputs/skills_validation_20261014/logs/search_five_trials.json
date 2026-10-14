@@ -1,0 +1,14 @@
+{
+  "name": "search_five_trials",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ild-literature-search/scripts/search_trials.py",
+    "--out",
+    "outputs/skills_validation_20261014/literature_run1"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:31:22.958908+00:00",
+  "returncode": 1,
+  "stdout": "SENSCIS retrieved 31112379 \nINBUILD retrieved 31566307 \nTRAIL1 retrieved 36075242 \nRELIEF retrieved 33798455 \nU-ILD blocked  ValueError: Original title match is not unique: 2\n",
+  "stderr": ""
+}

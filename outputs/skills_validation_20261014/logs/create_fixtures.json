@@ -1,0 +1,12 @@
+{
+  "name": "create_fixtures",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    "scripts/skills_validation/create_fixtures.py"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:38:14.944045+00:00",
+  "returncode": 0,
+  "stdout": "PASS: synthetic fixtures created in /workspace/wodecangku/outputs/skills_validation_20261014/fixtures\n",
+  "stderr": ""
+}

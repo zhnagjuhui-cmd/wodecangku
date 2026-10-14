@@ -1,0 +1,12 @@
+{
+  "name": "guizang_runtime_sync",
+  "argv": [
+    "node",
+    ".agents/skills/guizang-ppt-skill/scripts/check-presenter-runtime-sync.mjs"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:07:18.415854+00:00",
+  "returncode": 0,
+  "stdout": "PASS  presenter CSS is byte-identical across 2 templates.\nPASS  presenter JavaScript is byte-identical across 2 templates.\n",
+  "stderr": ""
+}

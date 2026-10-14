@@ -1,0 +1,13 @@
+{
+  "name": "kaiyuan_check",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/kaiyuan-xianfeng-ppt-skill/scripts/image_gen.py",
+    "check"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:07:17.621347+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"available\": true,\n  \"skill_dir\": \"/workspace/wodecangku/.agents/skills/gpt-image-2\",\n  \"script_path\": \"/workspace/wodecangku/.agents/skills/gpt-image-2/scripts/gpt_image_2.py\"\n}\n",
+  "stderr": ""
+}

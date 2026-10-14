@@ -1,0 +1,18 @@
+{
+  "name": "generate_final_document",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ild-medical-document/scripts/generate_document.py",
+    "--records",
+    "outputs/skills_validation_20261014/literature_final/records.json",
+    "--verification",
+    "outputs/skills_validation_20261014/verification_final.json",
+    "--out",
+    "outputs/skills_validation_20261014/documents_final"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:40:10.821462+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"format\": \"editable DOCX + Markdown\",\n  \"studies\": 5,\n  \"records_sha256\": \"aaf7c9dc5c0e228dc656014eb9c4b43d618343b02a81b90eaacc7d5f6802f4b4\",\n  \"docx_sha256\": \"474b39fd3ebf4dd40de185cd5c3d2cd4fc53ebaecdba46e50a5be108f5f902dc\",\n  \"citation_reopen_check\": true\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "guizang_presenter_seed",
+  "argv": [
+    "node",
+    ".agents/skills/guizang-ppt-skill/scripts/validate-presenter-mode.mjs",
+    "outputs/skills_validation_20261014/fixtures/guizang_seed.html"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:38:16.313912+00:00",
+  "returncode": 0,
+  "stdout": "Presenter validation: 2 slides, 2 notes, 1.4 planned minutes, 0 errors, 0 warnings.\n",
+  "stderr": ""
+}

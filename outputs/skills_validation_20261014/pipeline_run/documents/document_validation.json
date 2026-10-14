@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "format": "editable DOCX + Markdown",
+  "studies": 5,
+  "records_sha256": "20c44adc096a7307c8ced9f8973363e601c96470ae9f983e3543bac735cf027b",
+  "docx_sha256": "b9cf5c7461d6b8cab7abfedfb633f50dde59a00a7b816e07981c40de9ff0624e",
+  "citation_reopen_check": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pipeline_syntax",
+  "argv": [
+    "bash",
+    "-n",
+    "scripts/skills_validation/run_research_pipeline.sh"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:56:17.690796+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

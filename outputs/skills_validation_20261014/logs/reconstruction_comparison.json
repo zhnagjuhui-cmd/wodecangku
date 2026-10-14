@@ -1,0 +1,16 @@
+{
+  "name": "reconstruction_comparison",
+  "argv": [
+    ".venv-skills-validation/bin/python",
+    ".agents/skills/ppt-image-reconstruction/scripts/render_compare.py",
+    "outputs/skills_validation_20261014/fixtures/source.png",
+    "outputs/skills_validation_20261014/fixtures/reconstructed_render.png",
+    "--out",
+    "outputs/skills_validation_20261014/fixtures/comparison.png"
+  ],
+  "cwd": "/workspace/wodecangku",
+  "utc": "2026-10-14T07:41:25.029033+00:00",
+  "returncode": 0,
+  "stdout": "outputs/skills_validation_20261014/fixtures/comparison.png\n",
+  "stderr": ""
+}

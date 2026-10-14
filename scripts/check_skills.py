@@ -9,6 +9,7 @@ expected = {
     "ppt-master", "medical-evidence-ppt", "ppt-image-reconstruction",
     "guizang-ppt-skill", "dashi-ppt", "gpt-image-2", "kaiyuan-xianfeng-ppt-skill",
 }
+project_skills = {"ild-literature-search", "ild-evidence-check", "ild-medical-document"}
 found = set()
 for directory in sorted(skills.iterdir()):
     if not directory.is_dir():
@@ -24,10 +25,13 @@ for directory in sorted(skills.iterdir()):
     assert directory.name not in found, f"Duplicate {directory.name}"
     found.add(directory.name)
     print(f"OK {directory.name}")
-assert found == expected, f"Unexpected skill set: {found ^ expected}"
+assert expected <= found, f"Missing original skills: {expected - found}"
+assert found <= expected | project_skills, f"Unexpected skill set: {found - expected - project_skills}"
+for name in found & project_skills:
+    assert (skills / name / "scripts").is_dir(), f"Missing scripts for {name}"
 assert not (root / "skills").exists(), "Duplicate legacy skill directory"
 assert not (root / "skill-packages").exists(), "Duplicate packaged skills"
 assert (skills / "gpt-image-2/scripts/gpt_image_2.py").is_file()
 assert (skills / "dashi-ppt/project/package.json").is_file()
 assert (skills / "ppt-master/LICENSE").is_file()
-print("PASS: seven unique skills and required runtime files")
+print(f"PASS: {len(found)} unique skills, seven original skills preserved and required runtime files")
