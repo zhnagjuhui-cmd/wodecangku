@@ -4,6 +4,7 @@
 
 | 技能 | 使用场景 | 云端依赖与限制 |
 | --- | --- | --- |
+| `medical-slide-source-update` | 医学照片/截图PPT整理、文献核验与原图更新、讲稿及资料包同步 | 文献检索需网络；本地文件须先上传；PPT编辑/渲染需可用工具；打包脚本仅需Python标准库 |
 | `medical-evidence-ppt` | 医学证据、大纲、样张、可编辑课件 | 检索需网络；原流程依赖 presentations 能力，云端缺少时必须说明并确认可用制作工具 |
 | `ppt-image-reconstruction` | 图片重建为可编辑 PPT | 需输入图片及可用的 PPTX 制作、渲染工具 |
 | `ppt-master` | 通用可编辑 PPT、模板、增强 | 按技能路由安装依赖；保留上游完整性校验及署名 |

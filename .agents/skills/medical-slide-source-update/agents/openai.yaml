@@ -1,0 +1,4 @@
+interface:
+  display_name: "医学PPT文献原图更新"
+  short_description: "整理照片幻灯、核对全文与原图，更新可编辑PPT、讲稿及同步资料包"
+  default_prompt: "使用 $medical-slide-source-update 整理这份医学PPT，核对引用文献并更新原图、演讲备注和资料包。"

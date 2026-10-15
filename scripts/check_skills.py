@@ -6,7 +6,7 @@ import re
 root = Path(__file__).resolve().parents[1]
 skills = root / ".agents" / "skills"
 expected = {
-    "ppt-master", "medical-evidence-ppt", "ppt-image-reconstruction",
+    "ppt-master", "medical-evidence-ppt", "ppt-image-reconstruction", "medical-slide-source-update",
     "guizang-ppt-skill", "dashi-ppt", "gpt-image-2", "kaiyuan-xianfeng-ppt-skill",
 }
 found = set()
@@ -30,4 +30,8 @@ assert not (root / "skill-packages").exists(), "Duplicate packaged skills"
 assert (skills / "gpt-image-2/scripts/gpt_image_2.py").is_file()
 assert (skills / "dashi-ppt/project/package.json").is_file()
 assert (skills / "ppt-master/LICENSE").is_file()
-print("PASS: seven unique skills and required runtime files")
+assert (skills / "medical-slide-source-update/scripts/package_release.py").is_file()
+assert (skills / "medical-slide-source-update/references/evidence.md").is_file()
+assert (skills / "medical-slide-source-update/references/delivery.md").is_file()
+assert (skills / "medical-slide-source-update/agents/openai.yaml").is_file()
+print("PASS: eight unique skills and required runtime files")
