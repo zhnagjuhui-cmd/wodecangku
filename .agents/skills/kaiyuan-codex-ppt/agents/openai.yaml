@@ -1,0 +1,4 @@
+interface:
+  display_name: "kaiyuan-codex-ppt"
+  short_description: "通过内置生图与逐页队列制作统一风格的图片式 PPT，无需第三方密钥"
+  default_prompt: "使用 $kaiyuan-codex-ppt 配合 $codex-imagegen-batch 制作 PPT，先审核大纲和一页样张，再并行生成与组装。"

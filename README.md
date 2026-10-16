@@ -8,6 +8,8 @@
 | `medical-evidence-ppt` | 医学证据、大纲、样张、可编辑课件 | 检索需网络；原流程依赖 presentations 能力，云端缺少时必须说明并确认可用制作工具 |
 | `ppt-image-reconstruction` | 图片重建为可编辑 PPT | 需输入图片及可用的 PPTX 制作、渲染工具 |
 | `ppt-master` | 通用可编辑 PPT、模板、增强 | 按技能路由安装依赖；保留上游完整性校验及署名 |
+| `kaiyuan-codex-ppt` | 配合内置生图制作统一风格的图片式 PPT，保留大纲/样张审核、逐页子代理、讲稿与组装 | 依赖同级 `codex-imagegen-batch`、当前会话内置图像工具、Python/Pillow/python-pptx/filelock；无需第三方生图密钥或公开图片 URL；正文为图片 |
+| `codex-imagegen-batch` | 内置生图、参考图编辑、风格转换及本地任务队列 | Python 管理队列，由 Codex 调用内置工具；不需第三方密钥；尺寸需核验，轮询仅本地状态，内置生图仍联网并消耗 Codex 额度 |
 | `kaiyuan-xianfeng-ppt-skill` | 统一视觉的图片式 PPT | 依赖同仓库 `gpt-image-2`、图片接口密钥和网络；整页图片不是完全可编辑 PPT |
 | `guizang-ppt-skill` | 横向翻页 HTML 演示 | 静态 HTML 可离线交付；浏览器验证需要浏览器运行环境 |
 | `dashi-ppt` | 多主题 HTML 演示、导出 | Node.js 20+、npm；首次依赖安装与浏览器安装需要网络 |
@@ -33,13 +35,30 @@ python3 -m venv .venv
 
 PPT Master 的可选依赖见其 `requirements.txt`；Dashi 按其渲染脚本安装项目依赖。Linux 中渲染 PDF/PPTX 可能需要 LibreOffice、字体或浏览器，须按实际任务配置并验证。
 
-图片生成时，在云端环境的安全配置中提供 `LK888_API_KEY`、`LK888_BASE_URL`（或客户端支持的对应变量），并确保执行图片生成的阶段可以访问该服务。不要把密钥写进提示词、日志或仓库。本仓库未配置或验证收费图片接口。
+仅使用 `gpt-image-2` 或旧版 `kaiyuan-xianfeng-ppt-skill` 的外部图片接口时，在云端环境的安全配置中提供 `LK888_API_KEY`、`LK888_BASE_URL`（或客户端支持的对应变量），并确保执行图片生成的阶段可以访问该服务。不要把密钥写进提示词、日志或仓库。本仓库未配置或验证收费图片接口。
 
 开源先锋的 wrapper 默认优先发现同级 `gpt-image-2`；可用 `KAIYUAN_GPT_IMAGE_2_SKILL_DIR` 指定替代路径。仅检查后端路径：
 
 ```bash
 .venv/bin/python .agents/skills/kaiyuan-xianfeng-ppt-skill/scripts/image_gen.py check
 ```
+
+## Codex 内置生图 PPT
+
+`kaiyuan-codex-ppt` 与 `codex-imagegen-batch` 配套使用，本地参考图直接作为输入，无需上传为公开 URL。它们不调用旧版外部生图客户端，也不读取图片服务密钥。Python 脚本管理任务和文件；生成由当前 Codex 会话的内置图像工具完成。缺少工具或子代理能力时须报告阻塞，不能假装云端已经支持。
+
+```text
+用 $kaiyuan-codex-ppt 配合 $codex-imagegen-batch 制作 PPT，先提交大纲，再生成一页样张审核。
+```
+
+```bash
+python3 -m pip install -r .agents/skills/kaiyuan-codex-ppt/requirements.txt
+python3 .agents/skills/kaiyuan-codex-ppt/scripts/image_gen.py check
+```
+
+`check` 只验证依赖技能文件，实际工具能力由主代理和每个子代理分别检查。原生像素尺寸不保证等于提示词目标；尺寸处理和质量重试按样张阶段明确批准的项目策略执行，并保留原图。内置生成仍联网且消耗 Codex 额度；PPT 正文为整页图片，讲者备注可编辑。
+
+本地已完成 23 项离线回归、一页样张加两页并行的真实内置生成、三页中文备注组装和 LibreOffice 渲染检查。这不代表所有云端运行环境均提供相同工具。
 
 ## 输出与来源
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 内置批量生图"
+  short_description: "无需第三方密钥，支持参考图编辑、风格转换与本地批量任务管理"
+  default_prompt: "使用 $codex-imagegen-batch 通过 Codex 内置图像工具生成或编辑图片，并管理尺寸、批量队列与输出验证。"
