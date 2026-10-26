@@ -1,3 +1,5 @@
+> 更新：本轮已补齐渲染及逐页视觉验收；以下保留首轮历史结果，当前能力以 [能力补足报告](capability-check/CAPABILITY_REPORT.md) 为准。不再补全最终全文。
+
 # ILD-Evidence 云端端到端验证报告
 
 测试日期：2026-10-26（UTC）。结论：**部分通过**。当前云端可完成网络检索、合法全文获取（至少一项）、可追溯证据提取及可编辑PPTX生成；不能宣称五项原始PDF全部获取，也未完成PowerPoint/LibreOffice视觉验收。GitHub结果见本报告末尾及 `logs/git_verification.json`。

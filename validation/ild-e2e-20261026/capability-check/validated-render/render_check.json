@@ -1,0 +1,50 @@
+{
+  "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "pptx_sha256": "2c07bc9cd46de085a3acfad352e1e443135ae26e08a84a7e489100f4f9c75e9d",
+  "pages": 3,
+  "slides": [
+    {
+      "page": 1,
+      "notes_chars": 253,
+      "citation_present": true,
+      "fonts": [
+        "BAAAAA+NotoSansCJKsc-Bold",
+        "CAAAAA+NotoSansCJKsc-Bold",
+        "DAAAAA+NotoSansCJKsc-Regular",
+        "EAAAAA+NotoSansCJKsc-Regular",
+        "FAAAAA+NotoSansCJKsc-Regular",
+        "GAAAAA+NotoSansCJKsc-Regular",
+        "HAAAAA+NotoSansCJKsc-Regular"
+      ]
+    },
+    {
+      "page": 2,
+      "notes_chars": 294,
+      "citation_present": true,
+      "fonts": [
+        "BAAAAA+NotoSansCJKsc-Bold",
+        "CAAAAA+NotoSansCJKsc-Bold",
+        "DAAAAA+NotoSansCJKsc-Regular",
+        "EAAAAA+NotoSansCJKsc-Regular",
+        "FAAAAA+NotoSansCJKsc-Regular",
+        "GAAAAA+NotoSansCJKsc-Regular",
+        "HAAAAA+NotoSansCJKsc-Regular"
+      ]
+    },
+    {
+      "page": 3,
+      "notes_chars": 276,
+      "citation_present": true,
+      "fonts": [
+        "BAAAAA+NotoSansCJKsc-Bold",
+        "CAAAAA+NotoSansCJKsc-Bold",
+        "DAAAAA+NotoSansCJKsc-Regular",
+        "EAAAAA+NotoSansCJKsc-Regular",
+        "FAAAAA+NotoSansCJKsc-Regular",
+        "GAAAAA+NotoSansCJKsc-Regular",
+        "HAAAAA+NotoSansCJKsc-Regular"
+      ]
+    }
+  ],
+  "visual_review": "PASS: all three rendered PNGs inspected; Chinese glyphs, citations, table and layout readable; no visible clipping or overlap"
+}

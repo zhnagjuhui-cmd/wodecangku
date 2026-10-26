@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "file": "/workspace/ild-e2e-20261026/validation/ild-e2e-20261026/capability-check/RELIEF_3slides_validated.pptx",
+  "slide_count": 3,
+  "notes_part_count": 3,
+  "notes_missing_or_short": [],
+  "image_only_slides": [],
+  "errors": [],
+  "warnings": [],
+  "slide_details": {
+    "1": {
+      "text_chars": 280,
+      "shape_count": 4,
+      "native_text_shapes": 4,
+      "picture_count": 0,
+      "graphic_frame_count": 0,
+      "image_only": false
+    },
+    "2": {
+      "text_chars": 297,
+      "shape_count": 4,
+      "native_text_shapes": 4,
+      "picture_count": 0,
+      "graphic_frame_count": 1,
+      "image_only": false
+    },
+    "3": {
+      "text_chars": 272,
+      "shape_count": 4,
+      "native_text_shapes": 4,
+      "picture_count": 0,
+      "graphic_frame_count": 0,
+      "image_only": false
+    }
+  }
+}

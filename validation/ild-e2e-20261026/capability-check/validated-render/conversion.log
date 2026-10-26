@@ -1,0 +1,4 @@
+convert /workspace/ild-e2e-20261026/validation/ild-e2e-20261026/capability-check/RELIEF_3slides_validated.pptx as a Impress document -> /workspace/ild-e2e-20261026/validation/ild-e2e-20261026/capability-check/validated-render/RELIEF_3slides_validated.pdf using filter : impress_pdf_Export
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
