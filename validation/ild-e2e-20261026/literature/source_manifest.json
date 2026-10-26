@@ -1,0 +1,67 @@
+{
+  "studies": [
+    {
+      "study": "SENSCIS",
+      "pmid": "31112379",
+      "doi": "10.1056/nejmoa1903076",
+      "title": "Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease.",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31112379/",
+      "europepmc_query": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31112379+AND+SRC%3AMED&format=json&resultType=core",
+      "crossref": "https://api.crossref.org/works/10.1056/nejmoa1903076"
+    },
+    {
+      "study": "INBUILD",
+      "pmid": "31566307",
+      "doi": "10.1056/nejmoa1908681",
+      "title": "Nintedanib in Progressive Fibrosing Interstitial Lung Diseases.",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31566307/",
+      "europepmc_query": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31566307+AND+SRC%3AMED&format=json&resultType=core",
+      "crossref": "https://api.crossref.org/works/10.1056/nejmoa1908681"
+    },
+    {
+      "study": "TRAIL1",
+      "pmid": "36075242",
+      "doi": "10.1016/s2213-2600(22)00260-0",
+      "title": "Safety, tolerability, and efficacy of pirfenidone in patients with rheumatoid arthritis-associated interstitial lung disease: a randomised, double-blind, placebo-controlled, phase 2 study.",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36075242/",
+      "europepmc_query": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36075242+AND+SRC%3AMED&format=json&resultType=core",
+      "crossref": "https://api.crossref.org/works/10.1016/s2213-2600(22)00260-0"
+    },
+    {
+      "study": "RELIEF",
+      "pmid": "33798455",
+      "doi": "10.1016/s2213-2600(20)30554-3",
+      "title": "Pirfenidone in patients with progressive fibrotic interstitial lung diseases other than idiopathic pulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-controlled, phase 2b trial.",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33798455/",
+      "europepmc_query": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33798455+AND+SRC%3AMED&format=json&resultType=core",
+      "crossref": "https://api.crossref.org/works/10.1016/s2213-2600(20)30554-3"
+    },
+    {
+      "study": "U-ILD",
+      "pmid": "31578169",
+      "doi": "10.1016/s2213-2600(19)30341-8",
+      "title": "Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease: a double-blind, randomised, placebo-controlled, phase 2 trial.",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31578169/",
+      "europepmc_query": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31578169+AND+SRC%3AMED&format=json&resultType=core",
+      "crossref": "https://api.crossref.org/works/10.1016/s2213-2600(19)30341-8"
+    }
+  ],
+  "local_fulltexts_not_for_git": [
+    {
+      "file": "literature/pdfs/U-ILD_author_manuscript.docx",
+      "bytes": 799328,
+      "sha256": "0be384e12562a332af2102419bb1c1958bbc742fe13e3ab02055fbdc71886cc2"
+    },
+    {
+      "file": "literature/pdfs/TRAIL1_manuscript.docx",
+      "bytes": 75807,
+      "sha256": "62f69080e9ada9eca87c5d4eed00484fc6491bb74ab79890095b86ae49ec2994"
+    },
+    {
+      "file": "literature/pdfs/RELIEF_open_0.pdf",
+      "bytes": 858537,
+      "sha256": "0d61089a16b3e550fd1f41115d3fd45617324efccac80360ae8ead24a2653136"
+    }
+  ],
+  "u_ild_manuscript_url": "https://spiral.imperial.ac.uk/bitstreams/3881b1b6-66b5-414f-8763-6f693fbc72b2/download"
+}

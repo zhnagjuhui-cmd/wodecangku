@@ -1,0 +1,7 @@
+literature/*
+!literature/evidence.csv
+!literature/evidence.md
+!literature/RELIEF_summary_zh.md
+!literature/source_manifest.json
+*.pyc
+__pycache__/

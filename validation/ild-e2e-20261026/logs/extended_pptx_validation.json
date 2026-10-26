@@ -1,0 +1,26 @@
+{
+  "python_pptx_reopen": true,
+  "notes_relationships": true,
+  "slides": [
+    {
+      "slide": 1,
+      "notes_chars": 253,
+      "shapes_within_slide": true,
+      "table_count": 0
+    },
+    {
+      "slide": 2,
+      "notes_chars": 294,
+      "shapes_within_slide": true,
+      "table_count": 1
+    },
+    {
+      "slide": 3,
+      "notes_chars": 276,
+      "shapes_within_slide": true,
+      "table_count": 0
+    }
+  ],
+  "rendered": false,
+  "reason": "LibreOffice and PowerPoint unavailable"
+}

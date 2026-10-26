@@ -1,0 +1,30 @@
+[
+  {
+    "name": "INBUILD_ULB",
+    "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/301600/3/INBUILD.pdf",
+    "status": 200,
+    "final_url": "https://difusion.ulb.ac.be/vufind/Error/Home",
+    "bytes": 49497,
+    "content_type": "text/html; charset=UTF-8",
+    "reason": "Not PDF or DOCX"
+  },
+  {
+    "name": "SENSCIS_ULB",
+    "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/301612/1/.pdf",
+    "status": 200,
+    "final_url": "https://difusion.ulb.ac.be/vufind/Error/Home",
+    "bytes": 49497,
+    "content_type": "text/html; charset=UTF-8",
+    "reason": "Not PDF or DOCX"
+  },
+  {
+    "name": "TRAIL1_manuscript",
+    "url": "https://ndownloader.figshare.com/files/43528302",
+    "status": 200,
+    "final_url": "https://s3-eu-west-1.amazonaws.com/pstorage-leicester-213265548798/43528302/TRAIL1_LRMRevision053022RESUBMISSIONREDLINEv3.docx",
+    "bytes": 75807,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "docx": true,
+    "sha256": "62f69080e9ada9eca87c5d4eed00484fc6491bb74ab79890095b86ae49ec2994"
+  }
+]

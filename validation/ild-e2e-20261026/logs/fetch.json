@@ -1,0 +1,182 @@
+[
+  {
+    "label": "SENSCIS_pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31112379/?format=pubmed",
+    "utc": "2026-10-26T14:13:00.089917+00:00",
+    "status": 203,
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/31112379/?format=pubmed",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5590,
+    "pdf": false
+  },
+  {
+    "label": "SENSCIS_crossref",
+    "url": "https://api.crossref.org/works/10.1056%2Fnejmoa1903076",
+    "utc": "2026-10-26T14:13:01.039770+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1056%2Fnejmoa1903076",
+    "content_type": "application/json",
+    "bytes": 18409,
+    "pdf": false
+  },
+  {
+    "label": "SENSCIS_open_0",
+    "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1903076",
+    "utc": "2026-10-26T14:13:01.693137+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "label": "INBUILD_pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31566307/?format=pubmed",
+    "utc": "2026-10-26T14:13:01.848356+00:00",
+    "status": 203,
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/31566307/?format=pubmed",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5590,
+    "pdf": false
+  },
+  {
+    "label": "INBUILD_crossref",
+    "url": "https://api.crossref.org/works/10.1056%2Fnejmoa1908681",
+    "utc": "2026-10-26T14:13:02.288395+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1056%2Fnejmoa1908681",
+    "content_type": "application/json",
+    "bytes": 16457,
+    "pdf": false
+  },
+  {
+    "label": "INBUILD_open_0",
+    "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1908681?articleTools=true",
+    "utc": "2026-10-26T14:13:02.914367+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "label": "TRAIL1_pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36075242/?format=pubmed",
+    "utc": "2026-10-26T14:13:02.993541+00:00",
+    "status": 203,
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/36075242/?format=pubmed",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5590,
+    "pdf": false
+  },
+  {
+    "label": "TRAIL1_crossref",
+    "url": "https://api.crossref.org/works/10.1016%2Fs2213-2600%2822%2900260-0",
+    "utc": "2026-10-26T14:13:03.881165+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1016%2Fs2213-2600%2822%2900260-0",
+    "content_type": "application/json",
+    "bytes": 31634,
+    "pdf": false
+  },
+  {
+    "label": "TRAIL1_open_0",
+    "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(22)00260-0/fulltext",
+    "utc": "2026-10-26T14:13:04.851149+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "label": "RELIEF_pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33798455/?format=pubmed",
+    "utc": "2026-10-26T14:13:04.854755+00:00",
+    "status": 203,
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/33798455/?format=pubmed",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5590,
+    "pdf": false
+  },
+  {
+    "label": "RELIEF_crossref",
+    "url": "https://api.crossref.org/works/10.1016%2Fs2213-2600%2820%2930554-3",
+    "utc": "2026-10-26T14:13:05.290623+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1016%2Fs2213-2600%2820%2930554-3",
+    "content_type": "application/json",
+    "bytes": 23149,
+    "pdf": false
+  },
+  {
+    "label": "RELIEF_open_0",
+    "url": "https://push-zb.helmholtz-muenchen.de/deliver.php?id=32778",
+    "utc": "2026-10-26T14:13:05.979024+00:00",
+    "status": 200,
+    "final_url": "https://push-zb.helmholtz-munich.de/deliver.php?id=32778",
+    "content_type": "application/pdf",
+    "bytes": 858537,
+    "pages": 11,
+    "pdf": true,
+    "sha256": "0d61089a16b3e550fd1f41115d3fd45617324efccac80360ae8ead24a2653136"
+  },
+  {
+    "label": "U-ILD_pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31578169/?format=pubmed",
+    "utc": "2026-10-26T14:13:16.979167+00:00",
+    "status": 203,
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/31578169/?format=pubmed",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5590,
+    "pdf": false
+  },
+  {
+    "label": "U-ILD_crossref",
+    "url": "https://api.crossref.org/works/10.1016%2Fs2213-2600%2819%2930341-8",
+    "utc": "2026-10-26T14:13:17.338097+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1016%2Fs2213-2600%2819%2930341-8",
+    "content_type": "application/json",
+    "bytes": 12744,
+    "pdf": false
+  },
+  {
+    "label": "U-ILD_open_0",
+    "url": "https://hdl.handle.net/10044/1/74066",
+    "utc": "2026-10-26T14:13:18.233412+00:00",
+    "status": 200,
+    "final_url": "https://spiral.imperial.ac.uk/entities/publication/1557d37b-6271-4453-a107-cee34e420cfd",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 698381,
+    "pdf": false
+  },
+  {
+    "label": "SENSCIS_registry",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02597933",
+    "utc": "2026-10-26T14:13:24.260653+00:00",
+    "status": 200,
+    "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02597933",
+    "content_type": "application/json",
+    "bytes": 148456,
+    "pdf": false
+  },
+  {
+    "label": "INBUILD_registry",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02999178",
+    "utc": "2026-10-26T14:13:25.332771+00:00",
+    "status": 200,
+    "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02999178",
+    "content_type": "application/json",
+    "bytes": 205567,
+    "pdf": false
+  },
+  {
+    "label": "TRAIL1_registry",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02808871",
+    "utc": "2026-10-26T14:13:26.379596+00:00",
+    "status": 200,
+    "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02808871",
+    "content_type": "application/json",
+    "bytes": 54484,
+    "pdf": false
+  },
+  {
+    "label": "U-ILD_registry",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03099187",
+    "utc": "2026-10-26T14:13:26.768096+00:00",
+    "status": 200,
+    "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03099187",
+    "content_type": "application/json",
+    "bytes": 149525,
+    "pdf": false
+  }
+]
