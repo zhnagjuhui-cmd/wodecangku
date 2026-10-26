@@ -5,7 +5,7 @@ def fetch(label,url,suffix):
  item={'label':label,'url':url,'utc':datetime.datetime.now(datetime.timezone.utc).isoformat()}
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'ILD-Evidence-validation/1.0'})
-  with urllib.request.urlopen(req,timeout=25) as r: data=r.read(25000000);item.update(status=r.status,final_url=r.url,content_type=r.headers.get('Content-Type'),bytes=len(data))
+  with urllib.request.urlopen(req,timeout=25) as r: data=r.read(25000000);item.update(status=r.status,final_url=r.url.split("?")[0],content_type=r.headers.get('Content-Type'),bytes=len(data))
   if data.startswith(b'%PDF'):
    import fitz
    d=fitz.open(stream=data,filetype='pdf'); text='\n'.join(p.get_text() for p in d);item.update(pages=len(d),pdf=True,sha256=hashlib.sha256(data).hexdigest());(L/'pdfs'/f'{label}.pdf').write_bytes(data);(L/f'{label}_pdf_text.txt').write_text(text)

@@ -76,3 +76,9 @@ PubMed五个具体题录均返回203验证HTML，不能把前一轮首页200当�
 `logs/fetch.json`、`additional_fetch.json`、`final_fetch.json` 记录下载结果；`source_manifest.json`记录来源、哈希和本地文件。`scripts/build_test.py`重建证据与课件；`scripts/fetch_sources.py`读取本地 `original_records.json` 抓取来源。该原始响应未公开提交，首次复现需按source_manifest中的Europe PMC查询重新取得相同记录，不能声称仅克隆Git即可离线重现全文下载。
 
 未执行未知安装脚本，无软件安装，无患者资料，无密钥写入成果。默认分支不修改，原工作区不动。未进行跨试验药物优劣比较。
+
+## 8. GitHub实际验证结果
+
+独立分支 `test/ild-e2e-20261026` 推送成功（exit 0），首个成果提交 `79c4729b8739e82f2e5e9ed74219fb8875b67a29`。远端main仍为基线 `f0f40a8c9b647a755e362f120cc4f1d18ae755d7`；原工作树保持work且无未提交变更。未创建PR、未合并、未推送全文。此结果记录通过后续独立提交同步至同一测试分支。
+
+浏览：https://github.com/zhnagjuhui-cmd/wodecangku/tree/test/ild-e2e-20261026/validation/ild-e2e-20261026
