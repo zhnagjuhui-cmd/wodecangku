@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "file": "/workspace/ild-e2e-20261026/validation/ild-e2e-20261026/presentations/relief-ppt-master_ppt169_20261026/exports/relief-ppt-master_20261026_235721_native_charts_tables.pptx",
+  "slide_count": 3,
+  "notes_part_count": 3,
+  "notes_missing_or_short": [],
+  "image_only_slides": [],
+  "errors": [],
+  "warnings": [],
+  "slide_details": {
+    "1": {
+      "text_chars": 317,
+      "shape_count": 26,
+      "native_text_shapes": 24,
+      "picture_count": 0,
+      "graphic_frame_count": 0,
+      "image_only": false
+    },
+    "2": {
+      "text_chars": 328,
+      "shape_count": 7,
+      "native_text_shapes": 7,
+      "picture_count": 0,
+      "graphic_frame_count": 1,
+      "image_only": false
+    },
+    "3": {
+      "text_chars": 313,
+      "shape_count": 21,
+      "native_text_shapes": 19,
+      "picture_count": 0,
+      "graphic_frame_count": 0,
+      "image_only": false
+    }
+  }
+}

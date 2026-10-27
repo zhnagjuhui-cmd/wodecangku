@@ -1,0 +1,31 @@
+{
+  "accepted": true,
+  "native_table_count": 1,
+  "table_text": [
+    [
+      "分析",
+      "结果",
+      "解释边界",
+      "主要分析：ITT秩ANCOVA",
+      "P=0.043",
+      "SSD插补；死亡最差秩",
+      "Hodges–Lehmann组间差",
+      "1.69个百分点",
+      "95% CI −0.65至4.03",
+      "预设纵向斜率敏感性分析",
+      "3.53个百分点",
+      "95% CI 0.21至6.86",
+      "死亡按预设处理"
+    ]
+  ],
+  "files": [
+    {
+      "path": "exports/relief-ppt-master_20261026_235721_native_charts_tables.pptx",
+      "sha256": "7eab217951f86114461fc81fad649abd41b477deedded29caf03af7b4003e842"
+    },
+    {
+      "path": "rendered-release/relief-ppt-master_20261026_235721_native_charts_tables.pdf",
+      "sha256": "d55cbf762dcd7ddef122aa35fe43aa6d7b67472fcebba2d1ac7fb66b62abbfe6"
+    }
+  ]
+}

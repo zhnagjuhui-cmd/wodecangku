@@ -1,0 +1,29 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-CN",
+  "recommend": {
+    "canvas": "ppt169"
+  },
+  "audience": {
+    "value": "呼吸科及风湿科专业医生"
+  },
+  "communication_intent": {
+    "value": "解读RELIEF研究设计、主要结果和证据局限，同时验证ppt-master完整制作流程"
+  },
+  "audience_outcome": {
+    "value": "准确区分主要分析、敏感性分析和临床外推边界"
+  },
+  "core_message": {
+    "value": "RELIEF提示潜在肺功能获益，但提前终止及不确定性要求谨慎解读"
+  },
+  "delivery_context": {
+    "value": "三页中文学术研究解读，由讲者配合讲者备注讲解"
+  },
+  "artifact_afterlife": {
+    "value": "作为可编辑医学课件测试及GitHub工作流验证成果"
+  },
+  "content_divergence": {
+    "value": "仅使用既有证据；允许重组表达，不改变数字，不新增研究结论"
+  }
+}

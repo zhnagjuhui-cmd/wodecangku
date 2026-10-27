@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans CJK SC, DejaVu Sans, sans-serif" data-pptx-page-role="cover">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="heading" data-pptx-bounds="56 32 1168 112">
+    <text x="56" y="60" font-size="18" fill="#64748B">RELIEF / 原始研究解读 / 01</text>
+    <text x="56" y="119" font-size="40" font-weight="bold" fill="#8C0D27">127例，检验非IPF进展性ILD</text>
+  </g>
+  <g id="sample-and-assignment" data-pptx-bounds="56 171 352 370">
+    <text x="56" y="205" font-size="24" fill="#24323D">随机 · 双盲 · Ⅱb期</text>
+    <text x="56" y="309" font-size="88" font-weight="bold" fill="#8C0D27">127</text>
+    <text x="267" y="309" font-size="24" fill="#24323D">例随机</text>
+    <line x1="56" y1="339" x2="392" y2="339" stroke="#D7E0E4" stroke-width="2"/>
+    <text x="56" y="386" font-size="30" font-weight="bold" fill="#087B78">64</text>
+    <text x="250" y="386" font-size="30" font-weight="bold" fill="#087B78">63</text>
+    <text x="56" y="425" font-size="24" fill="#24323D">吡非尼酮</text>
+    <text x="250" y="425" font-size="24" fill="#24323D">安慰剂</text>
+    <text x="56" y="485" font-size="24" fill="#24323D">德国</text>
+    <text x="116" y="485" font-size="24" fill="#24323D">17</text>
+    <text x="156" y="485" font-size="24" fill="#24323D">中心</text>
+    <text x="250" y="485" font-size="24" fill="#24323D">48</text>
+    <text x="294" y="485" font-size="24" fill="#24323D">周</text>
+  </g>
+  <g id="population" data-pptx-bounds="464 170 760 119">
+    <text x="464" y="204" font-size="28" font-weight="bold" fill="#24323D">四类非IPF进展性纤维化ILD</text>
+    <text x="464" y="248" font-size="24" fill="#24323D">CTD-ILD、纤维化NSIP、慢性过敏性肺炎、石棉肺</text>
+  </g>
+  <g id="intervention" data-pptx-bounds="464 298 760 117">
+    <text x="464" y="332" font-size="28" font-weight="bold" fill="#24323D">原治疗基础上加药</text>
+    <text x="464" y="375" font-size="24" fill="#24323D">既有治疗下仍进展；吡非尼酮递增至801 mg，每日3次</text>
+  </g>
+  <g id="primary-endpoint" data-pptx-bounds="464 425 760 112">
+    <text x="464" y="459" font-size="28" font-weight="bold" fill="#24323D">主要终点：48周肺功能变化</text>
+    <text x="464" y="503" font-size="24" fill="#24323D">FVC占预计值百分比相对基线的绝对变化</text>
+  </g>
+  <g id="takeaway" data-pptx-bounds="56 560 1168 64">
+    <rect x="56" y="560" width="1168" height="64" fill="#F2F6F6"/>
+    <text x="80" y="601" font-size="28" font-weight="bold" fill="#087B78">四类疾病的混合证据，不能替代亚型独立验证</text>
+  </g>
+  <g id="citation" data-pptx-role="footer" data-pptx-bounds="56 642 1090 59">
+    <text x="56" y="664" font-size="14" fill="#64748B">来源：Behr J, et al. Lancet Respir Med. 2021;9:476–486. 原文摘要及方法。</text>
+    <text x="56" y="687" font-size="14" fill="#64748B">PMID 33798455 · DOI 10.1016/S2213-2600(20)30554-3</text>
+  </g>
+  <text id="page-number" data-pptx-role="page-number" x="1200" y="687" font-size="14" fill="#64748B">01</text>
+</svg>

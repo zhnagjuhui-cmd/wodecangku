@@ -1,0 +1,12 @@
+.runtime/
+__pycache__/
+*.pyc
+.confirm_ui.lock
+live_preview/
+
+# 保留本地历史试稿，仅发布验收版
+rendered/
+rendered-final/
+backup/
+exports/*235353*.pptx
+exports/*235555*.pptx

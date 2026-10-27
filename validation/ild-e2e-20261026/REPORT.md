@@ -1,3 +1,5 @@
+> 最新：已完成 [ppt-master 完整制作与验收](presentations/relief-ppt-master_ppt169_20261026/RUN_REPORT.md)，含原生表格、讲者备注和逐页渲染。
+
 > 更新：本轮已补齐渲染及逐页视觉验收；以下保留首轮历史结果，当前能力以 [能力补足报告](capability-check/CAPABILITY_REPORT.md) 为准。不再补全最终全文。
 
 # ILD-Evidence 云端端到端验证报告

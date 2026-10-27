@@ -1,0 +1,65 @@
+{
+  "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "pptx_sha256": "7eab217951f86114461fc81fad649abd41b477deedded29caf03af7b4003e842",
+  "pages": 3,
+  "slides": [
+    {
+      "page": 1,
+      "notes_chars": 483,
+      "citation_present": true,
+      "fonts": [
+        "BAAAAA+NotoSans-Regular",
+        "CAAAAA+NotoSansCJKsc-Regular",
+        "DAAAAA+NotoSans-Bold",
+        "EAAAAA+NotoSansCJKsc-Bold",
+        "FAAAAA+NotoSans-Regular",
+        "GAAAAA+DejaVuSans",
+        "HAAAAA+NotoSans-Bold",
+        "IAAAAA+NotoSans-Bold",
+        "JAAAAA+NotoSans-Bold",
+        "KAAAAA+NotoSansMongolian-Regular",
+        "LAAAAA+NotoSans-Regular",
+        "MAAAAA+NotoSans-Bold"
+      ]
+    },
+    {
+      "page": 2,
+      "notes_chars": 423,
+      "citation_present": true,
+      "fonts": [
+        "BAAAAA+NotoSans-Regular",
+        "CAAAAA+NotoSansCJKsc-Regular",
+        "DAAAAA+NotoSans-Bold",
+        "EAAAAA+NotoSansCJKsc-Bold",
+        "FAAAAA+NotoSans-Regular",
+        "GAAAAA+DejaVuSans",
+        "HAAAAA+NotoSans-Bold",
+        "IAAAAA+NotoSans-Bold",
+        "JAAAAA+NotoSans-Bold",
+        "KAAAAA+NotoSansMongolian-Regular",
+        "LAAAAA+NotoSans-Regular",
+        "MAAAAA+NotoSans-Bold"
+      ]
+    },
+    {
+      "page": 3,
+      "notes_chars": 366,
+      "citation_present": true,
+      "fonts": [
+        "BAAAAA+NotoSans-Regular",
+        "CAAAAA+NotoSansCJKsc-Regular",
+        "DAAAAA+NotoSans-Bold",
+        "EAAAAA+NotoSansCJKsc-Bold",
+        "FAAAAA+NotoSans-Regular",
+        "GAAAAA+DejaVuSans",
+        "HAAAAA+NotoSans-Bold",
+        "IAAAAA+NotoSans-Bold",
+        "JAAAAA+NotoSans-Bold",
+        "KAAAAA+NotoSansMongolian-Regular",
+        "LAAAAA+NotoSans-Regular",
+        "MAAAAA+NotoSans-Bold"
+      ]
+    }
+  ],
+  "visual_review": "pending; inspect each PNG"
+}

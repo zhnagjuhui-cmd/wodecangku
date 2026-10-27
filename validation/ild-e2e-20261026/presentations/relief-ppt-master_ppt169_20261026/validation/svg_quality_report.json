@@ -1,0 +1,124 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/workspace/ild-e2e-20261026/validation/ild-e2e-20261026/presentations/relief-ppt-master_ppt169_20261026",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "98074bdba316718fa780c7c975d743a4577ecbac22fdbe57de5c732292bbb420",
+    "file_count": 3,
+    "files": [
+      {
+        "file": "01_study.svg",
+        "sha256": "be835596cd51ec9739dc6d39e0e32e1ef3b5afff32e8cd23b772b536f0a8c28c"
+      },
+      {
+        "file": "02_results.svg",
+        "sha256": "70954652267081dbe9ee228ba966e1d03145f1e08fc5373bea084e7ba3b51c36"
+      },
+      {
+        "file": "03_limits.svg",
+        "sha256": "a9efcb5a47243483ccf98def1f02af1265da31f446797eeb952214f68342990c"
+      }
+    ]
+  },
+  "summary": {
+    "total": 3,
+    "passed": 2,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "02_results.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"results-table\"> x=792.0, y=458.0..494.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_study.svg",
+      "path": "/workspace/ild-e2e-20261026/validation/ild-e2e-20261026/presentations/relief-ppt-master_ppt169_20261026/svg_output/01_study.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Noto Sans CJK SC, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "be835596cd51ec9739dc6d39e0e32e1ef3b5afff32e8cd23b772b536f0a8c28c"
+    },
+    {
+      "file": "02_results.svg",
+      "path": "/workspace/ild-e2e-20261026/validation/ild-e2e-20261026/presentations/relief-ppt-master_ppt169_20261026/svg_output/02_results.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"results-table\"> x=792.0, y=458.0..494.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Noto Sans CJK SC, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "70954652267081dbe9ee228ba966e1d03145f1e08fc5373bea084e7ba3b51c36"
+    },
+    {
+      "file": "03_limits.svg",
+      "path": "/workspace/ild-e2e-20261026/validation/ild-e2e-20261026/presentations/relief-ppt-master_ppt169_20261026/svg_output/03_limits.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Noto Sans CJK SC, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "a9efcb5a47243483ccf98def1f02af1265da31f446797eeb952214f68342990c"
+    }
+  ]
+}
