@@ -16,3 +16,9 @@
 7. 后续改用获准的本地 urllib 直接请求 ClinicalTrials.gov API，四项均成功；保存未经修改 JSON、SHA-256 和 selected_fields。已读当前身份/状态/入组数/主要终点，历史版本与全文一致性仍 UNVERIFIED。此条更新第 4 条网页访问失败后的获取层级。
 
 8. 本地检查首次发现 CSV 默认 CRLF 被 git diff --check 报为行末空白，已统一 LF；修订注册状态用语，保留当前字段核验与历史对照的界限。
+
+## Round 2: 2026-11-02
+U-ILD identity CONFIRMED by user on 2026-11-02: Maher pirfenidone unclassifiable progressive fibrosing ILD phase 2; DOI 10.1016/S2213-2600(19)30341-8; PMID 31578169; NCT03099187.
+Accepted DOCX acquired from https://spiral.imperial.ac.uk/bitstreams/3881b1b6-66b5-414f-8763-6f693fbc72b2/download ; ZIP/XML and title checked; SHA256 0be384e12562a332af2102419bb1c1958bbc742fe13e3ab02055fbdc71886cc2. Table 1: ITT 127/126. Table 2: site spirometry FVC predicted mean change at 24 weeks -17.8/-113.0 mL; difference 95.3 (95%CI 35.9 to 154.6), P=0.002; SECONDARY endpoint. Published page mapping UNVERIFIED (accepted DOCX has no stable published pagination). Supplement content present, separate publisher appendix completeness UNVERIFIED.
+RELIEF official DRKS record https://drks.de/search/de/trial/DRKS00009822 confirms DRKS00009822 and EudraCT 2014-000861-32 under Further identification numbers. NCT remains UNVERIFIED. Current publication link points to PubMed, not a verified PDF.
+SENSCIS/INBUILD/TRAIL1/RELIEF primary full text and supplements remain UNVERIFIED. PMC/publisher searches did not yield verified primary full texts; INBUILD NEJM still403. Reviews cannot substitute. All unavailable page/table locations UNVERIFIED. Freeze eligibility: NO; NOT_FROZEN; independent review, full-text/supplement reconciliation outstanding. Descriptive cross-trial comparison only.

@@ -53,3 +53,9 @@ Behr J, et al. **Pirfenidone in patients with progressive fibrotic interstitial 
 网页读取失败后，四个 ClinicalTrials.gov API 原始 JSON 已合法直接取得并保存于 registry_responses/；registry_selected_fields.json 给出精确 JSON 字段来源与 SHA-256。当前研究身份、记录状态、登记入组数和主要终点字段已读，状态 VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS；完整注册与论文/历史版本一致性仍未完成。
 
 发现需解释的分母差异：SENSCIS 登记 enrollmentInfo 为 580 ACTUAL，而论文摘要为 576 至少接受一次治疗；不得自动覆盖或视为相同分析集，原因待全文受试者流程核实。TRAIL1 登记当前状态 COMPLETED 与论文提前停止招募并不自动构成矛盾，应核对招募结束和后续随访定义。U-ILD 登记提及重分析与额外数据清理，需版本历史核对。其余登记字段以 JSON 为准，均未授权 B 使用。
+
+## Round 2: 2026-11-02
+U-ILD identity CONFIRMED by user on 2026-11-02: Maher pirfenidone unclassifiable progressive fibrosing ILD phase 2; DOI 10.1016/S2213-2600(19)30341-8; PMID 31578169; NCT03099187.
+Accepted DOCX acquired from https://spiral.imperial.ac.uk/bitstreams/3881b1b6-66b5-414f-8763-6f693fbc72b2/download ; ZIP/XML and title checked; SHA256 0be384e12562a332af2102419bb1c1958bbc742fe13e3ab02055fbdc71886cc2. Table 1: ITT 127/126. Table 2: site spirometry FVC predicted mean change at 24 weeks -17.8/-113.0 mL; difference 95.3 (95%CI 35.9 to 154.6), P=0.002; SECONDARY endpoint. Published page mapping UNVERIFIED (accepted DOCX has no stable published pagination). Supplement content present, separate publisher appendix completeness UNVERIFIED.
+RELIEF official DRKS record https://drks.de/search/de/trial/DRKS00009822 confirms DRKS00009822 and EudraCT 2014-000861-32 under Further identification numbers. NCT remains UNVERIFIED. Current publication link points to PubMed, not a verified PDF.
+SENSCIS/INBUILD/TRAIL1/RELIEF primary full text and supplements remain UNVERIFIED. PMC/publisher searches did not yield verified primary full texts; INBUILD NEJM still403. Reviews cannot substitute. All unavailable page/table locations UNVERIFIED. Freeze eligibility: NO; NOT_FROZEN; independent review, full-text/supplement reconciliation outstanding. Descriptive cross-trial comparison only.
