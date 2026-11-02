@@ -78,6 +78,6 @@ if __name__ == '__main__':
     zero_filled = copy.deepcopy(data)
     zero_filled['studies'][0]['metrics'][0]['value'] = 0
     assert validate(zero_filled), 'negative control failed: missing filled with zero'
-    print('PASS: 5 studies; 45 null/UNVERIFIED metric slots; provenance structure valid.')
+    print('PASS: 5 studies; provenance structure valid; inspect dataset for populated counts.')
     print('PASS: negative controls reject absent missing reason and zero-filled missing value.')
     print('Medical data verification: NOT PERFORMED; independent acceptance: PENDING.')
