@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-02",
+  "method": "Same agent re-opened original PDFs; fresh text extraction sorted by layout and manual transcription; then compared to existing A fields. NOT a second independent reviewer.",
+  "independent_reviewer": null,
+  "review_status": "PENDING_INDEPENDENT_REVIEW",
+  "numeric_matches": 39,
+  "justified_nulls": 6,
+  "prior_verified_matches": 37,
+  "discrepancies": 0,
+  "fields": [
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "sample_size",
+      "reextracted_value": 576,
+      "source_location": "p5 Fig1",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "primary_effect",
+      "reextracted_value": 41.0,
+      "source_location": "p8 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "primary_ci_lower",
+      "reextracted_value": 2.9,
+      "source_location": "p8 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "primary_ci_upper",
+      "reextracted_value": 79.0,
+      "source_location": "p8 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "primary_p_value",
+      "reextracted_value": 0.04,
+      "source_location": "p8 Table2 footnote",
+      "p_operator": "=",
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "treatment_fvc_change",
+      "reextracted_value": -52.4,
+      "source_location": "p8 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "control_fvc_change",
+      "reextracted_value": -93.3,
+      "source_location": "p8 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "treatment_adverse_events",
+      "reextracted_value": 283,
+      "source_location": "p9 Table3",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "SENSCIS",
+      "metric_id": "control_adverse_events",
+      "reextracted_value": 276,
+      "source_location": "p9 Table3",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "sample_size",
+      "reextracted_value": 663,
+      "source_location": "p5 Fig1",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "primary_effect",
+      "reextracted_value": 107.0,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "primary_ci_lower",
+      "reextracted_value": 65.4,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "primary_ci_upper",
+      "reextracted_value": 148.5,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "primary_p_value",
+      "reextracted_value": 0.001,
+      "source_location": "p7 Table2 footnote",
+      "p_operator": "<",
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "treatment_fvc_change",
+      "reextracted_value": -80.8,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "control_fvc_change",
+      "reextracted_value": -187.8,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "treatment_adverse_events",
+      "reextracted_value": 317,
+      "source_location": "p9 Table3",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "INBUILD",
+      "metric_id": "control_adverse_events",
+      "reextracted_value": 296,
+      "source_location": "p9 Table3",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "sample_size",
+      "reextracted_value": 123,
+      "source_location": "p4 Fig1",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "primary_effect",
+      "reextracted_value": 0.67,
+      "source_location": "p7 Results",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "primary_ci_lower",
+      "reextracted_value": 0.22,
+      "source_location": "p7 Results",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "primary_ci_upper",
+      "reextracted_value": 2.03,
+      "source_location": "p7 Results",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "primary_p_value",
+      "reextracted_value": 0.48,
+      "source_location": "p5 Table2/p7 Results",
+      "p_operator": "=",
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "treatment_fvc_change",
+      "reextracted_value": -66,
+      "source_location": "p5 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "control_fvc_change",
+      "reextracted_value": -146,
+      "source_location": "p5 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "treatment_adverse_events",
+      "reextracted_value": 62,
+      "source_location": "p7 Table3",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "TRAIL1",
+      "metric_id": "control_adverse_events",
+      "reextracted_value": 56,
+      "source_location": "p7 Table3",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "sample_size",
+      "reextracted_value": 127,
+      "source_location": "p5 Fig1",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "primary_effect",
+      "reextracted_value": 1.69,
+      "source_location": "p6 Results",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "primary_ci_lower",
+      "reextracted_value": -0.65,
+      "source_location": "p6 Results",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "primary_ci_upper",
+      "reextracted_value": 4.03,
+      "source_location": "p6 Results",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "primary_p_value",
+      "reextracted_value": 0.043,
+      "source_location": "p6 Results",
+      "p_operator": "=",
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "treatment_fvc_change",
+      "reextracted_value": -36.6,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "control_fvc_change",
+      "reextracted_value": -114.4,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "treatment_adverse_events",
+      "reextracted_value": null,
+      "source_location": "appendix1 PDF p9 TableS6; p10-12 TablesS7-S8",
+      "p_operator": null,
+      "comparison": "JUSTIFIED_NULL",
+      "reason": "NOT_REPORTED_AS_ANY_AE_PATIENT_UNION"
+    },
+    {
+      "study_id": "RELIEF",
+      "metric_id": "control_adverse_events",
+      "reextracted_value": null,
+      "source_location": "appendix1 PDF p9 TableS6; p10-12 TablesS7-S8",
+      "p_operator": null,
+      "comparison": "JUSTIFIED_NULL",
+      "reason": "NOT_REPORTED_AS_ANY_AE_PATIENT_UNION"
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "sample_size",
+      "reextracted_value": 253,
+      "source_location": "p5 Fig1",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "primary_effect",
+      "reextracted_value": null,
+      "source_location": "pp5-6 Results; SAP PDF p120",
+      "p_operator": null,
+      "comparison": "JUSTIFIED_NULL",
+      "reason": "PRESPECIFIED_PRIMARY_MODEL_NOT_APPLICABLE"
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "primary_ci_lower",
+      "reextracted_value": null,
+      "source_location": "pp5-6 Results; SAP PDF p120",
+      "p_operator": null,
+      "comparison": "JUSTIFIED_NULL",
+      "reason": "PRESPECIFIED_PRIMARY_MODEL_NOT_APPLICABLE"
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "primary_ci_upper",
+      "reextracted_value": null,
+      "source_location": "pp5-6 Results; SAP PDF p120",
+      "p_operator": null,
+      "comparison": "JUSTIFIED_NULL",
+      "reason": "PRESPECIFIED_PRIMARY_MODEL_NOT_APPLICABLE"
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "primary_p_value",
+      "reextracted_value": null,
+      "source_location": "pp5-6 Results; SAP PDF p120",
+      "p_operator": null,
+      "comparison": "JUSTIFIED_NULL",
+      "reason": "PRESPECIFIED_PRIMARY_MODEL_NOT_APPLICABLE"
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "treatment_fvc_change",
+      "reextracted_value": -17.8,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "control_fvc_change",
+      "reextracted_value": -113.0,
+      "source_location": "p7 Table2",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "treatment_adverse_events",
+      "reextracted_value": 120,
+      "source_location": "p9 Table4",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    },
+    {
+      "study_id": "U-ILD",
+      "metric_id": "control_adverse_events",
+      "reextracted_value": 101,
+      "source_location": "p9 Table4",
+      "p_operator": null,
+      "comparison": "MATCH",
+      "reason": null
+    }
+  ],
+  "page_text_hashes": [
+    {
+      "study": "SENSCIS",
+      "pdf_page": 5,
+      "text_sha256": "03d592d7ba6235f5c5675e8e1ef91d13eb3bf3ed22ae8ab5b086c67300737c66"
+    },
+    {
+      "study": "SENSCIS",
+      "pdf_page": 8,
+      "text_sha256": "6da183d606f439201ef333a23ab68df6b2034bd41ffc64dda35d55cb00dea370"
+    },
+    {
+      "study": "SENSCIS",
+      "pdf_page": 9,
+      "text_sha256": "9d87e832d1a892ede9ccf67b10cd9aa1fa0d5a56610e2926e0427a2204c0dc48"
+    },
+    {
+      "study": "INBUILD",
+      "pdf_page": 5,
+      "text_sha256": "4f5ed1896f0fcf386c8508c796ad958a6075dbc947da8682cf035a15698646d2"
+    },
+    {
+      "study": "INBUILD",
+      "pdf_page": 7,
+      "text_sha256": "c302845b3384362587c68465ee75bf41b197e55b41e21897ffbeb0b8cb6b0615"
+    },
+    {
+      "study": "INBUILD",
+      "pdf_page": 9,
+      "text_sha256": "bbe5f85d74598a97bc3c4eafc801a2ca06d952d39095f6d245b6c83e4e4fc554"
+    },
+    {
+      "study": "TRAIL1",
+      "pdf_page": 4,
+      "text_sha256": "be515055f9b40cffe79097406d5cb80c7a7b6de0b862d453eadefd45c8301c48"
+    },
+    {
+      "study": "TRAIL1",
+      "pdf_page": 5,
+      "text_sha256": "648d25c3ce9c2c3727fcd394750e1e8466b76fb5b04e0bdfec2427035e9bcbe7"
+    },
+    {
+      "study": "TRAIL1",
+      "pdf_page": 7,
+      "text_sha256": "826c45401609dda6d703855655c0098a64d0a5acfb09a07f367973e3367f315d"
+    },
+    {
+      "study": "RELIEF",
+      "pdf_page": 5,
+      "text_sha256": "8d2514ba403a3579bb219891fb7f1b2728ec3660757aee3b5a483230889a39b1"
+    },
+    {
+      "study": "RELIEF",
+      "pdf_page": 6,
+      "text_sha256": "289e2d950df4fe0ad7ff71c346dd48bc63ab932d526787bc1a2e02e824bdcd99"
+    },
+    {
+      "study": "RELIEF",
+      "pdf_page": 7,
+      "text_sha256": "7eb88b2e73d7541a4baa2c587fcea4a2d63581cbb0968a5baeb737f18ddd9a0d"
+    },
+    {
+      "study": "U-ILD",
+      "pdf_page": 5,
+      "text_sha256": "96593550efff07ce65eff05fa6585ffa6d75afeb3a9c75b58df93a41aca184f0"
+    },
+    {
+      "study": "U-ILD",
+      "pdf_page": 6,
+      "text_sha256": "214ff57730c7c946bf1983e05ad2a3e00658b4196ea714f6ba1d087418224616"
+    },
+    {
+      "study": "U-ILD",
+      "pdf_page": 7,
+      "text_sha256": "821f69de4ee4d770293b0e81d454634f78a0720b821337896e0caf7e262ce115"
+    },
+    {
+      "study": "U-ILD",
+      "pdf_page": 9,
+      "text_sha256": "52cb141ee898eccc04e613ec94630b77dcc7f6ca994a126311e9cba2e4bfe9bd"
+    }
+  ]
+}

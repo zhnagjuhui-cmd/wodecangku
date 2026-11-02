@@ -45,3 +45,10 @@ SENSCIS/INBUILD/TRAIL1/RELIEF primary full text and supplements remain UNVERIFIE
 
 ### 搜索结束补记
 指定四根目录find已完成；全963路径的限时内容检索已结束，另对可读取医学资料按哈希去重，读取256个唯一PDF，32个首两页关键词命中，路径/哈希/页数见LOCAL_READABLE_CANDIDATES.csv。并未将综述、课件、翻译或亚组报告当作五主报告附件。43页Matteson文件首面为ICMJE Disclosure Form（INBUILD自身免疫亚组作者披露），不是主报告正文或结果补充材料。未识别的附件仍UNVERIFIED，不声称不存在。
+
+## 第四轮（2026-11-02，最新状态）
+
+取得12份官方PDF附件（四试验各方案/SAP共8份，RELIEF两附件、TRAIL1附件、U-ILD附件共4份）及RELIEF方案发表XML；均留本机，路径/哈希/页数见ROUND4_SOURCE_FILES.json，PDF未提交，原文件未移动删除。SENSCIS/INBUILD结果补充附件仍403。
+39/45数字已核实：新增RELIEF -36.6/-114.4 mL（48周，主文p7 Table2，事后、未插补、配对35/32）。6槽null/UNVERIFIED：RELIEF any-AE患者并集未报告两项；U-ILD预设主要模型不能应用四项。所有45槽完成本轮审查，不等于45项数字可填。
+完整对照见ROUND4_PROTOCOL_REGISTRY_REVIEW.md；五研究RoB五域初评见ROUND4_RISK_OF_BIAS.md。重新从原始PDF抽取的既有37项一致，但同一代理重复核对不构成真正第二独立审核，仍PENDING。注册历史接口403，不用当前快照代替历史。U-ILD 2020 SAP与2018部分、TRAIL1晚期SAP及RELIEF中期后SAP时间线均保留边界。
+冻结资格NO；NOT_FROZEN/approved_for_B=false；未自行冻结。B仍等待。跨试验仅描述性。

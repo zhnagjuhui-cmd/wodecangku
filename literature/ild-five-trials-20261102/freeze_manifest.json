@@ -41,5 +41,12 @@
   ],
   "independent_reviewer": null,
   "manager_acceptance": null,
-  "reason": "All five local primary PDFs checked for selected fields; complete supplements/protocol/SAP, historical registry reconciliation, full RoB and independent acceptance incomplete."
+  "reason": "39/45 numeric slots verified; six justified nulls; missing two NEJM result appendices, full historical registry/version reconciliation, true independent reviewer and final RoB adjudication. NOT_FROZEN; no authorization applied.",
+  "round": 4,
+  "freeze_eligible": false,
+  "round4_source_inventory": "ROUND4_SOURCE_FILES.json",
+  "round4_fields": "ROUND4_VERIFIED_FIELDS.json",
+  "repeat_extraction": "ROUND4_REEXTRACTION_COMPARISON.json",
+  "numeric_verified": 39,
+  "unverified_null": 6
 }

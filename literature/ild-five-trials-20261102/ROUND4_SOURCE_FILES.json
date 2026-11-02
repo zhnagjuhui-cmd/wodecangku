@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-02",
+  "files": [
+    {
+      "name": "NCT02999178-Prot_000.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02999178/Prot_000.pdf",
+      "bytes": 3778151,
+      "sha256": "ff0547acc26a3804f9e0d67d4945e3cabbe8ee6191eb50694ec291bee4c7207c",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT02999178-Prot_000.pdf",
+      "pages": 134,
+      "first_page": "001-MCS-40-106-RD-03 (12.0) / Saved on: 30 Jan 2015\nCLINICAL TRIAL PROTOCOL\nTITLE PAGE\nDocument Number:\nc03736471-03\nEudraCT No.:\n2015-003360-37\nBI Trial No.:\n1199.247 (INBUILD®)\nBI Investigational \nProduct(s):\nNintedanib\nTitle:\nA double blind, randomized, placebo-controlled trial evaluating \nthe efficacy and safety of nintedanib over 52 weeks in patients \nwith Progressive Fibrosing Interstitial Lung Disease (PF-ILD)\nBrief Title:\nEfficacy and safety of nintedanib in patients with Progressive \nFibrosing Interstitial Lung Disease (PF-ILD)\nClinical Phase:\nPhase III\nTrial Clinical \nMonitor:\nBoehringer Ingelheim Pharma GmbH & Co. KG\nBirkendorfer Straße 65\n88397 Biberach an der Riss, Germany\nPhone: \nFax: \nCoordinating \nInvestigator:\n.\nUniversity of Michigan Health System\n1500 E. Medical Center D",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT02999178-SAP_001.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02999178/SAP_001.pdf",
+      "bytes": 1411840,
+      "sha256": "1340eaf04ab5d6aa863cd08617efae07696ab5215b9f2e292e9613d9471d77e2",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT02999178-SAP_001.pdf",
+      "pages": 106,
+      "first_page": "TITLE PAGE\nTrial Statistical Analysis Plan\nc11935728-03 \nBI Trial No.: \n1199.247\nTitle:\nA double blind, randomized, placebo-controlled trial evaluating the \nefficacy and safety of nintedanib over 52 weeks in patients with \nProgressive Fibrosing Interstitial Lung Disease (PF-ILD)\nIncluding Protocol Amendment 2 [c03736471-03] \nInvestigational \nProduct: \nNintedanib \nResponsible trial \nstatisticians: \nBoehringer Ingelheim Pharma GmbH & Co. KG\nGlobal BDS\nBirkendorfer Straße 65 \n88397 Biberach an der Riss \nGermany\nPhone: \n+\nFax:  \n+\nDate of statistical \nanalysis plan: \n14 DEC 2018 SIGNED\nVersion:\nFinal\nPage 1 of 106 \nProprietary confidential information\n¤ 2018 Boehringer Ingelheim International GmbH or one or more of its affiliated companies. All rights reserved.\nThis document may not - in full ",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT03099187-Prot_002.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03099187/Prot_002.pdf",
+      "bytes": 1672287,
+      "sha256": "31bbe690e7de3c02f2611ec45cd562609d3ce63add5cb6c6de1a2dbc2ab43a7a",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT03099187-Prot_002.pdf",
+      "pages": 106,
+      "first_page": " \nOfficial Title: \n \nMULTICENTER, INTERNATIONAL, DOUBLE-BLIND, TWO-ARM, \nRANDOMIZED, PLACEBO-CONTROLLED PHASE II TRIAL OF \nPIRFENIDONE IN PATIENTS WITH UNCLASSIFIABLE \nPROGRESSIVE FIBROSING ILD \nNCT Number: \nNCT03099187 \nDocument Date: \nProtocol Version 3: 28-June-2018 \n \n \n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT03099187-SAP_003.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03099187/SAP_003.pdf",
+      "bytes": 4705142,
+      "sha256": "8205e59760fd31db85b717efabb8ddf3224f274a60258bbbfa393bc8966bb456",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT03099187-SAP_003.pdf",
+      "pages": 182,
+      "first_page": " \nOfficial Title: MULTICENTER, INTERNATIONAL, DOUBLE-BLIND, TWO-ARM, \nRANDOMIZED, PLACEBO-CONTROLLED PHASE II TRIAL OF \nPIRFENIDONE IN PATIENTS WITH UNCLASSIFIABLE \nPROGRESSIVE FIBROSING ILD \nNCT Number: NCT03099187 \nDocument Date: SAP Version 3: 20-July-2020 \n \n \n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT02808871-Prot_000.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT02808871/Prot_000.pdf",
+      "bytes": 1010450,
+      "sha256": "69056ad4907a9d20268a0071dbd0a5389ed9c17373d534645bfde8074900c5e9",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT02808871-Prot_000.pdf",
+      "pages": 80,
+      "first_page": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2 Study of Safety, \nTolerability and Efficacy of Pirfenidone in Patients with Rheumatoid Arthritis \nInterstitial Lung Disease  \nTRAIL1 \n \nPrincipal Investigator \nIvan Rosas, MD \nPulmonary Critical Care and Sleep Medicine \nBaylor College of Medicine \n7200 Cambridge Street \nHouston, TX 77030 \nTel: (713)-798-8842 \nFax: (713) 798-2688 \nIvan.Rosas@bcm.edu \n \n \n \n \nCo-PrincipaI Investigator \nHilary Goldberg, MD, MPH \nPulmonary and Critical Care Medicine \nBrigham and Women’s Hospital \n75 Francis Street \nBoston, MA 02115 \nTel: 617-732-5499 \nFax: 617-732-7421 \nhjgoldberg@bwh.harvard.edu \n \nData Coordinating Center Director  \nCathie Spino, D.Sc \nDepartment of Biostatistics \nSchool of Public Health II \nUniversity of Michigan \n1415 Washington Heigh",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT02808871-SAP_001.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT02808871/SAP_001.pdf",
+      "bytes": 818108,
+      "sha256": "9176df333c6013e5abc1b33e0901c737991ffa64281972cd57c859cf1012757e",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT02808871-SAP_001.pdf",
+      "pages": 36,
+      "first_page": "1 \n \nTRAIL1 Statistical Analysis Plan \n \n \nTRIAL FULL TITLE \nA Randomized, Double-Blind, Placebo-Controlled, Phase 2 Study \nof Safety, Tolerability and Efficacy of Pirfenidone in Patients with \nRheumatoid Arthritis Interstitial Lung Disease \nSAP VERSION \n2.0 \nSAP VERSION DATE \nMay 10, 2021 \nPROTOCOL VERSION \n(associated with SAP) \n4.0 \nTRIAL PRINCIPAL \nINVESTIGATOR \nIvan Rosas, MD \nSAP AUTHOR(s) \nS Hurwitz, R Maurer \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT02597933-Prot_000.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02597933/Prot_000.pdf",
+      "bytes": 1966089,
+      "sha256": "93b9baf2abc86d9b0c7d1a3f265993e5b0d4bb25d0e06fb53d67da998039cab5",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT02597933-Prot_000.pdf",
+      "pages": 126,
+      "first_page": "001-MCS-40-106-RD-03 (11.0) / Saved on: 24 Jul 2014\nCLINICAL TRIAL PROTOCOL\nTITLE PAGE\nDocument Number:\nc03014699-05\nEudraCT No.:\n2015-000392-28\nBI Trial No.:\n1199.214 (SENSCISTM)\nBI Investigational \nProduct(s):\nNintedanib\nTitle:\nA double blind, randomised, placebo-controlled trial evaluating \nefficacy and safety of oral nintedanib treatment for at least 52 \nweeks in patients with ‘Systemic Sclerosis associated Interstitial \nLung Disease’(SSc-ILD).\nBrief Title:\nA trial to compare nintedanib with placebo for patients with \nscleroderma related lung fibrosis.\nClinical Phase:\nIII\nTrial Clinical \nMonitor:\nBoehringer-Ingelheim Pharma GmbH & Co. KG\nBirkendorfer Strasse 65, 88397 Biberach an der Riss (Germany)\nPhone: \nFax: \nCoordinating \nInvestigators:\nDivision of Rheumatology, University Hospital",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "NCT02597933-SAP_001.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02597933/SAP_001.pdf",
+      "bytes": 559400,
+      "sha256": "42595f6fc562abd62d022d7c94b5c3cd8e56f9b63888b9e66a3733095d0e69f2",
+      "header_pdf": true,
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/NCT02597933-SAP_001.pdf",
+      "pages": 88,
+      "first_page": "TITLE PAGE\nTrial Statistical Analysis Plan\nc08861098-02\nBI Trial No.:\n  1199.214\nTitle:\n  A double blind, randomised, placebo-controlled trial evaluating\nefficacy and safety of oral nintedanib treatment for at least 52\nweeks in patients with ‘Systemic Sclerosis associated Interstitial\nLung Disease’(SSc-ILD).\nIncluding Protocol Amendment 3 [c16778189], Protocol \nAmendment 4 [c03014699]\nInvestigational\nProduct(s):\nNintedanib\nResponsible trial \nstatistician(s):\nFor Boehringer-Ingelheim Germany\nBirkendorfer Str. 65\n88397 Biberach an der Riß\nGermany\nPhone: \nFax: \nDate of statistical \nanalysis plan:\n26 July 2018 SIGNED\nVersion:\nFinal \nPage 1 of  88\nProprietary confidential information\n2018 Boehringer Ingelheim International GmbH or one or more of its affiliated companies. All rights reserved.\nT",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "RELIEF-protocol-xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5588600/fullTextXML",
+      "bytes": 76937,
+      "sha256": "de0bf3607c2457c600949e23c93b430a82c7e7d5c99d89efa82ba99fc0b6cca8",
+      "content_type": "application/xml",
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/RELIEF-protocol-xml.txt",
+      "status": "VERIFIED_PROTOCOL_PUBLICATION_XML",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "S2213260020305543-scidir-mmc1",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260020305543-mmc1.pdf",
+      "bytes": 1043295,
+      "sha256": "9ed69fa6d8a39e5b24546c5b721394182b60475381f018d56d4864cb935c04fa",
+      "content_type": "application/pdf",
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260020305543-scidir-mmc1.pdf",
+      "pages": 21,
+      "header_pdf": true,
+      "first_page": "Supplementary appendix 1\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Behr J, Prasse A, Kreuter M, et al. Pirfenidone in patients \nwith progressive fibrotic interstitial lung diseases other than idiopathic \npulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-\ncontrolled, phase 2b trial. Lancet Respir Med 2021; published online March 30. \nhttps://doi.org/10.1016/S2213-2600(20)30554-3.\n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "S2213260020305543-scidir-mmc2",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260020305543-mmc2.pdf",
+      "bytes": 3453814,
+      "sha256": "acdd57dc057c2cc4512c1f5b03104f85be5f5ce0f21ca9b40d9ccfe5332345a2",
+      "content_type": "application/pdf",
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260020305543-scidir-mmc2.pdf",
+      "pages": 168,
+      "header_pdf": true,
+      "first_page": "Supplementary appendix 2\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Behr J, Prasse A, Kreuter M, et al. Pirfenidone in patients \nwith progressive fibrotic interstitial lung diseases other than idiopathic \npulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-\ncontrolled, phase 2b trial. Lancet Respir Med 2021; published online March 30. \nhttps://doi.org/10.1016/S2213-2600(20)30554-3.\n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "S2213260022002600-scidir-mmc1",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260022002600-mmc1.pdf",
+      "bytes": 1623542,
+      "sha256": "5ddeda58d61cb3bd046bc0953206c5eb434aef9806ea70b04c39110103609d68",
+      "content_type": "application/pdf",
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260022002600-scidir-mmc1.pdf",
+      "pages": 94,
+      "header_pdf": true,
+      "first_page": "Supplementary appendix\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Solomon JJ, Danoff SK, Woodhead FA, et al. Safety, tolerability, and \nefficacy of pirfenidone in patients with rheumatoid arthritis-associated interstitial \nlung disease: a randomised, double-blind, placebo-controlled, phase 2 study. \nLancet Respir Med 2022; published online Sept 5, 2022. https://doi.org/10.1016/S2213-\n2600(22)00260-0.\n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    },
+    {
+      "name": "S2213260019303418-scidir-mmc1",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260019303418-mmc1.pdf",
+      "bytes": 516257,
+      "sha256": "c0edc459e55f0ba64f4b37a2bf8c90dd227c4808f54ac0fc3967872986012cfc",
+      "content_type": "application/pdf",
+      "path": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260019303418-scidir-mmc1.pdf",
+      "pages": 12,
+      "header_pdf": true,
+      "first_page": "Supplementary appendix\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Maher TM, Corte TJ, Fischer A, et al. Pirfenidone in patients with \nunclassifiable progressive fibrosing interstitial lung disease: a double-blind, \nrandomised, placebo-controlled, phase 2 trial. Lancet Respir Med 2019; published online \nSept 29. http://dx.doi.org/10.1016/S2213-2600(19)30341-8\n",
+      "status": "VERIFIED_FILE_IDENTITY_SELECTED_SECTIONS_REVIEWED",
+      "redistribution": "NOT_COMMITTED_LOCAL_ONLY"
+    }
+  ],
+  "attempts": [
+    {
+      "name": "1903076-appendix.pdf",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa1903076/suppl_file/nejmoa1903076_appendix.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "1903076-protocol.pdf",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa1903076/suppl_file/nejmoa1903076_protocol.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "1908681-appendix.pdf",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa1908681/suppl_file/nejmoa1908681_appendix.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "1908681-protocol.pdf",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa1908681/suppl_file/nejmoa1908681_protocol.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260020305543-mmc1.pdf",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(20)30554-3/attachment/s2213260020305543-mmc1.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260020305543-mmc2.pdf",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(20)30554-3/attachment/s2213260020305543-mmc2.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260022002600-mmc1.pdf",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(22)00260-0/attachment/s2213260022002600-mmc1.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260022002600-mmc2.pdf",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(22)00260-0/attachment/s2213260022002600-mmc2.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260019303418-mmc1.pdf",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(19)30341-8/attachment/s2213260019303418-mmc1.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260019303418-mmc2.pdf",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(19)30341-8/attachment/s2213260019303418-mmc2.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "history-NCT02597933",
+      "url": "https://clinicaltrials.gov/api/int/studies/NCT02597933/history",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "history-NCT02999178",
+      "url": "https://clinicaltrials.gov/api/int/studies/NCT02999178/history",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "history-NCT02808871",
+      "url": "https://clinicaltrials.gov/api/int/studies/NCT02808871/history",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "history-NCT03099187",
+      "url": "https://clinicaltrials.gov/api/int/studies/NCT03099187/history",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "RELIEF-protocol",
+      "url": "https://europepmc.org/articles/PMC5588600?pdf=render",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "S2213260022002600-scidir-mmc2",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260022002600-mmc2.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "S2213260019303418-scidir-mmc2",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260019303418-mmc2.pdf",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "local_search": {
+    "roots": [
+      "~/Documents",
+      "~/Downloads",
+      "~/Desktop",
+      "~/Library/Mobile Documents",
+      "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目"
+    ],
+    "mdfind_hits": 0,
+    "find_paths": 130,
+    "scope": "Filename search supplement/appendix/protocol/SAP/mmc/Chinese equivalents; supplementary PDF content scan plus prior round3 256 unique readable PDFs; self-generated downloads excluded as new local discoveries",
+    "new_preexisting_supplements": 0,
+    "read_errors": "One PARSE_FAILED in targeted scan; previous dataless/timeouts retained; absence not established"
+  }
+}
