@@ -25,9 +25,21 @@
       "local_path": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
       "sha256": "bc558d6d2ee5e29c048ba04b9d1c20cb62d15c4c8aa316eba22c07daea799ad7",
       "redistribution": "NOT_AUTHORIZED_NOT_COMMITTED"
+    },
+    {
+      "study": "TRAIL1",
+      "local_path": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+      "sha256": "b357f2ca59dc71b45743adcd68dc4c6d6aed415a63a8ff1151b658496cd458d4",
+      "redistribution": "NOT_AUTHORIZED_NOT_COMMITTED"
+    },
+    {
+      "study": "U-ILD",
+      "local_path": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+      "sha256": "767c032f9c7e79d2aee74a2e13e5faa252e362aaf6bee7cf835b5f2b15d768d7",
+      "redistribution": "NOT_AUTHORIZED_NOT_COMMITTED"
     }
   ],
   "independent_reviewer": null,
   "manager_acceptance": null,
-  "reason": "Round 3: three local primary PDFs checked; remaining full texts/supplements, historical registry reconciliation and independent acceptance incomplete."
+  "reason": "All five local primary PDFs checked for selected fields; complete supplements/protocol/SAP, historical registry reconciliation, full RoB and independent acceptance incomplete."
 }

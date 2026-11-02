@@ -110,3 +110,10 @@
 TRAIL1拼作TIRAL1，两处路径均已定位。U-ILD多个正式版/重复本已定位，但候选读取出现Operation canceled或超时，未取得可审阅正文和哈希；不得将路径存在当作已获得全文。尚未辨认五项研究独立官方补充PDF。没有断言附件不存在。
 全目录内容扫描为额外检索，失败/超时逐文件日志仅保留本机local-audit/round3/scan-results.jsonl，避免向公开仓库暴露无关个人文件路径。
 文献站 https://ild-evidence-radar-zjh.zhnagjuhui.chatgpt.site 返回登录页；web不可访问，浏览器host不可用。本轮没有网站新增数字来源。
+
+## 后续成功读取的桌面副本（更新上述限制）
+- TRAIL1：/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf
+  SHA-256 `b357f2ca59dc71b45743adcd68dc4c6d6aed415a63a8ff1151b658496cd458d4`；10页；%PDF/题名/DOI已核验。
+- U-ILD：/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf
+  SHA-256 `767c032f9c7e79d2aee74a2e13e5faa252e362aaf6bee7cf835b5f2b15d768d7`；11页；%PDF/题名/DOI已核验。
+前述失败仅适用于Documents候选副本；桌面主报告可读。补充材料仍待识别和逐项审阅。
