@@ -1,0 +1,105 @@
+{
+  "stage": "2_UNBLINDED",
+  "blind_file_unchanged": true,
+  "records": [
+    {
+      "file": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260020305543-scidir-mmc1.pdf",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260020305543-mmc1.pdf",
+      "sha256": "9ed69fa6d8a39e5b24546c5b721394182b60475381f018d56d4864cb935c04fa",
+      "expected_sha256": "9ed69fa6d8a39e5b24546c5b721394182b60475381f018d56d4864cb935c04fa",
+      "sha256_matches": true,
+      "pages": 21,
+      "stage": "2_UNBLINDED",
+      "review_scope": "身份页、相关安全性表及方案/SAP选定章节；不是对全附件全部结果的独立盲审",
+      "selected_pages": [
+        1,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "excerpts": [
+        {
+          "pdf_page": 1,
+          "excerpt": "\nSupplementary appendix 1\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Behr J, Prasse A, Kreuter M, et al. Pirfenidone in patients \nwith progressive fibrotic interstitial lung diseases other than idiopathic \npulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-\ncontrolled, phase 2b trial. Lancet Respir Med 2021; published online March 30. \nhttps://doi.org/10.1016/S2213-2600(20)30554-3.\n\n"
+        },
+        {
+          "pdf_page": 9,
+          "excerpt": "\n \n7 \n \n \nTable S6: Incidence of Adverse Events (AEs) in the safety analysis population. Reported are only AEs that occurred in 5% of all \npatients at least. \n \n placebo (n=63) pirfenidone (n=64) total (n=127) \nPreferred Term* Grade 1-2 \n(n, %) \nGrade 3-4 \n(n, %) \nGrade 5 \n(n, %) \nGrade 1-2 \n(n, %) \nGrade 3-4 \n(n, %) \nGrade 5 N \n(n, %) \nGrade 1-5 \n(n, %) \nNausea 9 (14·3%) 2 (3·2%) - 18 (28·1%) 2 (3·1%) - 31 (24·4%) \nNasopharyngitis 14 (22·2%) - - 16 (25%) - - 30 (23·6%) \nDiarrhoea 10 (15·9%) - - 11 (17·2%) 1 (1·6%) - 22 (17·3%) \nFatigue 10 (15·9%) - - 10 (15·6%) - - 20 (15·7%) \nDyspnoea 10 (15·9%) 1 (1·6%) - 6 (9·4%) 1 (1·6%) - 18 (14·2%) \nHeadache 6 (9·5%) - - 10 (15·6%) - - 16 (12·6%) \nCough 6 (9·5%) - - 9 (14·1%) - - 15 (11·8%) \nAbdominal pain upper 7 (11·1%) - - 7 (10·9%) - - 14 (11%) \nDizziness 6 (9·5%) - - 8 (12·5%) - - 14 (11%) \nRash 4 (6·3%) - - 7 (10·9%) - - 11 (8·7%) \nDecreased appetite 2 (3·2%) - - 9 (14·1%) - - 11 (8·7%) \nVomiting 4 (6·3%) - - 6 (9·4%) - - 10 (7·9%) \nRespiratory tract infection 8 (12·7%) - - 2 (3·1%) - - 10 (7·9%) \nArthralgia 2 (3·2%) - - 6 (9·4%) - - 8 (6·3%) \nDyspepsia 2 (3·2%) - - 6 (9·4%) - - 8 (6·3%) \nWeight decreased 3 (4·8%) - - 4 (6·3%) - - 7 (5·5%) \n*All AEs are listed according to the Medical Dictionary for Regulatory Activities, version 22.1 \n\n"
+        },
+        {
+          "pdf_page": 10,
+          "excerpt": "\n \n8 \n \nTable S7: Incidence of Serious Adverse Events (SAEs) in the safety analysis population. \n \n placebo \n(n=63) \npirfenidone \n(n=64) \ntotal \n(n=127) \nSystem Organ Class Preferred Term* Pts with \nSAE \n(n,%) \n35 (58.7%) \nPts with \nSAE \n(n,%) \n26 (37.5%) \nCount of \nSAEs \n(n) \n64 \nPts with \nSAE \n(n,%) \n61 (48.0%) \nInfections and infestations Pneumonia 6 (9·5%) 1 (1·6%) 7 7 (5·5%) \n Atypical pneumonia  1 (1·6%) 1 1 (0·8%) \n Bronchitis 1 (1·6%)  1 1 (0·8%) \n Diverticulitis 1 (1·6%)  1 1 (0·8%) \n Infection 1 (1·6%)  1 1 (0·8%) \n Influenza 1 (1·6%)  1 1 (0·8%) \n Nosocomial infection  1 (1·6%) 1 1 (0·8%) \n Respiratory tract infection  1 (1·6%) 1 1 (0·8%) \n Upper respiratory tract \ninfection \n 1 (1·6%) 1 1 (0·8%) \nGeneral disorders and administration site \nconditions \nCondition aggravated 6 (9·5%) 1 (1·6%) 8 7 (5·5%) \n Disease progression 1 (1·6%)  1 1 (0·8%) \n General physical health \ndeterioration \n 1 (1·6%) 1 1 (0·8%) \nRespiratory, thoracic and mediastinal \ndisorders \nDyspnoea 2 (3·2%) 2 (3·1%) 5 4 (3·1%) \n Interstitial lung disease  1 (1·6%) 1 1 (0·8%) \n Pneumothorax  1 (1·6%) 1 1 (0·8%) \n Pulmonary fibrosis 1 (1·6%)  1 1 (0·8%) \n Respiratory failure 1 (1·6%)  1 1 (0·8%) \nSurgical and medical procedures Chemotherapy 1 (1·6%)  2 1 (0·8%) \n Lung transplant 1 (1·6%) 1 (1·6%) 2 2 (1·6%) \n Knee operation  1 (1·6%) 1 1 (0·8%) \n Rehabilitation therapy  1 (1·6%) 1 1 (0·8%) \n Transcathete"
+        },
+        {
+          "pdf_page": 12,
+          "excerpt": "\n \n10 \n \n \nTable S8: Incidence of Adverse Events (AEs) with and without underlying immunosuppressive therapy in the safety analysis \npopulation. Reported are only AEs that occurred in 5% of all patients at least. \n \n With any steroid/immunosuppressant therapy treatment (n=103) Without any steroid/immunosuppressant therapy treatment (n=24) total (n=127) \nPreferred Term* Grade 1-2 \n(n, %) \nGrade 3-4 \n(n, %) \nGrade 5 \n(n, %) \nGrade 1-2 \n(n, %) \nGrade 3-4 \n(n, %) \nGrade 5 N \n(n, %) \nGrade 1-5 \n(n, %) \nNausea 20 (19·4 %) 4 (3·9 %) - 7 (29·2 %) - - 31 (24·4 %) \nNasopharyngitis 25 (24·3 %) - - 5 (20·8 %) - - 30 (23·6 %) \nDiarrhoea 17 (16·5 %) - - 4 (16·7 %) 1 (4·2 %) - 22 (17·3 %) \nFatigue 18 (17·5 %) - - 2 (8·3 %) - - 20 (15·7 %) \nDyspnoea 13 (12·6 %) 1 (1 %) - 3 (12·5 %) 1 (4·2 %) - 18 (14·2 %) \nHeadache 14 (13·6 %) - - 2 (8·3 %) - - 16 (12·6 %) \nCough 15 (14·6 %) - - - - - 15 (11·8 %) \nAbdominal pain upper 12 (11·7 %) - - 2 (8·3 %) - - 14 (11 %) \nDizziness 11 (10·7 %) - - 3 (12·5 %) - - 14 (11 %) \nRash 7 (6·8 %) - - 4 (16·7 %) - - 11 (8·7 %) \nDecreased appetite 8 (7·8 %) - - 3 (12·5 %) - - 11 (8·7 %) \nVomiting 7 (6·8 %) - - 3 (12·5 %) - - 10 (7·9 %) \nRespiratory tract infection 10 (9·7 %) - - - - - 10 (7·9 %) \nArthralgia 6 (5·8 %) - - 2 (8·3 %) - - 8 (6·3 %) \nDyspepsia 7 (6·8 %) - - 1 (4·2 %) - - 8 (6·3 %) \nWeight decreased 5 (4·9 %) - - 2 (8·3 %) - - 7 (5·5 %) \n*All AEs are listed"
+        }
+      ]
+    },
+    {
+      "file": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260020305543-scidir-mmc2.pdf",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260020305543-mmc2.pdf",
+      "sha256": "acdd57dc057c2cc4512c1f5b03104f85be5f5ce0f21ca9b40d9ccfe5332345a2",
+      "expected_sha256": "acdd57dc057c2cc4512c1f5b03104f85be5f5ce0f21ca9b40d9ccfe5332345a2",
+      "sha256_matches": true,
+      "pages": 168,
+      "stage": "2_UNBLINDED",
+      "review_scope": "身份页及关键词定位到的方案主要终点/安全性章节片段；非全附件审阅",
+      "selected_pages": [
+        1,
+        66
+      ],
+      "excerpts": [
+        {
+          "pdf_page": 1,
+          "excerpt": "\nSupplementary appendix 2\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Behr J, Prasse A, Kreuter M, et al. Pirfenidone in patients \nwith progressive fibrotic interstitial lung diseases other than idiopathic \npulmonary fibrosis (RELIEF): a double-blind, randomised, placebo-\ncontrolled, phase 2b trial. Lancet Respir Med 2021; published online March 30. \nhttps://doi.org/10.1016/S2213-2600(20)30554-3.\n\n"
+        }
+      ]
+    },
+    {
+      "file": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260022002600-scidir-mmc1.pdf",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260022002600-mmc1.pdf",
+      "sha256": "5ddeda58d61cb3bd046bc0953206c5eb434aef9806ea70b04c39110103609d68",
+      "expected_sha256": "5ddeda58d61cb3bd046bc0953206c5eb434aef9806ea70b04c39110103609d68",
+      "sha256_matches": true,
+      "pages": 94,
+      "stage": "2_UNBLINDED",
+      "review_scope": "身份页、相关安全性表及方案/SAP选定章节；不是对全附件全部结果的独立盲审",
+      "selected_pages": [
+        1,
+        10,
+        11
+      ],
+      "excerpts": [
+        {
+          "pdf_page": 1,
+          "excerpt": "\nSupplementary appendix\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Solomon JJ, Danoff SK, Woodhead FA, et al. Safety, tolerability, and \nefficacy of pirfenidone in patients with rheumatoid arthritis-associated interstitial \nlung disease: a randomised, double-blind, placebo-controlled, phase 2 study. \nLancet Respir Med 2022; published online Sept 5, 2022. https://doi.org/10.1016/S2213-\n2600(22)00260-0.\n\n"
+        }
+      ]
+    },
+    {
+      "file": "/Users/zhangjuhui/Documents/ChatGPT/ILD 医学科研项目/local-audit/round4/S2213260019303418-scidir-mmc1.pdf",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213260019303418-mmc1.pdf",
+      "sha256": "c0edc459e55f0ba64f4b37a2bf8c90dd227c4808f54ac0fc3967872986012cfc",
+      "expected_sha256": "c0edc459e55f0ba64f4b37a2bf8c90dd227c4808f54ac0fc3967872986012cfc",
+      "sha256_matches": true,
+      "pages": 12,
+      "stage": "2_UNBLINDED",
+      "review_scope": "身份页、相关安全性表及方案/SAP选定章节；不是对全附件全部结果的独立盲审",
+      "selected_pages": [
+        1,
+        7,
+        10
+      ],
+      "excerpts": [
+        {
+          "pdf_page": 1,
+          "excerpt": "\nSupplementary appendix\nThis appendix formed part of the original submission and has been peer reviewed. \nWe post it as supplied by the authors. \nSupplement to: Maher TM, Corte TJ, Fischer A, et al. Pirfenidone in patients with \nunclassifiable progressive fibrosing interstitial lung disease: a double-blind, \nrandomised, placebo-controlled, phase 2 trial. Lancet Respir Med 2019; published online \nSept 29. http://dx.doi.org/10.1016/S2213-2600(19)30341-8\n\n"
+        }
+      ]
+    }
+  ],
+  "conclusion": "未发现改变39个数值比对的证据；RELIEF缺失总AE人数不能由具体AE/SAE相加推导。"
+}

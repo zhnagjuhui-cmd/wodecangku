@@ -1,0 +1,25 @@
+{
+  "blind_commit": "eacf14c8b7a76c19518e780399c43e700160be79",
+  "compared_at": "2026-11-02T16:22:40.638472+00:00",
+  "inputs": [
+    {
+      "label": "A",
+      "file": "ild-literature/literature/ild-five-trials-20261102/ROUND4_VERIFIED_FIELDS.json",
+      "sha256": "a3104363d6990b92d3ad358a94b24401f2e73fb149e86129a2896c21b1f87217",
+      "commit": "ee5371fd5e4f8f8ca64d6118e690009323375e49"
+    },
+    {
+      "label": "C",
+      "file": "ild-analysis/analysis/ild-five-trials-20261102/study_extraction.json",
+      "sha256": "90f88434f4ba2f29c6f550319347de3fe9c5413071c350de93aef1af1d57eae7",
+      "commit": "0dbe6ade63a8c8f35cf6da3c431ebfef87d8c7ce"
+    }
+  ],
+  "counts": {
+    "一致": 39,
+    "不一致": 0,
+    "一方缺失": 0,
+    "双方缺失": 6
+  },
+  "total": 45
+}
