@@ -780,12 +780,13 @@
           "endpoint_hierarchy": null,
           "timepoint": null,
           "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
+          "missing_reason": "NOT_APPLICABLE",
           "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "source_id": "U-ILD-local-main",
+          "source_location": "PDF online p1 Summary; pp5-6 Results",
+          "source_version": "Local online publisher PDF checked 2026-11-02",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_explanation": "Prespecified home-spirometry primary model could not be applied because of intra-individual variability; do not substitute site-spirometry secondary results."
         },
         {
           "metric_id": "primary_ci_lower",
@@ -795,12 +796,13 @@
           "endpoint_hierarchy": null,
           "timepoint": null,
           "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
+          "missing_reason": "NOT_APPLICABLE",
           "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "source_id": "U-ILD-local-main",
+          "source_location": "PDF online p1 Summary; pp5-6 Results",
+          "source_version": "Local online publisher PDF checked 2026-11-02",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_explanation": "Prespecified home-spirometry primary model could not be applied because of intra-individual variability; do not substitute site-spirometry secondary results."
         },
         {
           "metric_id": "primary_ci_upper",
@@ -810,12 +812,13 @@
           "endpoint_hierarchy": null,
           "timepoint": null,
           "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
+          "missing_reason": "NOT_APPLICABLE",
           "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "source_id": "U-ILD-local-main",
+          "source_location": "PDF online p1 Summary; pp5-6 Results",
+          "source_version": "Local online publisher PDF checked 2026-11-02",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_explanation": "Prespecified home-spirometry primary model could not be applied because of intra-individual variability; do not substitute site-spirometry secondary results."
         },
         {
           "metric_id": "primary_p_value",
@@ -825,12 +828,13 @@
           "endpoint_hierarchy": null,
           "timepoint": null,
           "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
+          "missing_reason": "NOT_APPLICABLE",
           "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "source_id": "U-ILD-local-main",
+          "source_location": "PDF online p1 Summary; pp5-6 Results",
+          "source_version": "Local online publisher PDF checked 2026-11-02",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_explanation": "Prespecified home-spirometry primary model could not be applied because of intra-individual variability; do not substitute site-spirometry secondary results."
         },
         {
           "metric_id": "treatment_fvc_change",

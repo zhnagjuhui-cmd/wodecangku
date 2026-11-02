@@ -46,3 +46,5 @@
 - 独立官方补充包仍未识别/完整审阅；五个主报告均非合并附件本，正文引用appendix不能证明附件已读。方案/SAP、注册历史、完整RoB及独立验收未完成。冻结资格仍NO；NOT_FROZEN；B不启动。
 
 C仅填A已定位的37项。没有把U-ILD次要效应放入primary槽。AE单位/分母保留各文原定义，不直接跨研究合并。
+
+U-ILD四个主要效应/CI/P空槽：missing_reason=NOT_APPLICABLE并附原文模型无法应用说明，保持UNVERIFIED，不代表零效应或主要终点阳性。
