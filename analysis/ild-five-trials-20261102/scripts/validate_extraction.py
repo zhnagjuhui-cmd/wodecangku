@@ -73,10 +73,10 @@ if __name__ == '__main__':
     if errors:
         raise SystemExit('\n'.join(errors))
     missing_reason_removed = copy.deepcopy(data)
-    missing_reason_removed['studies'][0]['metrics'][0]['missing_reason'] = None
+    next(m for study in missing_reason_removed['studies'] for m in study['metrics'] if m['value'] is None)['missing_reason'] = None
     assert validate(missing_reason_removed), 'negative control failed: absent missing reason'
     zero_filled = copy.deepcopy(data)
-    zero_filled['studies'][0]['metrics'][0]['value'] = 0
+    next(m for study in zero_filled['studies'] for m in study['metrics'] if m['value'] is None)['value'] = 0
     assert validate(zero_filled), 'negative control failed: missing filled with zero'
     print('PASS: 5 studies; provenance structure valid; inspect dataset for populated counts.')
     print('PASS: negative controls reject absent missing reason and zero-filled missing value.')

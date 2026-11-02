@@ -35,3 +35,5 @@
 原文 p<阈值不得伪装成精确 p 值；后续应增加 operator 字段保留不等式。置信区间须保留置信水平、同一效应量及分析人群。候选 adverse_events 字段在实际提取前必须拆明具体事件、分母、事件人数或事件次数，本批不填数值。
 
 机器校验只检查结构及缺失值约束，不能替代来源核对和独立医学验收。
+
+第三轮：p_operator保留<或=，primary_p_value为阈值/值，应连同算符读取；AE字段明确any AE、patients及denominator，绝非事件次数。RELIEF primary_effect及CI为Hodges-Lehmann，P来自rank ANCOVA；不得按同一检验解释。sample_size须连同analysis_population读取。研究整体状态仍UNVERIFIED代表未完成全部设计和附件核验。

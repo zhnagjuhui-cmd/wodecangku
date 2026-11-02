@@ -13,3 +13,6 @@
 - [ ] 总控接受 C 数据版本，并确认表达数据与 A 冻结证据对应。
 
 本批结构验收不代表后续医学数字验收。
+
+## 第三轮 2026-11-02
+仅消费A ROUND3_VERIFIED_FIELDS.json已核实23项及前轮U-ILD 2项：25/45有值，20/45 null/UNVERIFIED。保留待独立审核、DRAFT_NOT_FOR_PRESENTATION。SENSCIS样本量576表示至少一剂；580随机化另见来源。INBUILD P<0.001以p_operator记录；AE为人数且记录各组分母；RELIEF rank ANCOVA P与Hodges-Lehmann CI不是同一检验。无跨试验排序。
