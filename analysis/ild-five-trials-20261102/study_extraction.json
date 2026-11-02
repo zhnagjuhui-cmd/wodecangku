@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "dataset_version": "0.3.1",
+  "dataset_version": "0.4.0",
   "release_status": "DRAFT_NOT_FOR_PRESENTATION",
   "studies": [
     {
@@ -542,7 +542,7 @@
     },
     {
       "study_id": "RELIEF",
-      "record_version": "0.3.0",
+      "record_version": "0.4.0",
       "extracted_by": "C-independent-structure",
       "extracted_at": "2026-11-02",
       "verification_status": "UNVERIFIED",
@@ -652,33 +652,37 @@
         },
         {
           "metric_id": "treatment_fvc_change",
-          "value": null,
-          "unit": null,
-          "analysis_population": null,
-          "endpoint_hierarchy": null,
-          "timepoint": null,
-          "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
-          "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "value": -36.6,
+          "unit": "mL",
+          "analysis_population": "Available paired observations at week 48: pirfenidone n=35, placebo n=32; this arm n=35; randomized 64/63",
+          "endpoint_hierarchy": "EXPLORATORY",
+          "timepoint": "48 weeks",
+          "effect_measure": "Observed mean absolute FVC change; post-hoc analysis without imputation, not the primary FVC % predicted analysis",
+          "missing_reason": null,
+          "verification_status": "VERIFIED",
+          "source_id": "RELIEF-local-main",
+          "source_location": "PDF online p7, Table 2 and footnote",
+          "source_version": "Local publisher PDF re-read 2026-11-02 round4",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_data_method": "No imputation; available paired observations",
+          "post_hoc": true
         },
         {
           "metric_id": "control_fvc_change",
-          "value": null,
-          "unit": null,
-          "analysis_population": null,
-          "endpoint_hierarchy": null,
-          "timepoint": null,
-          "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
-          "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "value": -114.4,
+          "unit": "mL",
+          "analysis_population": "Available paired observations at week 48: pirfenidone n=35, placebo n=32; this arm n=32; randomized 64/63",
+          "endpoint_hierarchy": "EXPLORATORY",
+          "timepoint": "48 weeks",
+          "effect_measure": "Observed mean absolute FVC change; post-hoc analysis without imputation, not the primary FVC % predicted analysis",
+          "missing_reason": null,
+          "verification_status": "VERIFIED",
+          "source_id": "RELIEF-local-main",
+          "source_location": "PDF online p7, Table 2 and footnote",
+          "source_version": "Local publisher PDF re-read 2026-11-02 round4",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_data_method": "No imputation; available paired observations",
+          "post_hoc": true
         },
         {
           "metric_id": "treatment_adverse_events",
@@ -688,12 +692,13 @@
           "endpoint_hierarchy": null,
           "timepoint": null,
           "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
+          "missing_reason": "NOT_REPORTED",
           "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "source_id": "RELIEF-local-main",
+          "source_location": "Main p7/p9; appendix1 PDF p9-12, Tables S6-S8; appendix2 protocol/SAP",
+          "source_version": "Publisher main and supplements reviewed round4 2026-11-02",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_explanation": "No overall patient count with >=1 any AE located in main or appendices 1/2. Table S6 reports selected preferred terms; Table S7 is SAE only; patient union cannot be summed or substituted."
         },
         {
           "metric_id": "control_adverse_events",
@@ -703,12 +708,13 @@
           "endpoint_hierarchy": null,
           "timepoint": null,
           "effect_measure": null,
-          "missing_reason": "SOURCE_NOT_YET_INDEPENDENTLY_REVIEWED",
+          "missing_reason": "NOT_REPORTED",
           "verification_status": "UNVERIFIED",
-          "source_id": null,
-          "source_location": null,
-          "source_version": null,
-          "review_status": "PENDING_INDEPENDENT_REVIEW"
+          "source_id": "RELIEF-local-main",
+          "source_location": "Main p7/p9; appendix1 PDF p9-12, Tables S6-S8; appendix2 protocol/SAP",
+          "source_version": "Publisher main and supplements reviewed round4 2026-11-02",
+          "review_status": "PENDING_INDEPENDENT_REVIEW",
+          "missing_explanation": "No overall patient count with >=1 any AE located in main or appendices 1/2. Table S6 reports selected preferred terms; Table S7 is SAE only; patient union cannot be summed or substituted."
         }
       ]
     },
