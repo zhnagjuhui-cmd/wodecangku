@@ -5,22 +5,22 @@
   "tasks": {
     "A": {
       "branch": "codex/ild-literature",
-      "commit": "40bb52ce8ccac797aa251bbe4a7895cba3aa4916",
+      "commit": "35e485d67c5e65d66528aa5070200909575153d6",
       "owned_directory": "literature/",
       "acceptance": "PENDING",
       "worktree": "../ild-literature",
-      "status": "ROUND3_SELECTED_FULLTEXT_FIELDS_VERIFIED_NOT_FROZEN",
+      "status": "ROUND3_FIVE_MAIN_REPORTS_SELECTED_FIELDS_VERIFIED_NOT_FROZEN",
       "freeze_eligible": false
     },
     "C": {
       "branch": "codex/ild-analysis",
-      "commit": "824fdbcb470a0c5565cf4c6499c5ae428f8450e7",
+      "commit": "948ba49ed4090d229eb05639ebb65266e5210fe8",
       "owned_directory": "analysis/",
       "acceptance": "PENDING",
       "worktree": "../ild-analysis",
-      "status": "ROUND3_25_OF_45_FIELDS_POPULATED",
-      "populated": 25,
-      "unverified_null": 20
+      "status": "ROUND3_37_OF_45_FIELDS_POPULATED",
+      "populated": 37,
+      "unverified_null": 8
     },
     "B": {
       "branch": "codex/ild-presentation",
