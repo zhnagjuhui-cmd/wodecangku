@@ -42,3 +42,6 @@ SENSCIS/INBUILD/TRAIL1/RELIEF primary full text and supplements remain UNVERIFIE
 - U-ILD online p5 Figure1：253 ITT（127/126）；p7 Table2、p6 Results：中心FVC -17.8/-113.0 mL，差95.3（95%CI35.9–154.6），P=0.002，次要终点；主要家庭肺量计预设模型因变异不能应用，primary效应/CI/P四槽保持null，不能用中心结果替代。p9 Table4：TEAE120/127 vs101/124，安全性251不同于ITT253。
 - A机器字段共37项，与C37/45非空严格一致；8项null/UNVERIFIED：RELIEF两组FVC变化与any-AE四槽尚未完成字段定义/缺失处理匹配，U-ILD主要效应/CI/P四槽不适用预设模型。null不代表0。
 - 独立官方补充包仍未识别/完整审阅；五个主报告均非合并附件本，正文引用appendix不能证明附件已读。方案/SAP、注册历史、完整RoB及独立验收未完成。冻结资格仍NO；NOT_FROZEN；B不启动。
+
+### 搜索结束补记
+指定四根目录find已完成；全963路径的限时内容检索已结束，另对可读取医学资料按哈希去重，读取256个唯一PDF，32个首两页关键词命中，路径/哈希/页数见LOCAL_READABLE_CANDIDATES.csv。并未将综述、课件、翻译或亚组报告当作五主报告附件。43页Matteson文件首面为ICMJE Disclosure Form（INBUILD自身免疫亚组作者披露），不是主报告正文或结果补充材料。未识别的附件仍UNVERIFIED，不声称不存在。

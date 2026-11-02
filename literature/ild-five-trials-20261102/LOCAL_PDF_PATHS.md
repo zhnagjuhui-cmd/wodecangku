@@ -117,3 +117,6 @@ TRAIL1拼作TIRAL1，两处路径均已定位。U-ILD多个正式版/重复本�
 - U-ILD：/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf
   SHA-256 `767c032f9c7e79d2aee74a2e13e5faa252e362aaf6bee7cf835b5f2b15d768d7`；11页；%PDF/题名/DOI已核验。
 前述失败仅适用于Documents候选副本；桌面主报告可读。补充材料仍待识别和逐项审阅。
+
+### 搜索结束补记
+指定四根目录find已完成；全963路径的限时内容检索已结束，另对可读取医学资料按哈希去重，读取256个唯一PDF，32个首两页关键词命中，路径/哈希/页数见LOCAL_READABLE_CANDIDATES.csv。并未将综述、课件、翻译或亚组报告当作五主报告附件。43页Matteson文件首面为ICMJE Disclosure Form（INBUILD自身免疫亚组作者披露），不是主报告正文或结果补充材料。未识别的附件仍UNVERIFIED，不声称不存在。
