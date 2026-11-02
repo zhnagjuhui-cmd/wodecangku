@@ -8,7 +8,7 @@ Distler O, et al. **Nintedanib for Systemic Sclerosis-Associated Interstitial Lu
 
 [PubMed 原始研究记录](https://pubmed.ncbi.nlm.nih.gov/31112379/)：VERIFIED_ABSTRACT。
 
-SSc-ILD；尼达尼布对照安慰剂；主要终点为 52 周 FVC 年下降速率。摘要报告 576 人至少接受一次治疗；组间差 41.0 mL/年（95%CI 2.9–79.0；P=0.04）。多重插补敏感性分析 P=0.06–0.10。解释边界：减缓下降，不能写成逆转纤维化；不能据此宣称其他硬皮病表现获益。全文、补充材料、注册字段与历史版本：UNVERIFIED。
+SSc-ILD；尼达尼布对照安慰剂；主要终点为 52 周 FVC 年下降速率。摘要报告 576 人至少接受一次治疗；组间差 41.0 mL/年（95%CI 2.9–79.0；P=0.04）。多重插补敏感性分析 P=0.06–0.10。解释边界：减缓下降，不能写成逆转纤维化；不能据此宣称其他硬皮病表现获益。全文、补充材料、注册历史版本与全文一致性：UNVERIFIED；当前注册选定字段已核验，见末节。
 
 ## INBUILD
 
@@ -16,7 +16,7 @@ Flaherty KR, et al. **Nintedanib in Progressive Fibrosing Interstitial Lung Dise
 
 [PubMed 原始研究记录](https://pubmed.ncbi.nlm.nih.gov/31566307/)：VERIFIED_ABSTRACT。
 
-进展性纤维化 ILD；尼达尼布对照安慰剂；主要终点为 52 周 FVC 年下降速率，主要分析人群包括总体和 UIP-like 人群。摘要报告 663 人接受治疗；总体组间差 107.0 mL/年（95%CI 65.4–148.5；P<0.001）。总体结果不能自动转成特定自身免疫亚组的确证性结论。亚组统计、多重性、完整全文/补充、注册对照：UNVERIFIED。
+进展性纤维化 ILD；尼达尼布对照安慰剂；主要终点为 52 周 FVC 年下降速率，主要分析人群包括总体和 UIP-like 人群。摘要报告 663 人接受治疗；总体组间差 107.0 mL/年（95%CI 65.4–148.5；P<0.001）。总体结果不能自动转成特定自身免疫亚组的确证性结论。亚组统计、多重性、完整全文/补充、注册历史对照：UNVERIFIED；当前注册选定字段已核验，见末节。
 
 ## TRAIL1
 
@@ -24,7 +24,7 @@ Solomon JJ, et al. **Safety, tolerability, and efficacy of pirfenidone in patien
 
 [PubMed 原始研究记录](https://pubmed.ncbi.nlm.nih.gov/36075242/)：VERIFIED_ABSTRACT。
 
-RA-ILD；吡非尼酮对照安慰剂。主要终点是 52 周 FVC% 较基线下降至少 10% 或死亡的复合终点；123 人随机化。主要终点差异不显著（OR 0.67，95%CI 0.22–2.03；P=0.48）。招募缓慢及疫情导致提前停止；FVC 下降速率属于其他终点，不得替代主要终点宣布阳性。完整全文/补充和注册字段：UNVERIFIED。
+RA-ILD；吡非尼酮对照安慰剂。主要终点是 52 周 FVC% 较基线下降至少 10% 或死亡的复合终点；123 人随机化。主要终点差异不显著（OR 0.67，95%CI 0.22–2.03；P=0.48）。招募缓慢及疫情导致提前停止；FVC 下降速率属于其他终点，不得替代主要终点宣布阳性。完整全文/补充和注册历史对照：UNVERIFIED；当前注册选定字段已核验，见末节。
 
 ## RELIEF
 
@@ -42,7 +42,7 @@ Behr J, et al. **Pirfenidone in patients with progressive fibrotic interstitial 
 
 [PubMed 原始研究记录](https://pubmed.ncbi.nlm.nih.gov/31578169/)：VERIFIED_ABSTRACT。
 
-进展性纤维化不可分类 ILD；吡非尼酮对照安慰剂。253 人随机化。主要终点是 24 周每日家庭肺量计测得 FVC 的预计平均变化；个体内变异使预设统计模型无法应用。中心肺量计属于次要终点，不能包装成主要终点成功。完整全文/补充、注册对照：UNVERIFIED。
+进展性纤维化不可分类 ILD；吡非尼酮对照安慰剂。253 人随机化。主要终点是 24 周每日家庭肺量计测得 FVC 的预计平均变化；个体内变异使预设统计模型无法应用。中心肺量计属于次要终点，不能包装成主要终点成功。完整全文/补充、注册历史对照：UNVERIFIED；当前注册选定字段已核验，见末节。
 
 ## 共同未完成项
 
@@ -50,6 +50,6 @@ Behr J, et al. **Pirfenidone in patients with progressive fibrotic interstitial 
 
 ## 注册 API 后续核验更新（以本节为准）
 
-网页读取失败后，四个 ClinicalTrials.gov API 原始 JSON 已合法直接取得并保存于 registry_responses/；registry_selected_fields.json 给出精确 JSON 字段来源与 SHA-256。当前研究身份、记录状态、登记入组数和主要终点字段已读，状态 VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS；上文注册 UNVERIFIED 指完整注册与论文/历史版本一致性仍未完成。
+网页读取失败后，四个 ClinicalTrials.gov API 原始 JSON 已合法直接取得并保存于 registry_responses/；registry_selected_fields.json 给出精确 JSON 字段来源与 SHA-256。当前研究身份、记录状态、登记入组数和主要终点字段已读，状态 VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS；完整注册与论文/历史版本一致性仍未完成。
 
 发现需解释的分母差异：SENSCIS 登记 enrollmentInfo 为 580 ACTUAL，而论文摘要为 576 至少接受一次治疗；不得自动覆盖或视为相同分析集，原因待全文受试者流程核实。TRAIL1 登记当前状态 COMPLETED 与论文提前停止招募并不自动构成矛盾，应核对招募结束和后续随访定义。U-ILD 登记提及重分析与额外数据清理，需版本历史核对。其余登记字段以 JSON 为准，均未授权 B 使用。

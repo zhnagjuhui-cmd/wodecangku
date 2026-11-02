@@ -14,3 +14,5 @@
 本地自查：运行目录内 CSV/JSON/必需文件结构检查；最终内容等待独立验收。
 
 7. 后续改用获准的本地 urllib 直接请求 ClinicalTrials.gov API，四项均成功；保存未经修改 JSON、SHA-256 和 selected_fields。已读当前身份/状态/入组数/主要终点，历史版本与全文一致性仍 UNVERIFIED。此条更新第 4 条网页访问失败后的获取层级。
+
+8. 本地检查首次发现 CSV 默认 CRLF 被 git diff --check 报为行末空白，已统一 LF；修订注册状态用语，保留当前字段核验与历史对照的界限。
