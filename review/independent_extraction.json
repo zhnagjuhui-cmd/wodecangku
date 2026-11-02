@@ -1,0 +1,936 @@
+{
+  "schema_version": "1.0",
+  "stage": "1_BLIND_LOCK",
+  "created_at": "2026-11-02T16:19:47.491206+00:00",
+  "base_branch": "codex/ild-literature",
+  "base_commit": "ee5371f",
+  "independence": "本轮未参与此前抽取；仅读取LOCAL_PDF_PATHS及C字段定义投影。未读取已填值、核验文件或报告。git worktree自动输出的基线提交标题含汇总字段数，已被动可见，未作为抽取依据。",
+  "sources": [
+    {
+      "study": "SENSCIS",
+      "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+      "sha256": "e06880650f54aca09560d2ba80e4e29d2979612de2105d1e8d9a34924d3893d4",
+      "pdf_header": "%PDF-"
+    },
+    {
+      "study": "INBUILD",
+      "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+      "sha256": "d8c051b3806bcc9250dd19d3324a0ecda54415afc4e5623f7e9b0bd9c99f2bbd",
+      "pdf_header": "%PDF-"
+    },
+    {
+      "study": "RELIEF",
+      "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+      "sha256": "bc558d6d2ee5e29c048ba04b9d1c20cb62d15c4c8aa316eba22c07daea799ad7",
+      "pdf_header": "%PDF-"
+    },
+    {
+      "study": "TRAIL1",
+      "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+      "sha256": "b357f2ca59dc71b45743adcd68dc4c6d6aed415a63a8ff1151b658496cd458d4",
+      "pdf_header": "%PDF-"
+    },
+    {
+      "study": "U-ILD",
+      "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+      "sha256": "767c032f9c7e79d2aee74a2e13e5faa252e362aaf6bee7cf835b5f2b15d768d7",
+      "pdf_header": "%PDF-"
+    }
+  ],
+  "supplement_attempts": [
+    {
+      "study": "RELIEF",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(20)30554-3/attachment/supplementary-material-mmc1.pdf",
+      "result": "HTTP Error 403: Forbidden"
+    },
+    {
+      "study": "TRAIL1",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(22)00260-0/attachment/supplementary-material-mmc1.pdf",
+      "result": "HTTP Error 403: Forbidden"
+    },
+    {
+      "study": "U-ILD",
+      "url": "https://www.thelancet.com/cms/10.1016/S2213-2600(19)30341-8/attachment/supplementary-material-mmc1.pdf",
+      "result": "HTTP Error 403: Forbidden"
+    },
+    {
+      "study": "SENSCIS",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa1903076/suppl_file/nejmoa1903076_appendix.pdf",
+      "result": "HTTP Error 403: Forbidden"
+    },
+    {
+      "study": "INBUILD",
+      "url": "https://www.nejm.org/doi/suppl/10.1056/NEJMoa1908681/suppl_file/nejmoa1908681_appendix.pdf",
+      "result": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "limitations": [
+    "未取得正式补充材料；五个官方附件候选URL均HTTP403。",
+    "缺失标记仅描述本轮可访问证据范围。"
+  ],
+  "fields": [
+    {
+      "study": "SENSCIS",
+      "metric_id": "sample_size",
+      "unit": "participants",
+      "timepoint": "baseline",
+      "effect_measure": "Count at least one dose",
+      "value": 576,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 1",
+          "quote": "A total of 576 patients received at least one dose \nof nintedanib or placebo (Fig. 1)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "primary_effect",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Adjusted annual FVC decline rate difference, treatment minus placebo",
+      "value": 41.0,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 2 / Table 2",
+          "quote": "The adjusted annual rate of change in FVC over \na 52-week period was lower in the nintedanib \ngroup than in the placebo group (−52.4 ml per \nyear vs. −93.3 ml per year; difference, 41.0 ml \nper year; 95% confidence interval [CI], 2.9 to \n79.0; P = 0.04) (Fig. 2 and Table 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "primary_ci_lower",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "95% CI lower bound of rate difference",
+      "value": 2.9,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 2 / Table 2",
+          "quote": "The adjusted annual rate of change in FVC over \na 52-week period was lower in the nintedanib \ngroup than in the placebo group (−52.4 ml per \nyear vs. −93.3 ml per year; difference, 41.0 ml \nper year; 95% confidence interval [CI], 2.9 to \n79.0; P = 0.04) (Fig. 2 and Table 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "primary_ci_upper",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "95% CI upper bound of rate difference",
+      "value": 79.0,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 2 / Table 2",
+          "quote": "The adjusted annual rate of change in FVC over \na 52-week period was lower in the nintedanib \ngroup than in the placebo group (−52.4 ml per \nyear vs. −93.3 ml per year; difference, 41.0 ml \nper year; 95% confidence interval [CI], 2.9 to \n79.0; P = 0.04) (Fig. 2 and Table 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "primary_p_value",
+      "unit": "probability",
+      "timepoint": "52 weeks",
+      "effect_measure": "Primary test P value",
+      "value": 0.04,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 2 / Table 2",
+          "quote": "The adjusted annual rate of change in FVC over \na 52-week period was lower in the nintedanib \ngroup than in the placebo group (−52.4 ml per \nyear vs. −93.3 ml per year; difference, 41.0 ml \nper year; 95% confidence interval [CI], 2.9 to \n79.0; P = 0.04) (Fig. 2 and Table 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "treatment_fvc_change",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Adjusted annual FVC decline, treatment",
+      "value": -52.4,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 2 / Table 2",
+          "quote": "The adjusted annual rate of change in FVC over \na 52-week period was lower in the nintedanib \ngroup than in the placebo group (−52.4 ml per \nyear vs. −93.3 ml per year; difference, 41.0 ml \nper year; 95% confidence interval [CI], 2.9 to \n79.0; P = 0.04) (Fig. 2 and Table 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "control_fvc_change",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Adjusted annual FVC decline, placebo",
+      "value": -93.3,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 2 / Table 2",
+          "quote": "The adjusted annual rate of change in FVC over \na 52-week period was lower in the nintedanib \ngroup than in the placebo group (−52.4 ml per \nyear vs. −93.3 ml per year; difference, 41.0 ml \nper year; 95% confidence interval [CI], 2.9 to \n79.0; P = 0.04) (Fig. 2 and Table 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "treatment_adverse_events",
+      "unit": "participants with >=1 adverse event",
+      "timepoint": "52-week trial period (see Table 3 footnote)",
+      "effect_measure": "Any adverse event: patient count",
+      "value": 283,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 9,
+          "table_figure": "Table 3",
+          "quote": "Any adverse event 283 (98.3) 276 (95.8)"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "SENSCIS",
+      "metric_id": "control_adverse_events",
+      "unit": "participants with >=1 adverse event",
+      "timepoint": "52-week trial period (see Table 3 footnote)",
+      "effect_measure": "Any adverse event: patient count",
+      "value": 276,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+          "pdf_page": 9,
+          "table_figure": "Table 3",
+          "quote": "Any adverse event 283 (98.3) 276 (95.8)"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "sample_size",
+      "unit": "participants",
+      "timepoint": "baseline",
+      "effect_measure": "Count at least one dose",
+      "value": 663,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 4,
+          "table_figure": "Results / Figure 1",
+          "quote": "A total of 663 patients underwent randomization \nand received at least one dose of nintedanib or \nplacebo (332 in the nintedanib group and 331 in \nthe placebo group);"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "primary_effect",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Adjusted annual FVC decline rate difference, treatment minus placebo",
+      "value": 107.0,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 1,
+          "table_figure": "Summary / Table 2 (PDF p7)",
+          "quote": "In the overall population, the adjusted rate of \ndecline in the FVC was −80.8 ml per year with nintedanib and −187.8 ml per year \nwith placebo, for a between-group difference of 107.0 ml per year (95% confidence \ninterval [CI], 65.4 to 148.5; P<0.001)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "primary_ci_lower",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "95% CI lower bound of rate difference",
+      "value": 65.4,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 1,
+          "table_figure": "Summary / Table 2 (PDF p7)",
+          "quote": "In the overall population, the adjusted rate of \ndecline in the FVC was −80.8 ml per year with nintedanib and −187.8 ml per year \nwith placebo, for a between-group difference of 107.0 ml per year (95% confidence \ninterval [CI], 65.4 to 148.5; P<0.001)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "primary_ci_upper",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "95% CI upper bound of rate difference",
+      "value": 148.5,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 1,
+          "table_figure": "Summary / Table 2 (PDF p7)",
+          "quote": "In the overall population, the adjusted rate of \ndecline in the FVC was −80.8 ml per year with nintedanib and −187.8 ml per year \nwith placebo, for a between-group difference of 107.0 ml per year (95% confidence \ninterval [CI], 65.4 to 148.5; P<0.001)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "primary_p_value",
+      "unit": "probability",
+      "timepoint": "52 weeks",
+      "effect_measure": "Primary test P value",
+      "value": 0.001,
+      "status": "FOUND",
+      "operator": "<",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 1,
+          "table_figure": "Summary / Table 2 (PDF p7)",
+          "quote": "In the overall population, the adjusted rate of \ndecline in the FVC was −80.8 ml per year with nintedanib and −187.8 ml per year \nwith placebo, for a between-group difference of 107.0 ml per year (95% confidence \ninterval [CI], 65.4 to 148.5; P<0.001)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "treatment_fvc_change",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Adjusted annual FVC decline, treatment",
+      "value": -80.8,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 1,
+          "table_figure": "Summary / Table 2 (PDF p7)",
+          "quote": "In the overall population, the adjusted rate of \ndecline in the FVC was −80.8 ml per year with nintedanib and −187.8 ml per year \nwith placebo, for a between-group difference of 107.0 ml per year (95% confidence \ninterval [CI], 65.4 to 148.5; P<0.001)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "control_fvc_change",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Adjusted annual FVC decline, placebo",
+      "value": -187.8,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 1,
+          "table_figure": "Summary / Table 2 (PDF p7)",
+          "quote": "In the overall population, the adjusted rate of \ndecline in the FVC was −80.8 ml per year with nintedanib and −187.8 ml per year \nwith placebo, for a between-group difference of 107.0 ml per year (95% confidence \ninterval [CI], 65.4 to 148.5; P<0.001)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "treatment_adverse_events",
+      "unit": "participants with >=1 adverse event",
+      "timepoint": "52-week trial period (see Table 3 footnote)",
+      "effect_measure": "Any adverse event: patient count",
+      "value": 317,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 9,
+          "table_figure": "Table 3",
+          "quote": "Any 317 (95.5) 296 (89.4)"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "INBUILD",
+      "metric_id": "control_adverse_events",
+      "unit": "participants with >=1 adverse event",
+      "timepoint": "52-week trial period (see Table 3 footnote)",
+      "effect_measure": "Any adverse event: patient count",
+      "value": 296,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+          "pdf_page": 9,
+          "table_figure": "Table 3",
+          "quote": "Any 317 (95.5) 296 (89.4)"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "sample_size",
+      "unit": "participants",
+      "timepoint": "baseline",
+      "effect_measure": "Randomized count",
+      "value": 123,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 6,
+          "table_figure": "Results / Figure 1",
+          "quote": "From May 15, 2017, to March 31, 2020, 231 patients were \nassessed for inclusion, of whom 123 patients were \nrandomly assigned (63 [51%] to the pirfenidone group \nand 60 [49%] to the placebo group; figure 1)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "primary_effect",
+      "unit": "odds ratio",
+      "timepoint": "52 weeks",
+      "effect_measure": "Odds ratio, FVC% decline >=10% or death",
+      "value": 0.67,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results / Table 2",
+          "quote": "There was no significant difference in the primary \ncomposite outcome of patients with a decline in FVC% \nfrom baseline of 10% or more or who died between the \ntwo treatment groups (seven [11%] of 63 patients in the \npirfenidone group vs nine [15%] of 60 patients in the \nplacebo group; OR 0·67 [95% CI 0·22 to 2·03]; p=0·48; \ntable 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "primary_ci_lower",
+      "unit": "odds ratio",
+      "timepoint": "52 weeks",
+      "effect_measure": "95% CI lower bound for primary OR",
+      "value": 0.22,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results / Table 2",
+          "quote": "There was no significant difference in the primary \ncomposite outcome of patients with a decline in FVC% \nfrom baseline of 10% or more or who died between the \ntwo treatment groups (seven [11%] of 63 patients in the \npirfenidone group vs nine [15%] of 60 patients in the \nplacebo group; OR 0·67 [95% CI 0·22 to 2·03]; p=0·48; \ntable 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "primary_ci_upper",
+      "unit": "odds ratio",
+      "timepoint": "52 weeks",
+      "effect_measure": "95% CI upper bound for primary OR",
+      "value": 2.03,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results / Table 2",
+          "quote": "There was no significant difference in the primary \ncomposite outcome of patients with a decline in FVC% \nfrom baseline of 10% or more or who died between the \ntwo treatment groups (seven [11%] of 63 patients in the \npirfenidone group vs nine [15%] of 60 patients in the \nplacebo group; OR 0·67 [95% CI 0·22 to 2·03]; p=0·48; \ntable 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "primary_p_value",
+      "unit": "probability",
+      "timepoint": "52 weeks",
+      "effect_measure": "Primary composite endpoint P value",
+      "value": 0.48,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results / Table 2",
+          "quote": "There was no significant difference in the primary \ncomposite outcome of patients with a decline in FVC% \nfrom baseline of 10% or more or who died between the \ntwo treatment groups (seven [11%] of 63 patients in the \npirfenidone group vs nine [15%] of 60 patients in the \nplacebo group; OR 0·67 [95% CI 0·22 to 2·03]; p=0·48; \ntable 2)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "treatment_fvc_change",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Estimated annual absolute FVC change",
+      "value": -66,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 5,
+          "table_figure": "Table 2 / Figure 2",
+          "quote": "Overall population –66 (21) –146 (21) 0·0082"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "control_fvc_change",
+      "unit": "mL/year",
+      "timepoint": "52 weeks",
+      "effect_measure": "Estimated annual absolute FVC change",
+      "value": -146,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 5,
+          "table_figure": "Table 2 / Figure 2",
+          "quote": "Overall population –66 (21) –146 (21) 0·0082"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "treatment_adverse_events",
+      "unit": "participants with >=1 treatment-emergent adverse event",
+      "timepoint": "52-week trial",
+      "effect_measure": "Any treatment-emergent adverse event: patient count",
+      "value": 62,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results / Table 3",
+          "quote": "Treatment-emergent adverse events were reported \nin 62 (100%) of 62 patients in the pirfenidone group and \n56 (94%) of 60 patients in the placebo group included in \nthe as-treated population (p=0·039; table 3)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "TRAIL1",
+      "metric_id": "control_adverse_events",
+      "unit": "participants with >=1 treatment-emergent adverse event",
+      "timepoint": "52-week trial",
+      "effect_measure": "Any treatment-emergent adverse event: patient count",
+      "value": 56,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/2022-TIRAL1吡非尼酮在类风湿关节炎相关间质性肺病患者中的安全性、耐受性和有效性一项随机、双盲、安慰剂对照的2期研究.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results / Table 3",
+          "quote": "Treatment-emergent adverse events were reported \nin 62 (100%) of 62 patients in the pirfenidone group and \n56 (94%) of 60 patients in the placebo group included in \nthe as-treated population (p=0·039; table 3)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "sample_size",
+      "unit": "participants",
+      "timepoint": "baseline",
+      "effect_measure": "Randomized count",
+      "value": 127,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 6,
+          "table_figure": "Results / Figure 1",
+          "quote": "Between April 5, 2016, and Oct 4, 2018, we randomly \nassigned 127 patients to treatment: 64 to pirfenidone and \n63 to placebo (figure 1)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "primary_effect",
+      "unit": "FVC % predicted percentage points",
+      "timepoint": "48 weeks",
+      "effect_measure": "Hodges-Lehmann median difference, pirfenidone minus placebo",
+      "value": 1.69,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 6,
+          "table_figure": "Results (Hodges-Lehmann)",
+          "quote": "The Hodges-\nLehmann estimate for the median difference between \ngroups for the primary endpoint was 1∙69 FVC % \npredicted (95% CI –0∙65 to 4∙03)."
+        }
+      ],
+      "reason": null,
+      "caution": "Hodges-Lehmann区间与rank ANCOVA P不是同一检验配对结果。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "primary_ci_lower",
+      "unit": "FVC % predicted percentage points",
+      "timepoint": "48 weeks",
+      "effect_measure": "95% CI lower bound of Hodges-Lehmann median difference",
+      "value": -0.65,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 6,
+          "table_figure": "Results (Hodges-Lehmann)",
+          "quote": "The Hodges-\nLehmann estimate for the median difference between \ngroups for the primary endpoint was 1∙69 FVC % \npredicted (95% CI –0∙65 to 4∙03)."
+        }
+      ],
+      "reason": null,
+      "caution": "Hodges-Lehmann区间与rank ANCOVA P不是同一检验配对结果。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "primary_ci_upper",
+      "unit": "FVC % predicted percentage points",
+      "timepoint": "48 weeks",
+      "effect_measure": "95% CI upper bound of Hodges-Lehmann median difference",
+      "value": 4.03,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 6,
+          "table_figure": "Results (Hodges-Lehmann)",
+          "quote": "The Hodges-\nLehmann estimate for the median difference between \ngroups for the primary endpoint was 1∙69 FVC % \npredicted (95% CI –0∙65 to 4∙03)."
+        }
+      ],
+      "reason": null,
+      "caution": "Hodges-Lehmann区间与rank ANCOVA P不是同一检验配对结果。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "primary_p_value",
+      "unit": "probability",
+      "timepoint": "48 weeks",
+      "effect_measure": "Rank ANCOVA with diagnostic group as factor; not the test for Hodges-Lehmann CI",
+      "value": 0.043,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 6,
+          "table_figure": "Results (rank ANCOVA)",
+          "quote": "In the rank ANCOVA analysis of the primary endpoint \nwith diagnostic group included as a factor, treatment with \npirfenidone resulted in a significantly lower decline from \nbaseline to week 48 in FVC % predicted than placebo \n(p=0∙043)."
+        }
+      ],
+      "reason": null,
+      "caution": "Hodges-Lehmann区间与rank ANCOVA P不是同一检验配对结果。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "treatment_fvc_change",
+      "unit": "mL",
+      "timepoint": "48 weeks",
+      "effect_measure": "Observed mean absolute FVC change; post-hoc analysis without imputation, not the primary FVC % predicted analysis",
+      "value": -36.6,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 7,
+          "table_figure": "Table 2",
+          "quote": "FVC, mL 64 2332·5 (798·9) 63 2123·0 (715·7) 35 –36·6 (281·5) 32 –114·4 (225·3) 80·0 (–40·0 to 210·0) 0·21"
+        }
+      ],
+      "reason": null,
+      "caution": "48周、未插补、事后分析、观察均值；有效n为35/32。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "control_fvc_change",
+      "unit": "mL",
+      "timepoint": "48 weeks",
+      "effect_measure": "Observed mean absolute FVC change; post-hoc analysis without imputation, not the primary FVC % predicted analysis",
+      "value": -114.4,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 7,
+          "table_figure": "Table 2",
+          "quote": "FVC, mL 64 2332·5 (798·9) 63 2123·0 (715·7) 35 –36·6 (281·5) 32 –114·4 (225·3) 80·0 (–40·0 to 210·0) 0·21"
+        }
+      ],
+      "reason": null,
+      "caution": "48周、未插补、事后分析、观察均值；有效n为35/32。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "treatment_adverse_events",
+      "unit": null,
+      "timepoint": null,
+      "effect_measure": null,
+      "value": null,
+      "status": "NOT_FOUND",
+      "operator": null,
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results; Table 3 (PDF p9) reports SAE only",
+          "quote": "The number of adverse events were equally \ndistributed between the pirfeni  done and placebo \ngroups."
+        }
+      ],
+      "reason": "主报告未提供可核实的任何AE总人数；Table 3为SAE，不能替代。官方附件请求403，未取得附件，不能断言附件无此数据。"
+    },
+    {
+      "study": "RELIEF",
+      "metric_id": "control_adverse_events",
+      "unit": null,
+      "timepoint": null,
+      "effect_measure": null,
+      "value": null,
+      "status": "NOT_FOUND",
+      "operator": null,
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+          "pdf_page": 7,
+          "table_figure": "Results; Table 3 (PDF p9) reports SAE only",
+          "quote": "The number of adverse events were equally \ndistributed between the pirfeni  done and placebo \ngroups."
+        }
+      ],
+      "reason": "主报告未提供可核实的任何AE总人数；Table 3为SAE，不能替代。官方附件请求403，未取得附件，不能断言附件无此数据。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "sample_size",
+      "unit": "participants",
+      "timepoint": "baseline",
+      "effect_measure": "Randomized ITT count",
+      "value": 253,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 5,
+          "table_figure": "Results / Figure 1",
+          "quote": "Between May 15, 2017, and June 5, 2018, 253 patients were \nrandomly assigned to receive pirfenidone (n=127) or \nplacebo (n=126)."
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "primary_effect",
+      "unit": null,
+      "timepoint": null,
+      "effect_measure": null,
+      "value": null,
+      "status": "NOT_FOUND",
+      "operator": null,
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 5,
+          "table_figure": "Results / Figure 2",
+          "quote": "Analysis of the primary endpoint, as prespecified in the \nstatistical analysis plan, was impossible due to two issues \nwith the recorded home spirometry values: the recorded \nreadings were affected by issues with technical reliability \nand the application of a linear regression model was not \nsuitable in patients with a small number of readings \ncollected within a short time period. The values obtained \nwere physiologically implausible (daily home FVC values \nof <0·5 L or >6 L and predicted increases in FVC of 33 L at \n24 weeks). These outliers meant that the planned statistical \nmodel could not be applied to the primary endpoint data,"
+        }
+      ],
+      "reason": "预设居家肺功能主要终点统计模型无法应用；未报告可用的组间主要效应/95% CI/P。不得用现场肺功能次要终点代替。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "primary_ci_lower",
+      "unit": null,
+      "timepoint": null,
+      "effect_measure": null,
+      "value": null,
+      "status": "NOT_FOUND",
+      "operator": null,
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 5,
+          "table_figure": "Results / Figure 2",
+          "quote": "Analysis of the primary endpoint, as prespecified in the \nstatistical analysis plan, was impossible due to two issues \nwith the recorded home spirometry values: the recorded \nreadings were affected by issues with technical reliability \nand the application of a linear regression model was not \nsuitable in patients with a small number of readings \ncollected within a short time period. The values obtained \nwere physiologically implausible (daily home FVC values \nof <0·5 L or >6 L and predicted increases in FVC of 33 L at \n24 weeks). These outliers meant that the planned statistical \nmodel could not be applied to the primary endpoint data,"
+        }
+      ],
+      "reason": "预设居家肺功能主要终点统计模型无法应用；未报告可用的组间主要效应/95% CI/P。不得用现场肺功能次要终点代替。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "primary_ci_upper",
+      "unit": null,
+      "timepoint": null,
+      "effect_measure": null,
+      "value": null,
+      "status": "NOT_FOUND",
+      "operator": null,
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 5,
+          "table_figure": "Results / Figure 2",
+          "quote": "Analysis of the primary endpoint, as prespecified in the \nstatistical analysis plan, was impossible due to two issues \nwith the recorded home spirometry values: the recorded \nreadings were affected by issues with technical reliability \nand the application of a linear regression model was not \nsuitable in patients with a small number of readings \ncollected within a short time period. The values obtained \nwere physiologically implausible (daily home FVC values \nof <0·5 L or >6 L and predicted increases in FVC of 33 L at \n24 weeks). These outliers meant that the planned statistical \nmodel could not be applied to the primary endpoint data,"
+        }
+      ],
+      "reason": "预设居家肺功能主要终点统计模型无法应用；未报告可用的组间主要效应/95% CI/P。不得用现场肺功能次要终点代替。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "primary_p_value",
+      "unit": null,
+      "timepoint": null,
+      "effect_measure": null,
+      "value": null,
+      "status": "NOT_FOUND",
+      "operator": null,
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 5,
+          "table_figure": "Results / Figure 2",
+          "quote": "Analysis of the primary endpoint, as prespecified in the \nstatistical analysis plan, was impossible due to two issues \nwith the recorded home spirometry values: the recorded \nreadings were affected by issues with technical reliability \nand the application of a linear regression model was not \nsuitable in patients with a small number of readings \ncollected within a short time period. The values obtained \nwere physiologically implausible (daily home FVC values \nof <0·5 L or >6 L and predicted increases in FVC of 33 L at \n24 weeks). These outliers meant that the planned statistical \nmodel could not be applied to the primary endpoint data,"
+        }
+      ],
+      "reason": "预设居家肺功能主要终点统计模型无法应用；未报告可用的组间主要效应/95% CI/P。不得用现场肺功能次要终点代替。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "treatment_fvc_change",
+      "unit": "mL",
+      "timepoint": "24 weeks",
+      "effect_measure": "Predicted mean site spirometry FVC change; not home-spirometry primary",
+      "value": -17.8,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 7,
+          "table_figure": "Table 2",
+          "quote": "Mean (95% CI) –17·8† (–62·6 to 27·0) –113·0‡ (–152·5 to –73·6) 95·3 (35·9 to 154·6) 0·002"
+        }
+      ],
+      "reason": null,
+      "caution": "24周现场肺功能次要终点预测均值；有效n为118/119。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "control_fvc_change",
+      "unit": "mL",
+      "timepoint": "24 weeks",
+      "effect_measure": "Predicted mean site spirometry FVC change; not home-spirometry primary",
+      "value": -113.0,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 7,
+          "table_figure": "Table 2",
+          "quote": "Mean (95% CI) –17·8† (–62·6 to 27·0) –113·0‡ (–152·5 to –73·6) 95·3 (35·9 to 154·6) 0·002"
+        }
+      ],
+      "reason": null,
+      "caution": "24周现场肺功能次要终点预测均值；有效n为118/119。"
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "treatment_adverse_events",
+      "unit": "participants with >=1 treatment-emergent adverse event",
+      "timepoint": "24-week treatment period",
+      "effect_measure": "Any treatment-emergent adverse event: patient count",
+      "value": 120,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 9,
+          "table_figure": "Table 4",
+          "quote": "Any treatment-emergent adverse events 120 (94%) 101 (81%)"
+        }
+      ],
+      "reason": null
+    },
+    {
+      "study": "U-ILD",
+      "metric_id": "control_adverse_events",
+      "unit": "participants with >=1 treatment-emergent adverse event",
+      "timepoint": "24-week treatment period",
+      "effect_measure": "Any treatment-emergent adverse event: patient count",
+      "value": 101,
+      "status": "FOUND",
+      "operator": "=",
+      "evidence": [
+        {
+          "file": "/Users/zhangjuhui/Desktop/新课件/ 柳叶刀呼吸-Pirfenidone in patients with unclassifiable progressive fibrosing interstitial lung disease.pdf",
+          "pdf_page": 9,
+          "table_figure": "Table 4",
+          "quote": "Any treatment-emergent adverse events 120 (94%) 101 (81%)"
+        }
+      ],
+      "reason": null
+    }
+  ]
+}
