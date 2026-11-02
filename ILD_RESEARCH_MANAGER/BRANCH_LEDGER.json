@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-02",
+  "baseline": "f0f40a8c9b647a755e362f120cc4f1d18ae755d7",
+  "manager_commit": "Resolve HEAD on codex/ild-manager; avoid self-referential hash",
+  "tasks": {
+    "A": {
+      "branch": "codex/ild-literature",
+      "commit": "b2c6871df5cf388523e68d1b2d4fe241ff695835",
+      "owned_directory": "literature/",
+      "acceptance": "PENDING",
+      "worktree": "../ild-literature"
+    },
+    "C": {
+      "branch": "codex/ild-analysis",
+      "commit": "406599cb29b3ae4d3d0e67e5b8f1b1f25d63d885",
+      "owned_directory": "analysis/",
+      "acceptance": "PENDING",
+      "worktree": "../ild-analysis"
+    },
+    "B": {
+      "branch": "codex/ild-presentation",
+      "commit": "af8dd67501001713cf9aa149ab6b79bad0bdd62d",
+      "owned_directory": "presentations/",
+      "acceptance": "PENDING",
+      "worktree": "../ild-presentation"
+    }
+  },
+  "protected_refs": {
+    "main": "f0f40a8c9b647a755e362f120cc4f1d18ae755d7",
+    "skills-validation-20261014": "8a32c6fd5047ce09e002a7e66dfb5fdd6edee765",
+    "test/ild-e2e-20261026": "4ded82c3e25c47742ee7cf6491cb210819f80202"
+  }
+}
