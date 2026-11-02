@@ -17,3 +17,21 @@ U-ILD identity CONFIRMED by user on 2026-11-02: Maher pirfenidone unclassifiable
 Accepted DOCX acquired from https://spiral.imperial.ac.uk/bitstreams/3881b1b6-66b5-414f-8763-6f693fbc72b2/download ; ZIP/XML and title checked; SHA256 0be384e12562a332af2102419bb1c1958bbc742fe13e3ab02055fbdc71886cc2. Table 1: ITT 127/126. Table 2: site spirometry FVC predicted mean change at 24 weeks -17.8/-113.0 mL; difference 95.3 (95%CI 35.9 to 154.6), P=0.002; SECONDARY endpoint. Published page mapping UNVERIFIED (accepted DOCX has no stable published pagination). Supplement content present, separate publisher appendix completeness UNVERIFIED.
 RELIEF official DRKS record https://drks.de/search/de/trial/DRKS00009822 confirms DRKS00009822 and EudraCT 2014-000861-32 under Further identification numbers. NCT remains UNVERIFIED. Current publication link points to PubMed, not a verified PDF.
 SENSCIS/INBUILD/TRAIL1/RELIEF primary full text and supplements remain UNVERIFIED. PMC/publisher searches did not yield verified primary full texts; INBUILD NEJM still403. Reviews cannot substitute. All unavailable page/table locations UNVERIFIED. Freeze eligibility: NO; NOT_FROZEN; independent review, full-text/supplement reconciliation outstanding. Descriptive cross-trial comparison only.
+
+## 第三轮（2026-11-02，以本节更新前轮状态）
+
+初始四工作树均干净；保留前轮文件及提交。mdfind 无结果；find 已覆盖 Documents、Downloads、Desktop、Library/Mobile Documents，包含本项目及仓库现有 literature/skills。文件名命中清单见 LOCAL_PDF_PATHS.md；全目录内容识别的读取失败不能视为文件不存在。原 PDF 未移动、未删除、未提交；版权再分发授权未确认，仅记录路径与 SHA-256。
+
+|研究|已读本地版本|数字及定位|
+|---|---|---|
+|SENSCIS|11页正式全文，%PDF及SHA-256已核验|PDF p5/刊p2522 Fig1：580随机、4未用药（3不合格、1撤回），576接受治疗，288/288；PDF p8/刊p2525 Table2：52周年FVC -52.4/-93.3 mL/年，差41.0（95%CI 2.9–79.0），P=0.04；PDF p9/刊p2526 Table3：任何AE 283/288、276/288；多重插补P=0.06–0.10，不能忽略敏感性|
+|INBUILD|10页正式全文，%PDF及SHA-256已核验|PDF p5/刊p1722 Fig1：663，332/331；PDF p7/刊p1724 Table2：总体52周年FVC -80.8/-187.8 mL/年，差107.0（95%CI 65.4–148.5），P<0.001；PDF p9/刊p1726 Table3：任何AE 317/332、296/331；总体与UIP-like为主要分析人群，未把总体当特定自身免疫亚组结果|
+|RELIEF|11页online正式全文，%PDF及SHA-256已核验；以文件印刷online页码定位|p5 Fig1/p6：127随机（64/63）；p6 Results、p7 Fig2：48周Hodges-Lehmann差1.69 FVC预计值百分点（95%CI -0.65–4.03）；rank ANCOVA P=0.043，与该CI是不同统计量，不能伪装成同一检验；提前停止，死亡最差秩及SSD插补限制保留|
+|TRAIL1|已定位拼写TIRAL1的本地候选；读取失败/超时|全文及补充数字、页码、表图 UNVERIFIED，不以文件名认定正文|
+|U-ILD|本地PDF候选已定位，但读取失败/超时；保留前轮accepted DOCX核验|前轮Table2的中心肺量计次要终点-17.8/-113.0 mL仍有效；正式PDF页码 UNVERIFIED|
+
+机器可追溯字段见 ROUND3_VERIFIED_FIELDS.json（23项本轮核实，另有前轮U-ILD 2项；不等于独立验收）。全部五研究独立补充材料、方案及SAP完整性仍 UNVERIFIED。RELIEF正文明确引用appendix 1并不等于已取得附件；Matteson自身免疫亚组资料不能作为INBUILD主试验补充包。
+
+补充网站 https://ild-evidence-radar-zjh.zhnagjuhui.chatgpt.site 本轮返回Sign in required；web读取失败，浏览器host不可用，未取得任何新文献，不纳入数字来源。网站本地旧HTML亦不当作当前站点全文。
+
+冻结资格：不具备。NOT_FROZEN / approved_for_B=false；缺少可读TRAIL1及U-ILD正式PDF对照、五研究完整附件核验、注册历史/方案/SAP一致性、偏倚风险全项评价、独立审核与总控签收。未自行冻结，B继续等待。

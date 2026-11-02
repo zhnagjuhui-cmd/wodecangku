@@ -7,8 +7,27 @@
   "version": null,
   "approved_for_B": false,
   "approved_sources": [],
-  "source_file_hashes": [],
+  "source_file_hashes": [
+    {
+      "study": "SENSCIS",
+      "local_path": "/Users/zhangjuhui/Desktop/新课件/SENSCIS.pdf",
+      "sha256": "e06880650f54aca09560d2ba80e4e29d2979612de2105d1e8d9a34924d3893d4",
+      "redistribution": "NOT_AUTHORIZED_NOT_COMMITTED"
+    },
+    {
+      "study": "INBUILD",
+      "local_path": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/INBUILD_main.pdf",
+      "sha256": "d8c051b3806bcc9250dd19d3324a0ecda54415afc4e5623f7e9b0bd9c99f2bbd",
+      "redistribution": "NOT_AUTHORIZED_NOT_COMMITTED"
+    },
+    {
+      "study": "RELIEF",
+      "local_path": "/Users/zhangjuhui/Documents/医药推广幻灯制作/从抗炎到抗纤维化-CTD-ILD全程管理-25页/原文重做/evidence/RELIEF.pdf",
+      "sha256": "bc558d6d2ee5e29c048ba04b9d1c20cb62d15c4c8aa316eba22c07daea799ad7",
+      "redistribution": "NOT_AUTHORIZED_NOT_COMMITTED"
+    }
+  ],
   "independent_reviewer": null,
   "manager_acceptance": null,
-  "reason": "Primary publication abstracts checked; full-text, supplements and registry reconciliation remain incomplete."
+  "reason": "Round 3: three local primary PDFs checked; remaining full texts/supplements, historical registry reconciliation and independent acceptance incomplete."
 }
