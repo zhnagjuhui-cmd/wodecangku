@@ -5,22 +5,25 @@
   "tasks": {
     "A": {
       "branch": "codex/ild-literature",
-      "commit": "35e485d67c5e65d66528aa5070200909575153d6",
+      "commit": "ee5371fd5e4f8f8ca64d6118e690009323375e49",
       "owned_directory": "literature/",
       "acceptance": "PENDING",
       "worktree": "../ild-literature",
-      "status": "ROUND3_FIVE_MAIN_REPORTS_SELECTED_FIELDS_VERIFIED_NOT_FROZEN",
-      "freeze_eligible": false
+      "status": "ROUND4_39_OF_45_PROTOCOL_SUPPLEMENT_REVIEW_NOT_FROZEN",
+      "freeze_eligible": false,
+      "independent_review": "PENDING_SAME_AGENT_REEXTRACTION_ONLY",
+      "numeric_verified": 39,
+      "unverified_null": 6
     },
     "C": {
       "branch": "codex/ild-analysis",
-      "commit": "948ba49ed4090d229eb05639ebb65266e5210fe8",
+      "commit": "0dbe6ade63a8c8f35cf6da3c431ebfef87d8c7ce",
       "owned_directory": "analysis/",
       "acceptance": "PENDING",
       "worktree": "../ild-analysis",
-      "status": "ROUND3_37_OF_45_FIELDS_POPULATED",
-      "populated": 37,
-      "unverified_null": 8
+      "status": "ROUND4_39_OF_45_FIELDS_POPULATED",
+      "populated": 39,
+      "unverified_null": 6
     },
     "B": {
       "branch": "codex/ild-presentation",
@@ -36,5 +39,5 @@
     "skills-validation-20261014": "8a32c6fd5047ce09e002a7e66dfb5fdd6edee765",
     "test/ild-e2e-20261026": "4ded82c3e25c47742ee7cf6491cb210819f80202"
   },
-  "round": 3
+  "round": 4
 }
