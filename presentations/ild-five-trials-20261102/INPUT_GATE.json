@@ -1,0 +1,9 @@
+{
+  "status": "WAITING_FOR_A_FREEZE",
+  "a_frozen_version": null,
+  "a_commit_sha": null,
+  "a_manifest_sha256": null,
+  "c_accepted_commit_sha": null,
+  "outline_approved": false,
+  "sample_approved": false
+}
