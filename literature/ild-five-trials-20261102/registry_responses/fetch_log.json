@@ -1,0 +1,26 @@
+[
+  {
+    "id": "NCT02597933",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02597933",
+    "status": "FETCHED_JSON_NOT_RECONCILED",
+    "sha256": "8bb5cbe1667537ae7ca158697663d4f4195e8b047879c52aad2f4778889b312d"
+  },
+  {
+    "id": "NCT02999178",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02999178",
+    "status": "FETCHED_JSON_NOT_RECONCILED",
+    "sha256": "722e40d3d3144fefb2dd593d23d92d8055003d04092769762f895789b72aba48"
+  },
+  {
+    "id": "NCT02808871",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02808871",
+    "status": "FETCHED_JSON_NOT_RECONCILED",
+    "sha256": "dd1b9b2bf284e590f8f71fd846a5e68998a5477157c93f0bf80636b959755f25"
+  },
+  {
+    "id": "NCT03099187",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03099187",
+    "status": "FETCHED_JSON_NOT_RECONCILED",
+    "sha256": "d19f105788be787c4665c695a8a0692c499d541416fad040612ed43e30d9f031"
+  }
+]

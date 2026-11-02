@@ -1,0 +1,14 @@
+{
+  "project": "ild-five-trials-20261102",
+  "owner": "A",
+  "date": "2026-11-02",
+  "status": "NOT_FROZEN",
+  "acceptance": "PENDING",
+  "version": null,
+  "approved_for_B": false,
+  "approved_sources": [],
+  "source_file_hashes": [],
+  "independent_reviewer": null,
+  "manager_acceptance": null,
+  "reason": "Primary publication abstracts checked; full-text, supplements and registry reconciliation remain incomplete."
+}

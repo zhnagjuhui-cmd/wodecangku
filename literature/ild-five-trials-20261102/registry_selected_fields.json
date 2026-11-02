@@ -1,0 +1,91 @@
+[
+  {
+    "nct": "NCT02597933",
+    "official_title": "A Double Blind, Randomised, Placebo-controlled Trial Evaluating Efficacy and Safety of Oral Nintedanib Treatment for at Least 52 Weeks in Patients With Systemic Sclerosis Associated Interstitial Lung Disease (SSc-ILD)",
+    "overall_status": "COMPLETED",
+    "last_update_posted": "2019-12-13",
+    "enrollment": {
+      "count": 580,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Annual Rate of Decline in Forced Vital Capacity (FVC) Over 52 Weeks",
+        "description": "Forced vital capacity (FVC) is the total amount of air exhaled during the lung function test.\n\nFor this endpoint reported means represent the adjusted rate.",
+        "timeFrame": "up to week (wk) 52 after the start of administration"
+      }
+    ],
+    "source_file": "registry_responses/NCT02597933.json",
+    "status": "VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS",
+    "reconciliation_status": "UNVERIFIED",
+    "sha256": "8bb5cbe1667537ae7ca158697663d4f4195e8b047879c52aad2f4778889b312d"
+  },
+  {
+    "nct": "NCT02808871",
+    "official_title": "Phase 2 Study of Safety, Tolerability and Efficacy of Pirfenidone in Patients With Rheumatoid Arthritis Interstitial Lung Disease (TRAIL1)",
+    "overall_status": "COMPLETED",
+    "last_update_posted": "2022-08-16",
+    "enrollment": {
+      "count": 123,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Number of Participants Who Developed Any Element of the Composite Endpoint",
+        "description": "Number of participants who developed any element of the composite endpoint of decline in percent predicted FVC of 10% or greater or death.",
+        "timeFrame": "52 weeks"
+      }
+    ],
+    "source_file": "registry_responses/NCT02808871.json",
+    "status": "VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS",
+    "reconciliation_status": "UNVERIFIED",
+    "sha256": "dd1b9b2bf284e590f8f71fd846a5e68998a5477157c93f0bf80636b959755f25"
+  },
+  {
+    "nct": "NCT02999178",
+    "official_title": "A Double Blind, Randomized, Placebo-controlled Trial Evaluating the Efficacy and Safety of Nintedanib Over 52 Weeks in Patients With Progressive Fibrosing Interstitial Lung Disease (PF-ILD)",
+    "overall_status": "COMPLETED",
+    "last_update_posted": "2020-05-05",
+    "enrollment": {
+      "count": 663,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Annual Rate of Decline in Forced Vital Capacity - Overall Population",
+        "description": "Forced Vital Capacity (FVC) is the volume of air (measured in milliliter) which can be forcibly exhaled from the lungs after taking the deepest breath possible. Overall population consists of all randomized participants with HRCT fibrotic pattern=UIP-like fibrotic pattern only or HRCT fibrotic pattern= Other fibrotic patterns. Annual rate of decline in Forced Vital Capacity in milliliter (mL) per year in the overall population is based on a random coefficient regression with fixed effects for treatment, HRCT fibrotic pattern, and baseline FVC \\[mL\\], and including treatment-by-time and baseline-by-time interactions. Within-participant errors are modelled by an unstructured variance-covariance matrix.",
+        "timeFrame": "Baseline, 2, 4, 6, 12, 24, 36, 52 weeks after first drug intake (planned post-baseline visits)"
+      },
+      {
+        "measure": "Annual Rate of Decline in Forced Vital Capacity - Participants With HRCT Fibrotic Pattern=UIP-like Fibrotic Pattern Only",
+        "description": "Forced Vital Capacity (FVC) is the volume of air (measured in milliliter) which can be forcibly exhaled from the lungs after taking the deepest breath possible. Annual rate of decline in Forced Vital Capacity in milliliter (mL) per year in participants with HRCT fibrotic pattern=UIP-like fibrotic pattern only is based on a random coefficient regression with fixed effects for treatment, baseline FVC \\[mL\\], and including treatment-by-time and baseline-by-time interactions. Within-participant errors are modelled by an unstructured variance-covariance matrix.",
+        "timeFrame": "Baseline, 2, 4, 6, 12, 24, 36, 52 weeks after first drug intake (planned post-baseline visits)"
+      }
+    ],
+    "source_file": "registry_responses/NCT02999178.json",
+    "status": "VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS",
+    "reconciliation_status": "UNVERIFIED",
+    "sha256": "722e40d3d3144fefb2dd593d23d92d8055003d04092769762f895789b72aba48"
+  },
+  {
+    "nct": "NCT03099187",
+    "official_title": "Multicenter, International, Double-blind, Two-Arm, Randomized, Placebo-controlled Phase II Trial of Pirfenidone in Patients With Unclassifiable Progressive Fibrosing ILD",
+    "overall_status": "COMPLETED",
+    "last_update_posted": "2021-01-13",
+    "enrollment": {
+      "count": 253,
+      "type": "ACTUAL"
+    },
+    "primary_outcomes": [
+      {
+        "measure": "Rate of Decline in Forced Vital Capacity (FVC) Over the 24-week Double-blind Treatment Period",
+        "description": "Rate of decline in FVC was measured in mL by daily handheld spirometer. The analyses were repeated due to an additional independent review of the home spirometry data.",
+        "timeFrame": "Up to Week 24"
+      }
+    ],
+    "source_file": "registry_responses/NCT03099187.json",
+    "status": "VERIFIED_CURRENT_REGISTRY_SELECTED_FIELDS",
+    "reconciliation_status": "UNVERIFIED",
+    "sha256": "d19f105788be787c4665c695a8a0692c499d541416fad040612ed43e30d9f031"
+  }
+]
