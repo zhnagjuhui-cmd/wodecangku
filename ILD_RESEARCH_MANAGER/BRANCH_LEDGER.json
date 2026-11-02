@@ -5,29 +5,36 @@
   "tasks": {
     "A": {
       "branch": "codex/ild-literature",
-      "commit": "b2c6871df5cf388523e68d1b2d4fe241ff695835",
+      "commit": "40bb52ce8ccac797aa251bbe4a7895cba3aa4916",
       "owned_directory": "literature/",
       "acceptance": "PENDING",
-      "worktree": "../ild-literature"
+      "worktree": "../ild-literature",
+      "status": "ROUND3_SELECTED_FULLTEXT_FIELDS_VERIFIED_NOT_FROZEN",
+      "freeze_eligible": false
     },
     "C": {
       "branch": "codex/ild-analysis",
-      "commit": "406599cb29b3ae4d3d0e67e5b8f1b1f25d63d885",
+      "commit": "824fdbcb470a0c5565cf4c6499c5ae428f8450e7",
       "owned_directory": "analysis/",
       "acceptance": "PENDING",
-      "worktree": "../ild-analysis"
+      "worktree": "../ild-analysis",
+      "status": "ROUND3_25_OF_45_FIELDS_POPULATED",
+      "populated": 25,
+      "unverified_null": 20
     },
     "B": {
       "branch": "codex/ild-presentation",
       "commit": "af8dd67501001713cf9aa149ab6b79bad0bdd62d",
       "owned_directory": "presentations/",
       "acceptance": "PENDING",
-      "worktree": "../ild-presentation"
+      "worktree": "../ild-presentation",
+      "status": "WAITING_FOR_A_FREEZE"
     }
   },
   "protected_refs": {
     "main": "f0f40a8c9b647a755e362f120cc4f1d18ae755d7",
     "skills-validation-20261014": "8a32c6fd5047ce09e002a7e66dfb5fdd6edee765",
     "test/ild-e2e-20261026": "4ded82c3e25c47742ee7cf6491cb210819f80202"
-  }
+  },
+  "round": 3
 }
