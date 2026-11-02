@@ -11,3 +11,5 @@
 `git diff --check`：通过。文件均新增于本任务目录；未修改历史成果。
 
 本次未做原文数字比对，未验收任何医学结果，没有生成图表、合并分析或课件。机器校验不能证明来源真实或数字准确，A/C 对照和总控签收仍待进行。
+
+Round2: 2 A-verified U-ILD secondary FVC values populated; 43 remain null/UNVERIFIED. Independent acceptance pending.

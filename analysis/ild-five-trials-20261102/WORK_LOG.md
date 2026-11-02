@@ -8,3 +8,5 @@
 4. 校验结果见 VALIDATION_REPORT.md。
 
 本批仅启动数据结构；原文阅读和医学数字独立提取未完成。
+
+Round2: 2 A-verified U-ILD secondary FVC values populated; 43 remain null/UNVERIFIED. Independent acceptance pending.
